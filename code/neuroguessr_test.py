@@ -6,7 +6,7 @@ import pandas as pd
 import nibabel as nib
 from PyQt5.QtWidgets import (QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout,
                              QLabel, QPushButton, QSlider, QMessageBox, QComboBox,
-                             QStackedWidget, QButtonGroup, QGridLayout)
+                             QStackedWidget, QButtonGroup, QGridLayout, QCheckBox)
 from PyQt5.QtCore import Qt, QTimer, pyqtSignal
 from PyQt5.QtGui import QPixmap, QPainter, QColor, QPen, QFont, QPalette, QImage, QKeySequence
 
@@ -38,7 +38,7 @@ class BrainSliceView(QLabel):
         self.title = QLabel(self.plane_names[plane_index])
         self.title.setAlignment(Qt.AlignCenter)
         self.title.setStyleSheet("color: white; background-color: rgba(0, 0, 0, 0);")
-        self.title.setFont(QFont("Arial", 12, QFont.Bold))
+        self.title.setFont(QFont("Helvetica [Cronyx]", 12, QFont.Bold))
 
     def start_blinking(self):
         self.blinking = True
@@ -48,11 +48,11 @@ class BrainSliceView(QLabel):
         self.blinking = False
         self.blink_timer.stop()
         self.blink_state = True
-        self.update_slice(self.slice_data, self.template_data, self.colormap, self.highlight_region)
+        self.update_slice(self.slice_data, self.template_data, self.colormap, self.highlight_region, self.show_atlas)
 
     def toggle_blink(self):
         self.blink_state = not self.blink_state
-        self.update_slice(self.slice_data, self.template_data, self.colormap, self.highlight_region)
+        self.update_slice(self.slice_data, self.template_data, self.colormap, self.highlight_region, self.show_atlas)
 
     def set_crosshair_3d(self, voxel_x, voxel_y, voxel_z):
         if self.plane_index == 0:
@@ -73,11 +73,12 @@ class BrainSliceView(QLabel):
         self.update()
         event.accept()
 
-    def update_slice(self, slice_data, template_slice, colormap=None, highlight_region=None):
+    def update_slice(self, slice_data, template_slice, colormap=None, highlight_region=None, show_atlas=True):
         self.slice_data = slice_data
         self.template_data = template_slice
         self.colormap = colormap
         self.highlight_region = highlight_region
+        self.show_atlas = show_atlas
         if slice_data is None or template_slice is None:
             self.clear()
             return
@@ -88,20 +89,22 @@ class BrainSliceView(QLabel):
         colored_slice[:, :, 0] = norm_template
         colored_slice[:, :, 1] = norm_template
         colored_slice[:, :, 2] = norm_template
-        if colormap:
+        if self.blinking and highlight_region and not self.blink_state:
+            # Highlight the target region during blinking, even if atlas is off
+            mask = (slice_data == highlight_region)
+            colored_slice[mask, 0] = 255  # Bright yellow (R)
+            colored_slice[mask, 1] = 255  # Bright yellow (G)
+            colored_slice[mask, 2] = 0    # Bright yellow (B)
+        elif show_atlas and colormap:
+            # Apply atlas colors only if show_atlas is True
             unique_vals = np.unique(slice_data)
             for val in unique_vals:
                 if val in colormap and val > 0:
                     mask = (slice_data == val)
-                    if self.blinking and val == highlight_region and not self.blink_state:
-                        colored_slice[mask, 0] = 255  # Bright yellow (R)
-                        colored_slice[mask, 1] = 255  # Bright yellow (G)
-                        colored_slice[mask, 2] = 0    # Bright yellow (B)
-                    else:
-                        color = colormap[val]
-                        colored_slice[mask, 0] = (0.5 * colored_slice[mask, 0] + 0.5 * color[0]).astype(np.uint8)
-                        colored_slice[mask, 1] = (0.5 * colored_slice[mask, 1] + 0.5 * color[1]).astype(np.uint8)
-                        colored_slice[mask, 2] = (0.5 * colored_slice[mask, 2] + 0.5 * color[2]).astype(np.uint8)
+                    color = colormap[val]
+                    colored_slice[mask, 0] = (0.5 * colored_slice[mask, 0] + 0.5 * color[0]).astype(np.uint8)
+                    colored_slice[mask, 1] = (0.5 * colored_slice[mask, 1] + 0.5 * color[1]).astype(np.uint8)
+                    colored_slice[mask, 2] = (0.5 * colored_slice[mask, 2] + 0.5 * color[2]).astype(np.uint8)
         qimg = QImage(colored_slice.data, w, h, w * 3, QImage.Format_RGB888)
         self.original_pixmap = QPixmap.fromImage(qimg)
         self.update()
@@ -120,7 +123,7 @@ class BrainSliceView(QLabel):
         scaled_pixmap = self.original_pixmap.scaled(img_width, img_height, 
                                                   Qt.KeepAspectRatio, 
                                                   Qt.SmoothTransformation)
-        painter.drawPixmap(x_offset, y_offset, scaled_pixmap)
+        painter.drawPixmap(x_offset, y_offset,scaled_pixmap)
         
         # Draw crosshair
         pen = QPen(QColor(255, 0, 0))
@@ -134,7 +137,7 @@ class BrainSliceView(QLabel):
         
         # Draw orientation labels (L/R, A/P, S/I)
         painter.setPen(QColor(255, 0, 0))
-        font = QFont("Arial", 12)
+        font = QFont("Helvetica [Cronyx]", 12)
         painter.setFont(font)
         if self.plane_index == 0:  # Axial
             painter.drawText(scaled_x - 30, y_offset - 10, "R")
@@ -154,7 +157,7 @@ class BrainSliceView(QLabel):
         
         # Draw plane title
         painter.setPen(QColor(255, 255, 255))
-        painter.setFont(QFont("Arial", 12, QFont.Bold))
+        painter.setFont(QFont("Helvetica [Cronyx]", 12, QFont.Bold))
         painter.drawText(0, 20, label_width, 20, Qt.AlignCenter, self.plane_names[self.plane_index])
         painter.end()
 
@@ -226,6 +229,7 @@ class NeuroGuessrGame(QMainWindow):
         self.current_positions = [0, 0, 0]
         self.selected_position = None
         self.crosshair_3d = (0, 0, 0)
+        self.show_atlas = True
         self.atlas_options = {
             "Brodmann": ("/Users/francoisramon/Desktop/These/neuroguessr/data/brodmann_grid_stride.nii.gz",
                          "/Users/francoisramon/Desktop/These/neuroguessr/data/brodmann.txt"),
@@ -241,11 +245,6 @@ class NeuroGuessrGame(QMainWindow):
                           "/Users/francoisramon/Desktop/These/neuroguessr/data/Cerebellum_MNIfnirt.txt"),
             "Xtract": ("/Users/francoisramon/Desktop/These/neuroguessr/data/xtract_stride.nii.gz",
                        "/Users/francoisramon/Desktop/These/neuroguessr/data/xtract.txt")
-            # "Amygdala-Hippocampus" : ("/Users/francoisramon/Desktop/These/neuroguessr/data/HippoAmyg_left-thr0_stride_regrid.nii.gz",
-            #              "/Users/francoisramon/Desktop/These/neuroguessr/data/hippoamyg_left_lut.txt"),
-            # "Brainstem" : ("/Users/francoisramon/Desktop/These/neuroguessr/data/Brainstem-thr0_stride_regrid.nii.gz",
-            #              "/Users/francoisramon/Desktop/These/neuroguessr/data/brainstem_lut.txt"),
-
         }
         self.current_atlas = "Brodmann"
         self.setup_ui()
@@ -270,7 +269,7 @@ class NeuroGuessrGame(QMainWindow):
         
         # Logo image
         logo_label = QLabel()
-        pixmap = QPixmap("Users/francoisramon/Desktop/These/neuroguessr/code/neuroguessr.png")  # Ensure neuroguessr.png exists
+        pixmap = QPixmap("Users/francoisramon/Desktop/These/neuroguessr/code/neuroguessr.png")
         if pixmap.isNull():
             logo_label.setText("Logo Not Found")
         else:
@@ -280,7 +279,7 @@ class NeuroGuessrGame(QMainWindow):
         
         # Title
         title_label = QLabel("NeuroGuessr")
-        title_label.setFont(QFont("Helvetica [Cronyx]", 70, QFont.Bold))  # Fancy font
+        title_label.setFont(QFont("Helvetica [Cronyx]", 70, QFont.Bold))
         title_label.setStyleSheet("color: white;")
         top_layout.addWidget(title_label)
         
@@ -289,6 +288,7 @@ class NeuroGuessrGame(QMainWindow):
         # Game mode selection
         mode_label = QLabel("Game Mode")
         mode_label.setStyleSheet("color: white; font-size: 18px;")
+        mode_label.setFont(QFont("Helvetica [Cronyx]", 18))
         mode_label.setAlignment(Qt.AlignCenter)
         landing_layout.addWidget(mode_label)
         
@@ -316,6 +316,7 @@ class NeuroGuessrGame(QMainWindow):
                 border: 2px solid #0078D7;
             }
         """)
+        practice_button.setFont(QFont("Helvetica [Cronyx]", 16))
         practice_button.setCheckable(True)
         practice_button.setChecked(True)
         self.mode_button_group.addButton(practice_button, 0)
@@ -339,6 +340,7 @@ class NeuroGuessrGame(QMainWindow):
                 border: 2px solid #0078D7;
             }
         """)
+        contre_button.setFont(QFont("Helvetica [Cronyx]", 16))
         contre_button.setCheckable(True)
         self.mode_button_group.addButton(contre_button, 1)
         
@@ -361,6 +363,7 @@ class NeuroGuessrGame(QMainWindow):
                 border: 2px solid #0078D7;
             }
         """)
+        streak_button.setFont(QFont("Helvetica [Cronyx]", 16))
         streak_button.setCheckable(True)
         self.mode_button_group.addButton(streak_button, 2)
         
@@ -372,6 +375,7 @@ class NeuroGuessrGame(QMainWindow):
         # Atlas selection
         atlas_label = QLabel("Select Atlas")
         atlas_label.setStyleSheet("color: white; font-size: 18px;")
+        atlas_label.setFont(QFont("Helvetica [Cronyx]", 18))
         atlas_label.setAlignment(Qt.AlignCenter)
         landing_layout.addWidget(atlas_label)
         
@@ -401,6 +405,7 @@ class NeuroGuessrGame(QMainWindow):
                     border: 2px solid #0078D7;
                 }
             """)
+            atlas_button.setFont(QFont("Helvetica [Cronyx]", 16))
             atlas_button.setCheckable(True)
             if atlas_name == self.current_atlas:
                 atlas_button.setChecked(True)
@@ -425,12 +430,12 @@ class NeuroGuessrGame(QMainWindow):
                 border-radius: 10px; 
                 border: none;
                 font-weight: bold;
-
             }
             QPushButton:hover {
                 background-color: #d32f2f;
             }
         """)
+        quit_button.setFont(QFont("Helvetica [Cronyx]", 18, QFont.Bold))
         quit_button.clicked.connect(QApplication.instance().quit)
 
         play_button = QPushButton("Play")
@@ -448,6 +453,7 @@ class NeuroGuessrGame(QMainWindow):
                 background-color: #45a049;
             }
         """)
+        play_button.setFont(QFont("Helvetica [Cronyx]", 18, QFont.Bold))
         play_button.clicked.connect(self.start_game_from_landing)
         
         buttons_layout.addWidget(quit_button)
@@ -461,32 +467,44 @@ class NeuroGuessrGame(QMainWindow):
         self.game_widget = QWidget()
         game_layout = QVBoxLayout(self.game_widget)
 
-        # Atlas selection (in-game)
+        # Atlas selection and toggle (in-game)
         selection_layout = QHBoxLayout()
         atlas_layout = QHBoxLayout()
         atlas_label = QLabel("Active Atlas:")
         atlas_label.setStyleSheet("color: white;")
+        atlas_label.setFont(QFont("Helvetica [Cronyx]", 14))
         self.active_atlas_label = QLabel(self.current_atlas)
         self.active_atlas_label.setStyleSheet("color: white; font-weight: bold;")
+        self.active_atlas_label.setFont(QFont("Helvetica [Cronyx]", 14, QFont.Bold))
         atlas_layout.addWidget(atlas_label)
         atlas_layout.addWidget(self.active_atlas_label)
+        # Add atlas toggle checkbox
+        self.atlas_toggle = QCheckBox("Show Atlas Regions")
+        self.atlas_toggle.setChecked(True)
+        self.atlas_toggle.setStyleSheet("color: white; font-size: 14px;")
+        self.atlas_toggle.setFont(QFont("Helvetica [Cronyx]", 14))
+        self.atlas_toggle.stateChanged.connect(self.toggle_atlas_visibility)
+        atlas_layout.addWidget(self.atlas_toggle)
         selection_layout.addLayout(atlas_layout)
+        selection_layout.addStretch()
         game_layout.addLayout(selection_layout)
 
         # Game status area
         status_layout = QHBoxLayout()
         self.target_label = QLabel("Target: Not Started")
-        self.target_label.setFont(QFont("Arial", 14, QFont.Bold))
+        self.target_label.setFont(QFont("Helvetica [Cronyx]", 18, QFont.Bold))
         self.target_label.setStyleSheet("color: white; background-color: #333; padding: 5px; border-radius: 5px;")
         self.target_label.setAlignment(Qt.AlignCenter)
         self.timer_label = QLabel("Time: 3:00")
-        self.timer_label.setFont(QFont("Arial", 14))
+        self.timer_label.setFont(QFont("Helvetica [Cronyx]", 14))
         self.timer_label.setStyleSheet("color: white; background-color: #333; padding: 5px; border-radius: 5px;")
         score_layout = QVBoxLayout()
         self.score_label = QLabel("Correct: 0")
-        self.score_label.setFont(QFont("Arial", 14))
+        self.score_label.setFont(QFont("Helvetica [Cronyx]", 14))
+        self.score_label.setStyleSheet("color: white;")
         self.error_label = QLabel("Errors: 0")
-        self.error_label.setFont(QFont("Arial", 14))
+        self.error_label.setFont(QFont("Helvetica [Cronyx]", 14))
+        self.error_label.setStyleSheet("color: white;")
         score_layout.addWidget(self.score_label)
         score_layout.addWidget(self.error_label)
         status_layout.addWidget(self.target_label, 3)
@@ -509,6 +527,8 @@ class NeuroGuessrGame(QMainWindow):
         z_layout = QVBoxLayout()
         z_label = QLabel("Axial")
         z_label.setAlignment(Qt.AlignCenter)
+        z_label.setStyleSheet("color: white;")
+        z_label.setFont(QFont("Helvetica [Cronyx]", 12))
         self.z_slider = QSlider(Qt.Horizontal)
         self.z_slider.setMinimum(0)
         self.z_slider.setMaximum(100)
@@ -519,6 +539,8 @@ class NeuroGuessrGame(QMainWindow):
         y_layout = QVBoxLayout()
         y_label = QLabel("Coronal")
         y_label.setAlignment(Qt.AlignCenter)
+        y_label.setStyleSheet("color: white;")
+        y_label.setFont(QFont("Helvetica [Cronyx]", 12))
         self.y_slider = QSlider(Qt.Horizontal)
         self.y_slider.setMinimum(0)
         self.y_slider.setMaximum(100)
@@ -529,6 +551,8 @@ class NeuroGuessrGame(QMainWindow):
         x_layout = QVBoxLayout()
         x_label = QLabel("Sagittal")
         x_label.setAlignment(Qt.AlignCenter)
+        x_label.setStyleSheet("color: white;")
+        x_label.setFont(QFont("Helvetica [Cronyx]", 12))
         self.x_slider = QSlider(Qt.Horizontal)
         self.x_slider.setMinimum(0)
         self.x_slider.setMaximum(100)
@@ -557,6 +581,7 @@ class NeuroGuessrGame(QMainWindow):
                 background-color: #45a049;
             }
         """)
+        self.start_button.setFont(QFont("Helvetica [Cronyx]", 16))
         
         self.guess_button = QPushButton("Confirm Guess")
         self.guess_button.clicked.connect(self.validate_guess)
@@ -577,6 +602,7 @@ class NeuroGuessrGame(QMainWindow):
                 background-color: #45a049;
             }
         """)
+        self.guess_button.setFont(QFont("Helvetica [Cronyx]", 16))
         
         self.help_button = QPushButton("Help")
         self.help_button.clicked.connect(self.show_help)
@@ -592,6 +618,7 @@ class NeuroGuessrGame(QMainWindow):
                 background-color: #0b7dda;
             }
         """)
+        self.help_button.setFont(QFont("Helvetica [Cronyx]", 16))
         
         self.menu_button = QPushButton("Menu")
         self.menu_button.clicked.connect(self.show_menu)
@@ -607,6 +634,7 @@ class NeuroGuessrGame(QMainWindow):
                 background-color: #e68a00;
             }
         """)
+        self.menu_button.setFont(QFont("Helvetica [Cronyx]", 16))
         
         self.quit_button = QPushButton("Quit")
         self.quit_button.clicked.connect(QApplication.instance().quit)
@@ -622,6 +650,7 @@ class NeuroGuessrGame(QMainWindow):
                 background-color: #d32f2f;
             }
         """)
+        self.quit_button.setFont(QFont("Helvetica [Cronyx]", 16))
         
         button_layout.addWidget(self.start_button)
         button_layout.addWidget(self.guess_button)
@@ -638,6 +667,11 @@ class NeuroGuessrGame(QMainWindow):
         self.stacked_widget.addWidget(self.game_widget)
         self.stacked_widget.setCurrentWidget(self.landing_widget)
         self.load_data()
+
+    def toggle_atlas_visibility(self, state):
+        """Handle atlas visibility toggle."""
+        self.show_atlas = (state == Qt.Checked)
+        self.update_all_slices()
 
     def reset_game_ui(self):
         """Reset the game UI to initial state."""
@@ -661,6 +695,8 @@ class NeuroGuessrGame(QMainWindow):
         self.streak_guessed_regions = []
         self.time_remaining = 180
         self.game_running = False
+        self.show_atlas = True
+        self.atlas_toggle.setChecked(True)
         for view in self.slice_views:
             view.stop_blinking()
 
@@ -817,9 +853,9 @@ class NeuroGuessrGame(QMainWindow):
         coronal_template = template_3d[:, y, :].T
         sagittal_template = template_3d[x, :, :].T
         highlight_region = self.current_target if self.consecutive_errors >= 3 and self.game_mode == "Practice" else None
-        self.slice_views[0].update_slice(axial_slice, axial_template, self.colormap, highlight_region)
-        self.slice_views[1].update_slice(coronal_slice, coronal_template, self.colormap, highlight_region)
-        self.slice_views[2].update_slice(sagittal_slice, sagittal_template, self.colormap, highlight_region)
+        self.slice_views[0].update_slice(axial_slice, axial_template, self.colormap, highlight_region, self.show_atlas)
+        self.slice_views[1].update_slice(coronal_slice, coronal_template, self.colormap, highlight_region, self.show_atlas)
+        self.slice_views[2].update_slice(sagittal_slice, sagittal_template, self.colormap, highlight_region, self.show_atlas)
         voxel_x, voxel_y, voxel_z = self.crosshair_3d
         for view in self.slice_views:
             view.set_crosshair_3d(voxel_x, voxel_y, voxel_z)
@@ -973,17 +1009,19 @@ class NeuroGuessrGame(QMainWindow):
                                     "Practice:\n1. Select an atlas\n2. Choose 'Practice' mode\n"
                                     "3. Find regions with no time limit or score penalty\n4. Click or drag to move the crosshair\n"
                                     "5. Press Space or click 'Confirm Guess'\n6. After three errors on the same region, it will blink\n"
-                                    "7. Return to menu to end practice!")
+                                    "7. Toggle atlas visibility with 'Show Atlas Regions' checkbox\n8. Return to menu to end practice!")
         elif self.game_mode == "Contre la Montre":
             QMessageBox.information(self, "How to Play",
                                     "Contre la Montre:\n1. Select an atlas\n2. Choose 'Contre la Montre' mode\n"
                                     "3. Find as many regions as possible in 3 minutes\n4. Click or drag to move the crosshair\n"
-                                    "5. Press Space or click 'Confirm Guess'\n6. Results are shown at the end!")
+                                    "5. Press Space or click 'Confirm Guess'\n6. Toggle atlas visibility with 'Show Atlas Regions' checkbox\n"
+                                    "7. Results are shown at the end!")
         else:
             QMessageBox.information(self, "How to Play",
                                     "Streak:\n1. Select an atlas\n2. Choose 'Streak' mode\n"
                                     "3. Find as many regions as possible without a mistake\n4. Click or drag to move the crosshair\n"
-                                    "5. Press Space or click 'Confirm Guess'\n6. Game ends on the first error!")
+                                    "5. Press Space or click 'Confirm Guess'\n6. Toggle atlas visibility with 'Show Atlas Regions' checkbox\n"
+                                    "7. Game ends on the first error!")
 
     def show_menu(self):
         self.game_running = False

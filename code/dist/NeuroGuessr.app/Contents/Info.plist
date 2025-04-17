@@ -7,7 +7,7 @@
 	<key>CFBundleExecutable</key>
 	<string>NeuroGuessr</string>
 	<key>CFBundleIconFile</key>
-	<string>neuroguessr3.icns</string>
+	<string>neuroguessr5.icns</string>
 	<key>CFBundleIdentifier</key>
 	<string>NeuroGuessr</string>
 	<key>CFBundleInfoDictionaryVersion</key>

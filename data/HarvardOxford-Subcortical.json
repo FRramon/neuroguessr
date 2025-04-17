@@ -1,0 +1,317 @@
+{
+  "1": {
+    "name": "Left Cerebral White Matter",
+    "structure": [
+      "Composed of myelinated axons connecting different regions of the cerebral cortex with each other and with subcortical structures",
+      "Contains projection fibers (corona radiata, internal capsule), commissural fibers (corpus callosum, anterior commissure), and association fibers (superior/inferior longitudinal fasciculi, uncinate fasciculus)",
+      "Myelin is produced by oligodendrocytes and creates a lipid-rich insulating sheath that increases conduction velocity",
+      "Organized into discrete bundles or tracts with specific connectivity patterns and functions"
+    ],
+    "function": [
+      "Enables rapid, efficient neural signal transmission across distant brain regions",
+      "Facilitates integration of sensory, motor, and cognitive processes through interconnected networks",
+      "Supports neuroplasticity through activity-dependent myelination and structural remodeling",
+      "Integrity of white matter tracts is essential for cognitive processing speed and executive function"
+    ]
+  },
+  "2": {
+    "name": "Left Cerebral Cortex",
+    "structure": [
+      "Outer 2-4mm gray matter layer covering the cerebral hemisphere, organized into six cellular layers (I-VI)",
+      "Contains approximately 16 billion neurons with complex dendritic arborizations and synaptic connections",
+      "Organized into functional regions including primary sensory/motor areas and association cortices",
+      "Characterized by gyri (ridges) and sulci (grooves) that increase surface area without increasing cranial volume"
+    ],
+    "function": [
+      "Processes and integrates sensory information into perceptions, thoughts, and behavioral responses",
+      "Left hemisphere specializes in language processing, analytical reasoning, and right-sided motor control",
+      "Hierarchical processing from primary sensory areas to unimodal and then multimodal association areas",
+      "Supports higher cognitive functions including working memory, attention, decision-making, and consciousness"
+    ]
+  },
+  "3": {
+    "name": "Left Lateral Ventricle",
+    "structure": [
+      "C-shaped CSF-filled cavity within the cerebral hemisphere, consisting of central body and three horns (anterior, posterior, inferior)",
+      "Lined by ependymal cells forming the ventricular epithelium",
+      "Contains choroid plexus tissue that produces approximately 400-500ml of CSF daily",
+      "Connected to the third ventricle via the interventricular foramen of Monro"
+    ],
+    "function": [
+      "Forms part of the ventricular system for CSF production, circulation, and drainage",
+      "CSF provides mechanical protection, buoyancy (reducing effective brain weight by ~97%), and metabolic support",
+      "Facilitates clearance of metabolic waste products from the brain parenchyma",
+      "Ventricular enlargement serves as an important biomarker for neurodegenerative conditions and hydrocephalus"
+    ]
+  },
+  "4": {
+    "name": "Left Thalamus",
+    "structure": [
+      "Egg-shaped gray matter structure forming the dorsal part of the diencephalon",
+      "Organized into ~30-40 distinct nuclei arranged in anterior, medial, lateral, ventral, posterior, and intralaminar groups",
+      "Extensively connected to cerebral cortex via reciprocal thalamocortical and corticothalamic projections",
+      "Major nuclei include ventral posterior (sensory relay), ventral lateral/anterior (motor relay), medial dorsal (prefrontal connections), and pulvinar (multimodal integration)"
+    ],
+    "function": [
+      "Serves as the principal relay station for sensory information (except olfaction) en route to the cerebral cortex",
+      "Modulates cortical activity through filtering and gating of information flow via attention mechanisms",
+      "Participates in motor control through connections with basal ganglia and cerebellum",
+      "Contributes to consciousness, arousal, and sleep-wake cycles through reticular and intralaminar nuclei"
+    ]
+  },
+  "5": {
+    "name": "Left Caudate",
+    "structure": [
+      "C-shaped nucleus forming part of the corpus striatum and dorsal striatum of the basal ganglia",
+      "Consists of an enlarged head (in the anterior horn of lateral ventricle), body, and tail extending into the temporal lobe",
+      "Rich in medium spiny neurons (~95%) containing GABA and either D1 or D2 dopamine receptors",
+      "Receives glutamatergic input from cortex and dopaminergic input from substantia nigra pars compacta"
+    ],
+    "function": [
+      "Forms part of the indirect pathway in basal ganglia circuits that modulate movement",
+      "Critical for procedural learning, habit formation, and skill acquisition",
+      "Involved in goal-directed behaviors and cognitive flexibility",
+      "Dysfunction contributes to movement disorders (Huntington's disease, chorea) and certain psychiatric conditions"
+    ]
+  },
+  "6": {
+    "name": "Left Putamen",
+    "structure": [
+      "Large, rounded nucleus forming the lateral part of the lentiform nucleus within the basal ganglia",
+      "Located lateral to the globus pallidus and separated from it by the lateral medullary lamina",
+      "Contains primarily GABAergic medium spiny neurons with distinct D1 and D2 receptor-expressing populations",
+      "Receives input from motor and somatosensory cortices, substantia nigra, and thalamus"
+    ],
+    "function": [
+      "Plays a central role in regulating movement execution and motor learning",
+      "Operates within both direct (facilitatory) and indirect (inhibitory) pathways of motor control",
+      "Participates in implicit learning of sequential movements and motor habits",
+      "Degeneration contributes to parkinsonian symptoms including bradykinesia and rigidity"
+    ]
+  },
+  "7": {
+    "name": "Left Pallidum",
+    "structure": [
+      "Component of the lentiform nucleus divided into external (GPe) and internal (GPi) segments",
+      "Contains large GABAergic projection neurons with extensive dendritic arbors",
+      "Separated by the internal medullary lamina, a thin sheet of myelinated fibers",
+      "Heavily interconnected with striatum, subthalamic nucleus, thalamus, and substantia nigra"
+    ],
+    "function": [
+      "GPe is a key component of the indirect pathway, providing inhibitory control to the subthalamic nucleus",
+      "GPi serves as a major output nucleus of the basal ganglia to the thalamus",
+      "Regulates the timing, force, and amplitude of voluntary movements",
+      "Target for deep brain stimulation in treatment-resistant Parkinson's disease and dystonia"
+    ]
+  },
+  "8": {
+    "name": "Brain Stem",
+    "structure": [
+      "Consists of midbrain, pons, and medulla oblongata, connecting the spinal cord with the diencephalon",
+      "Contains ascending sensory tracts, descending motor tracts, and numerous cranial nerve nuclei (III-XII)",
+      "Houses vital centers for cardiovascular, respiratory, and arousal regulation",
+      "Contains reticular formation, a diffuse network of neurons regulating consciousness and autonomic functions"
+    ],
+    "function": [
+      "Controls vital physiological functions including respiration, heart rate, blood pressure, and consciousness",
+      "Serves as a conduit for all information flow between brain and spinal cord",
+      "Mediates reflexes such as coughing, sneezing, vomiting, and pupillary responses",
+      "Critical for maintaining posture, balance, and coordinating movements through vestibular nuclei and connections with the cerebellum"
+    ]
+  },
+  "9": {
+    "name": "Left Hippocampus",
+    "structure": [
+      "Curved, seahorse-shaped structure located in the medial temporal lobe",
+      "Organized into distinct subfields: CA1, CA2, CA3, CA4 (dentate gyrus), and subiculum",
+      "Contains a unique trisynaptic circuit: perforant path → dentate gyrus → CA3 → CA1",
+      "Exhibits remarkable neuroplasticity, including adult neurogenesis in the dentate gyrus"
+    ],
+    "function": [
+      "Essential for the formation of new declarative memories (episodic and semantic)",
+      "Crucial for spatial navigation and cognitive mapping of environments",
+      "Facilitates memory consolidation by transferring information to neocortex during sleep",
+      "Dysfunction contributes to amnesia, Alzheimer's disease, post-traumatic stress disorder, and schizophrenia"
+    ]
+  },
+  "10": {
+    "name": "Left Amygdala",
+    "structure": [
+      "Almond-shaped collection of nuclei located deep within the medial temporal lobe",
+      "Composed of basolateral complex, centromedial nucleus, and cortical nucleus",
+      "Extensively connected with hippocampus, prefrontal cortex, hypothalamus, and brainstem",
+      "Contains neurons responsive to emotionally salient stimuli and social cues"
+    ],
+    "function": [
+      "Central role in emotional processing, particularly fear conditioning and threat detection",
+      "Mediates autonomic responses associated with emotions (heart rate, respiration, skin conductance)",
+      "Critical for emotional memory enhancement and social cognition",
+      "Implicated in anxiety disorders, PTSD, and social-emotional processing deficits in autism"
+    ]
+  },
+  "11": {
+    "name": "Left Accumbens",
+    "structure": [
+      "Part of the ventral striatum located where the caudate and putamen meet ventrally",
+      "Divided into core and shell regions with distinct connectivity and neurochemistry",
+      "Rich in dopaminergic terminals from the ventral tegmental area (VTA)",
+      "Contains medium spiny GABAergic neurons with D1 and D2 receptors, cholinergic interneurons, and fast-spiking interneurons"
+    ],
+    "function": [
+      "Key component of the brain's reward circuit, mediating pleasure, motivation, and reinforcement learning",
+      "Processes reward prediction errors that drive goal-directed behaviors",
+      "Central to addiction mechanisms, including drug seeking and relapse behaviors",
+      "Involved in processing of aversion, stress responses, and certain aspects of mood regulation"
+    ]
+  },
+  "12": {
+    "name": "Right Cerebral White Matter",
+    "structure": [
+      "Myelinated axonal tracts in the right hemisphere connecting cortical and subcortical regions",
+      "Contains projection fibers (internal capsule), commissural fibers (corpus callosum), and association fibers",
+      "Demonstrates some asymmetry compared to left hemisphere white matter, particularly in language pathways",
+      "Development continues well into the third decade of life with progressive myelination"
+    ],
+    "function": [
+      "Enables rapid signal transmission and integration within the right hemisphere and between hemispheres",
+      "Supports right hemisphere specializations in visuospatial processing, attention, and emotional regulation",
+      "Contributes to global aspects of language processing including prosody and pragmatics",
+      "Integrity correlates with processing speed, attention, and cognitive efficiency"
+    ]
+  },
+  "13": {
+    "name": "Right Cerebral Cortex",
+    "structure": [
+      "Laminated gray matter covering the right cerebral hemisphere with six distinct layers",
+      "Shows hemispheric specialization with enhanced development of regions for visuospatial processing",
+      "Contains specialized regions including right temporoparietal junction and inferior frontal gyrus",
+      "Exhibits structural asymmetries compared to left hemisphere, particularly in planum temporale and parietal regions"
+    ],
+    "function": [
+      "Specialized for holistic, global processing of visual and spatial information",
+      "Dominant for attentional processes, particularly spatial attention and detection of salient stimuli",
+      "Critical for aspects of social cognition including facial recognition and emotional processing",
+      "Mediates prosodic and pragmatic aspects of language comprehension"
+    ]
+  },
+  "14": {
+    "name": "Right Lateral Ventricle",
+    "structure": [
+      "CSF-filled cavity within the right cerebral hemisphere with central body and three horns",
+      "Separated from left lateral ventricle by the septum pellucidum",
+      "Contains choroid plexus tissue that produces cerebrospinal fluid",
+      "Communicates with third ventricle via the right foramen of Monro"
+    ],
+    "function": [
+      "Contributes to CSF production and circulation throughout the ventricular system",
+      "Provides mechanical cushioning and buoyancy for the right hemisphere",
+      "Facilitates removal of metabolic waste from the brain parenchyma",
+      "Changes in size and shape serve as biomarkers for neurological conditions"
+    ]
+  },
+  "15": {
+    "name": "Right Thalamus",
+    "structure": [
+      "Large diencephalic structure with numerous nuclei organized into functional groups",
+      "Forms the lateral wall of the third ventricle on the right side",
+      "Connected to ipsilateral cortex via thalamocortical and corticothalamic projections",
+      "Contains specialized nuclei including lateral geniculate (vision), medial geniculate (audition), and VPL/VPM (somatosensation)"
+    ],
+    "function": [
+      "Processes and relays sensory information to right hemisphere cortical regions",
+      "Participates in attention networks with emphasis on spatial attention to the left visual field",
+      "Contributes to arousal and consciousness through reticular activating system connections",
+      "Modulates motor output through connections with right motor cortex, basal ganglia, and cerebellum"
+    ]
+  },
+  "16": {
+    "name": "Right Caudate",
+    "structure": [
+      "C-shaped striatal nucleus extending from frontal horn to temporal lobe in right hemisphere",
+      "Composed primarily of medium spiny GABAergic neurons with D1 or D2 receptors",
+      "Receives glutamatergic input from cortex and dopaminergic input from substantia nigra",
+      "Participates in cortico-striato-thalamo-cortical loops"
+    ],
+    "function": [
+      "Contributes to motor control through basal ganglia circuits",
+      "Involved in spatial working memory and cognitive flexibility",
+      "Participates in stimulus-response learning and habit formation",
+      "Right caudate particularly important for spatial navigation and attention to left hemispace"
+    ]
+  },
+  "17": {
+    "name": "Right Putamen",
+    "structure": [
+      "Largest nucleus of the basal ganglia, forming lateral part of right lentiform nucleus",
+      "Contains primarily GABAergic medium spiny neurons with distinct D1/D2 receptor populations",
+      "Receives topographically organized projections from motor and somatosensory cortices",
+      "Forms part of the striatum along with the caudate nucleus"
+    ],
+    "function": [
+      "Regulates movement execution and motor sequences for left side of body",
+      "Participates in procedural learning and automatic execution of learned motor sequences",
+      "Contributes to both direct (facilitatory) and indirect (inhibitory) motor pathways",
+      "Integrates sensorimotor information to modulate appropriate movement parameters"
+    ]
+  },
+  "18": {
+    "name": "Right Pallidum",
+    "structure": [
+      "Medial portion of the lentiform nucleus divided into internal (GPi) and external (GPe) segments",
+      "Contains large GABAergic neurons with extensive dendritic fields",
+      "Segments separated by the internal medullary lamina",
+      "Major input nucleus is striatum; major output targets are thalamus and subthalamic nucleus"
+    ],
+    "function": [
+      "Functions as a major output nucleus of the basal ganglia via GPi projections to thalamus",
+      "GPe participates in the indirect pathway, providing inhibitory input to subthalamic nucleus",
+      "Critically involved in the timing and scaling of voluntary movements",
+      "Dysfunction contributes to movement disorders including Parkinson's disease and dystonia"
+    ]
+  },
+  "19": {
+    "name": "Right Hippocampus",
+    "structure": [
+      "Curved structure in right medial temporal lobe with distinct subfields (CA1-4, dentate gyrus)",
+      "Organized in a laminar fashion with unique trisynaptic circuit",
+      "Connected to other limbic structures including amygdala, entorhinal cortex, and mammillary bodies",
+      "Exhibits hemispheric specialization with greater involvement in spatial navigation"
+    ],
+    "function": [
+      "Crucial for spatial memory, navigation, and environmental mapping",
+      "Contributes to episodic memory formation with emphasis on spatial context",
+      "Contains place cells that fire when an animal is in specific locations in the environment",
+      "Right hippocampal lesions particularly impair recall of visual-spatial material and navigational abilities"
+    ]
+  },
+  "20": {
+    "name": "Right Amygdala",
+    "structure": [
+      "Collection of nuclei in right medial temporal lobe with basolateral, centromedial, and cortical divisions",
+      "Extensively connected with sensory systems, prefrontal cortex, and hypothalamus",
+      "Contains neurons responsive to threatening stimuli and socially relevant information",
+      "Exhibits some functional lateralization with right amygdala particularly involved in nonverbal emotional processing"
+    ],
+    "function": [
+      "Processes emotional stimuli with right-sided bias for negative emotions and nonverbal emotional cues",
+      "Mediates autonomic responses to emotional stimuli including stress response",
+      "Contributes to emotional memory enhancement and social cognition",
+      "Plays role in recognition of emotional facial expressions, particularly fear"
+    ]
+  },
+  "21": {
+    "name": "Right Accumbens",
+    "structure": [
+      "Ventral striatal structure in right hemisphere with distinct core and shell subregions",
+      "Rich in dopamine receptors and dopaminergic terminals from ventral tegmental area",
+      "Contains primarily medium spiny GABAergic neurons with distinct D1 and D2 receptor populations",
+      "Connected to limbic structures including amygdala, hippocampus, and prefrontal cortex"
+    ],
+    "function": [
+      "Key component of the brain's reward circuit mediating reinforcement and motivation",
+      "Processes reward prediction errors that guide approach and avoidance behaviors",
+      "Involved in hedonic aspects of experiences including natural rewards and drugs of abuse",
+      "Contributes to goal-directed behavior and incentive salience"
+    ]
+  }
+}

@@ -1,0 +1,1808 @@
+{
+  "1": {
+    "name": "Precentral_L",
+    "structure": [
+      "Primary motor cortex (M1) located on the precentral gyrus of the left frontal lobe, anterior to the central sulcus",
+      "Contains giant pyramidal cells of Betz in layer V that form the corticospinal tract",
+      "Organized somatotopically with an inverted homunculus representation (legs superior, face inferior)",
+      "Receives input from premotor cortex, supplementary motor area, thalamus, and somatosensory cortex"
+    ],
+    "function": [
+      "Controls voluntary movement execution for the right side of the body",
+      "Encodes movement parameters including direction, force, and speed",
+      "Forms direct monosynaptic connections with spinal motor neurons via corticospinal tract",
+      "Damage results in contralateral hemiplegia/hemiparesis with characteristic upper motor neuron signs"
+    ]
+  },
+  "2": {
+    "name": "Precentral_R",
+    "structure": [
+      "Primary motor cortex located on the precentral gyrus of the right frontal lobe",
+      "Exhibits identical cytoarchitecture to the left with Betz cells in layer V",
+      "Somatotopically organized with regions controlling face, upper limb, and lower limb",
+      "Connected to contralateral motor cortex via corpus callosum and ipsilateral subcortical motor structures"
+    ],
+    "function": [
+      "Controls voluntary movement execution for the left side of the body",
+      "Integrates sensory feedback to modify ongoing movements",
+      "Coordinates with supplementary motor area and premotor cortex to plan complex movements",
+      "Damage results in left-sided weakness/paralysis with hyperreflexia and Babinski sign"
+    ]
+  },
+  "3": {
+    "name": "Frontal_Sup_L",
+    "structure": [
+      "Superior portion of the left frontal lobe corresponding to Brodmann areas 8, 9, and 10",
+      "Located dorsal to middle frontal gyrus and anterior to precentral gyrus",
+      "Contains primarily association cortex with extensive connections to other prefrontal regions",
+      "Shows greater density of neurons involved in language processing compared to right hemisphere"
+    ],
+    "function": [
+      "Involved in higher cognitive functions including working memory, attention, and executive control",
+      "Participates in planning and coordinating complex behavioral sequences",
+      "Contributes to verbal working memory and semantic processing",
+      "Damage may result in executive dysfunction, attention deficits, and personality changes"
+    ]
+  },
+  "4": {
+    "name": "Frontal_Sup_R",
+    "structure": [
+      "Superior portion of the right frontal lobe corresponding to Brodmann areas 8, 9, and 10",
+      "Cytoarchitecturally similar to left superior frontal gyrus but with functional specialization",
+      "Contains high density of connections with parietal attentional networks",
+      "Shows particular development of regions involved in spatial working memory"
+    ],
+    "function": [
+      "Specialized for spatial working memory and visuospatial attention",
+      "Contributes to inhibitory control and cognitive flexibility",
+      "Involved in social cognition including theory of mind and perspective-taking",
+      "Lesions associated with impaired sustained attention and spatial working memory deficits"
+    ]
+  },
+  "5": {
+    "name": "Frontal_Sup_Orb_L",
+    "structure": [
+      "Orbital (ventral) portion of the left superior frontal gyrus",
+      "Located in the frontal pole and medial orbital surface",
+      "Rich connections with limbic structures including amygdala and anterior cingulate",
+      "Contains von Economo neurons associated with social cognition"
+    ],
+    "function": [
+      "Involved in emotion regulation and social decision-making",
+      "Contributes to reward valuation and goal-directed behavior",
+      "Participates in personality expression and appropriate social conduct",
+      "Damage associated with disinhibition, poor judgment, and emotional dysregulation"
+    ]
+  },
+  "6": {
+    "name": "Frontal_Sup_Orb_R",
+    "structure": [
+      "Orbital (ventral) portion of the right superior frontal gyrus",
+      "Contains high density of connections with autonomic regulatory centers",
+      "Extensively connected with insular cortex and limbic structures",
+      "Shows functional specialization for processing negative emotional stimuli"
+    ],
+    "function": [
+      "Critical for monitoring and regulation of emotional states",
+      "Involved in processing negative affective information and risk assessment",
+      "Contributes to impulse control and inhibition of inappropriate behaviors",
+      "Lesions associated with personality changes including apathy or disinhibition"
+    ]
+  },
+  "7": {
+    "name": "Frontal_Mid_L",
+    "structure": [
+      "Middle portion of the left frontal gyrus containing parts of Brodmann areas 6, 8, 9, and 46",
+      "Contains dorsolateral prefrontal cortex, a key region for executive function",
+      "Shows extensive reciprocal connections with parietal cortex and subcortical structures",
+      "Higher density of neurons involved in verbal working memory compared to right hemisphere"
+    ],
+    "function": [
+      "Critical for working memory maintenance and manipulation, especially for verbal information",
+      "Involved in cognitive control, including task switching and conflict resolution",
+      "Participates in language planning and verbal fluency",
+      "Dysfunction associated with executive deficits in schizophrenia and other psychiatric disorders"
+    ]
+  },
+  "8": {
+    "name": "Frontal_Mid_R",
+    "structure": [
+      "Middle portion of the right frontal gyrus containing parts of Brodmann areas 6, 8, 9, and 46",
+      "Contains key regions of the dorsolateral prefrontal cortex",
+      "Shows extensive connectivity with visuospatial processing networks",
+      "Structural asymmetries compared to left counterpart related to functional specialization"
+    ],
+    "function": [
+      "Specialized for spatial working memory and nonverbal executive functions",
+      "Involved in attentional control, particularly sustained and selective attention",
+      "Contributes to response inhibition and cognitive flexibility",
+      "Lesions associated with impaired problem-solving, mental flexibility, and spatial working memory"
+    ]
+  },
+  "9": {
+    "name": "Frontal_Mid_Orb_L",
+    "structure": [
+      "Orbital (ventral) portion of the left middle frontal gyrus",
+      "Located in the ventrolateral prefrontal cortex",
+      "Rich connections with limbic structures and basal ganglia",
+      "Contains neurons responsive to reward-related stimuli"
+    ],
+    "function": [
+      "Involved in reward processing and incentive motivation",
+      "Contributes to decision-making based on reward contingencies",
+      "Participates in emotional regulation and impulse control",
+      "Dysfunction implicated in addiction, compulsive behaviors, and mood disorders"
+    ]
+  },
+  "10": {
+    "name": "Frontal_Mid_Orb_R",
+    "structure": [
+      "Orbital (ventral) portion of the right middle frontal gyrus",
+      "Contains high density of connections with insular cortex",
+      "Shows functional specialization for processing emotional and social information",
+      "Extensively connected with autonomic regulatory centers"
+    ],
+    "function": [
+      "Critical for integrating emotional information into decision-making",
+      "Involved in risk assessment and evaluation of negative consequences",
+      "Contributes to social cognition and interpretation of social cues",
+      "Lesions associated with risk-taking behavior and poor social judgment"
+    ]
+  },
+  "11": {
+    "name": "Frontal_Inf_Oper_L",
+    "structure": [
+      "Opercular (posterior) part of the left inferior frontal gyrus, corresponding to Brodmann area 44",
+      "Forms part of the classical Broca's area for language production",
+      "Contains specialized neurons for processing syntactic information",
+      "Structurally connected to superior temporal regions via arcuate fasciculus"
+    ],
+    "function": [
+      "Critical for syntactic processing and grammatical aspects of language",
+      "Involved in phonological processing and speech articulation",
+      "Contributes to verbal working memory and sequence processing",
+      "Damage results in Broca's aphasia characterized by non-fluent, agrammatic speech"
+    ]
+  },
+  "12": {
+    "name": "Frontal_Inf_Oper_R",
+    "structure": [
+      "Opercular (posterior) part of the right inferior frontal gyrus, corresponding to Brodmann area 44",
+      "Homologous to left Broca's area but with functional specialization",
+      "Shows activation during prosodic and emotional aspects of language",
+      "Connected to right superior temporal regions via arcuate fasciculus"
+    ],
+    "function": [
+      "Processes prosodic and emotional aspects of language",
+      "Involved in musical syntax and rhythm processing",
+      "Contributes to inhibitory control in non-linguistic domains",
+      "Lesions may impair emotional prosody while preserving propositional language"
+    ]
+  },
+  "13": {
+    "name": "Frontal_Inf_Tri_L",
+    "structure": [
+      "Triangular part of the left inferior frontal gyrus, corresponding to Brodmann area 45",
+      "Forms anterior portion of classical Broca's area",
+      "Contains neurons specialized for semantic processing",
+      "Extensively connected with temporal and parietal language areas"
+    ],
+    "function": [
+      "Critical for semantic processing and lexical retrieval",
+      "Involved in controlled semantic selection and integration",
+      "Participates in verbal fluency and word generation",
+      "Damage contributes to semantic deficits in aphasia syndromes"
+    ]
+  },
+  "14": {
+    "name": "Frontal_Inf_Tri_R",
+    "structure": [
+      "Triangular part of the right inferior frontal gyrus, corresponding to Brodmann area 45",
+      "Homologous to left area 45 but with functional specialization",
+      "Shows activation during figurative language processing",
+      "Connected with right temporal regions involved in pragmatic aspects of communication"
+    ],
+    "function": [
+      "Involved in processing metaphors, idioms, and indirect speech",
+      "Contributes to understanding humor and sarcasm",
+      "Participates in social language and pragmatic inference",
+      "Lesions may impair understanding of non-literal language while preserving literal comprehension"
+    ]
+  },
+  "15": {
+    "name": "Frontal_Inf_Orb_L",
+    "structure": [
+      "Orbital part of the left inferior frontal gyrus, corresponding to Brodmann area 47",
+      "Contains ventrolateral prefrontal cortex regions",
+      "Extensive connections with temporal lobe and limbic structures",
+      "Shows dense connectivity with basal ganglia circuits"
+    ],
+    "function": [
+      "Involved in semantic aspects of language processing",
+      "Critical for selection among competing semantic alternatives",
+      "Contributes to inhibitory control in verbal domains",
+      "Dysfunction associated with perseveration and semantic confusions"
+    ]
+  },
+  "16": {
+    "name": "Frontal_Inf_Orb_R",
+    "structure": [
+      "Orbital part of the right inferior frontal gyrus, corresponding to Brodmann area 47",
+      "Shows enhanced connectivity with limbic structures compared to left counterpart",
+      "Contains neurons responsive to social and emotional stimuli",
+      "Extensively connected with right temporal pole"
+    ],
+    "function": [
+      "Involved in processing emotional prosody and tone of voice",
+      "Contributes to response inhibition and cognitive control",
+      "Participates in social cognition and evaluation of social cues",
+      "Lesions associated with impaired emotional regulation and social judgment"
+    ]
+  },
+  "17": {
+    "name": "Rolandic_Oper_L",
+    "structure": [
+      "Left opercular region near the inferior end of the central sulcus (Rolandic fissure)",
+      "Contains parts of primary sensorimotor cortex for the face, tongue, and larynx",
+      "Includes portions of Brodmann areas 43 and adjacent areas",
+      "Connected to subcortical structures involved in articulatory control"
+    ],
+    "function": [
+      "Critical for speech articulation and phonological processing",
+      "Involved in sensorimotor integration for the orofacial region",
+      "Contributes to the production and perception of speech sounds",
+      "Lesions result in dysarthria and speech apraxia"
+    ]
+  },
+  "18": {
+    "name": "Rolandic_Oper_R",
+    "structure": [
+      "Right opercular region near the inferior end of the central sulcus",
+      "Contains sensorimotor cortex for the face region",
+      "Shows activation during vocalization and prosodic processing",
+      "Connected with limbic structures involved in emotional expression"
+    ],
+    "function": [
+      "Involved in prosodic and emotional aspects of speech production",
+      "Contributes to sensorimotor control of the left side of the face",
+      "Participates in non-verbal vocal expression (laughter, crying)",
+      "Lesions may result in aprosodia while preserving basic articulation"
+    ]
+  },
+  "19": {
+    "name": "Supp_Motor_Area_L",
+    "structure": [
+      "Left supplementary motor area located on the medial surface of the frontal lobe, corresponding to medial Brodmann area 6",
+      "Contains somatotopically organized motor maps with bilateral representation",
+      "Densely connected with primary motor cortex, basal ganglia, and spinal cord",
+      "Shows dense connectivity with language areas in left hemisphere"
+    ],
+    "function": [
+      "Critical for planning and initiation of complex movement sequences",
+      "Involved in bimanual coordination and movement timing",
+      "Contributes to speech initiation and motor aspects of language",
+      "Lesions result in transient mutism, difficulty initiating movements, and alien hand syndrome"
+    ]
+  },
+  "20": {
+    "name": "Supp_Motor_Area_R",
+    "structure": [
+      "Right supplementary motor area located on the medial surface of the frontal lobe",
+      "Contains somatotopically organized motor maps with bilateral representation",
+      "Connected with right primary motor cortex and subcortical motor structures",
+      "Shows increased activation during spatial motor planning"
+    ],
+    "function": [
+      "Critical for planning and coordination of movements, particularly on the left side of the body",
+      "Involved in suppression of unwanted movements and response inhibition",
+      "Contributes to sequential organization of complex motor acts",
+      "Lesions may result in akinesia, deficits in motor planning, and alien hand syndrome"
+    ]
+  },
+  "21": {
+    "name": "Olfactory_L",
+    "structure": [
+      "Left olfactory cortex located on the orbital surface of the frontal lobe",
+      "Includes primary olfactory cortex (piriform cortex) and closely related structures",
+      "Receives direct input from olfactory bulb via cranial nerve I",
+      "Extensive connections with limbic structures including amygdala and hippocampus"
+    ],
+    "function": [
+      "Processes and discriminates odors arriving from the right nostril",
+      "Involved in odor identification and emotional responses to smells",
+      "Contributes to formation of olfactory memories with strong emotional components",
+      "Dysfunction may result in specific anosmia or olfactory hallucinations"
+    ]
+  },
+  "22": {
+    "name": "Olfactory_R",
+    "structure": [
+      "Right olfactory cortex including piriform cortex and related structures",
+      "Receives direct projections from right olfactory bulb",
+      "Shows strong connectivity with right amygdala and hippocampus",
+      "Contains neurons responding to specific odor molecules"
+    ],
+    "function": [
+      "Processes and discriminates odors arriving from the left nostril",
+      "Participates in automatic emotional responses to odors",
+      "Contributes to implicit olfactory memory and odor recognition",
+      "Dysfunction associated with qualitative distortions in smell perception"
+    ]
+  },
+  "23": {
+    "name": "Frontal_Sup_Medial_L",
+    "structure": [
+      "Medial portion of the left superior frontal gyrus, including parts of Brodmann areas 8, 9, and 10",
+      "Located on the medial surface of the frontal lobe superior to the cingulate gyrus",
+      "Contains regions involved in Theory of Mind and self-referential processing",
+      "Dense connections with anterior cingulate and other medial prefrontal regions"
+    ],
+    "function": [
+      "Critical for social cognition and understanding others' mental states",
+      "Involved in self-referential processing and introspection",
+      "Contributes to motivation and goal-directed behaviors",
+      "Lesions associated with apathy, reduced spontaneity, and impaired social cognition"
+    ]
+  },
+  "24": {
+    "name": "Frontal_Sup_Medial_R",
+    "structure": [
+      "Medial portion of the right superior frontal gyrus",
+      "Contains nodes of the default mode network",
+      "Shows activation during mentalization and social cognition tasks",
+      "Connected with limbic structures involved in emotional processing"
+    ],
+    "function": [
+      "Specialized for emotional aspects of social cognition",
+      "Involved in processing non-verbal social cues and emotional states",
+      "Contributes to self-awareness and autobiographical memory",
+      "Dysfunction associated with impaired emotional understanding and social interaction"
+    ]
+  },
+  "25": {
+    "name": "Frontal_Med_Orb_L",
+    "structure": [
+      "Medial orbital region of left frontal lobe, including ventromedial prefrontal cortex",
+      "Contains Brodmann areas 11, 12, and portions of 10",
+      "Rich connections with limbic structures and hypothalamus",
+      "Contains neurons responsive to reward value and emotional significance"
+    ],
+    "function": [
+      "Critical for value-based decision making and emotional regulation",
+      "Involved in representing anticipated rewards and punishment outcomes",
+      "Contributes to regulation of autonomic and emotional responses",
+      "Damage associated with impaired decision-making, as in the Iowa Gambling Task"
+    ]
+  },
+  "26": {
+    "name": "Frontal_Med_Orb_R",
+    "structure": [
+      "Medial orbital region of right frontal lobe, including ventromedial prefrontal cortex",
+      "Shows high metabolic activity at rest as part of default mode network",
+      "Extensive connections with autonomic regulatory centers",
+      "Contains specialized neurons for processing emotional and social information"
+    ],
+    "function": [
+      "Integrates emotional information into decision-making processes",
+      "Involved in moral reasoning and social norm processing",
+      "Contributes to regulation of fear and anxiety responses",
+      "Lesions associated with sociopathic behavior and impaired moral judgment"
+    ]
+  },
+  "27": {
+    "name": "Rectus_L",
+    "structure": [
+      "Left gyrus rectus (straight gyrus) on the orbital surface of the frontal lobe",
+      "Corresponds to medial portion of Brodmann area 11",
+      "Contains high density of serotonin and dopamine receptors",
+      "Connected with limbic structures and hypothalamus"
+    ],
+    "function": [
+      "Involved in reward processing and hedonic evaluation",
+      "Contributes to mood regulation and affective responses",
+      "Participates in drive states and motivated behavior",
+      "Dysfunction implicated in mood disorders and addiction"
+    ]
+  },
+  "28": {
+    "name": "Rectus_R",
+    "structure": [
+      "Right gyrus rectus on the orbital surface of the frontal lobe",
+      "Shows hemispheric specialization for processing negatively valenced emotional stimuli",
+      "Contains neurons responsive to emotionally salient stimuli",
+      "Connected with hypothalamic centers regulating autonomic responses"
+    ],
+    "function": [
+      "Processes negative emotional valence and aversive stimuli",
+      "Involved in regulation of emotional responses to environmental cues",
+      "Contributes to visceral and autonomic aspects of emotional processing",
+      "Lesions associated with emotional blunting and impaired emotional learning"
+    ]
+  },
+  "29": {
+    "name": "Insula_L",
+    "structure": [
+      "Left insular cortex located deep within the Sylvian fissure",
+      "Divided into anterior agranular and posterior granular portions",
+      "Contains Von Economo neurons in anterior portion",
+      "Extensive connections with limbic, paralimbic, and frontal opercular regions"
+    ],
+    "function": [
+      "Processes interoceptive information, including visceral sensations, pain, and temperature",
+      "Critical for awareness of emotional states and the embodied self",
+      "Involved in empathy, disgust recognition, and taste perception",
+      "Dysfunction implicated in anxiety disorders, addiction, and somatoform disorders"
+    ]
+  },
+  "30": {
+    "name": "Insula_R",
+    "structure": [
+      "Right insular cortex with distinct anterior and posterior divisions",
+      "Shows enhanced activation during interoceptive attention and emotional awareness",
+      "Contains specialized neurons for processing bodily sensations",
+      "Connected with autonomic regulatory centers in brainstem"
+    ],
+    "function": [
+      "Specialized for processing bodily sensations related to emotional states",
+      "Involved in sympathetic arousal and cardiovascular regulation",
+      "Contributes to risk assessment and emotional decision-making",
+      "Lesions may result in anosognosia and impaired emotional awareness"
+    ]
+  },
+  "31": {
+    "name": "Cingulum_Ant_L",
+    "structure": [
+      "Anterior portion of the left cingulate gyrus corresponding to Brodmann areas 24, 32, and 33",
+      "Forms part of the limbic system on the medial surface of the hemisphere",
+      "Contains agranular cortex with distinct connections to frontal regions",
+      "Dense dopaminergic innervation and high concentration of opioid receptors"
+    ],
+    "function": [
+      "Critical for cognitive control, error detection, and conflict monitoring",
+      "Involved in attention allocation and task engagement",
+      "Contributes to motivation and reward-based learning",
+      "Dysfunction implicated in attention deficit disorder, OCD, and depression"
+    ]
+  },
+  "32": {
+    "name": "Cingulum_Ant_R",
+    "structure": [
+      "Anterior portion of the right cingulate gyrus",
+      "Shows functional specialization for emotional regulation and autonomic control",
+      "Contains neurons sensitive to negative emotional states",
+      "Extensively connected with right prefrontal regions"
+    ],
+    "function": [
+      "Specialized for emotional aspects of cognitive control",
+      "Involved in autonomic regulation during emotional processing",
+      "Contributes to emotional awareness and assessment of emotional significance",
+      "Lesions associated with apathy, emotional blunting, and impaired emotional regulation"
+    ]
+  },
+  "33": {
+    "name": "Cingulum_Mid_L",
+    "structure": [
+      "Middle portion of the left cingulate gyrus corresponding to Brodmann area 24",
+      "Contains distinct cingulate motor areas with somatotopic organization",
+      "Connected with supplementary motor area and premotor cortex",
+      "Receives nociceptive input from thalamus"
+    ],
+    "function": [
+      "Involved in response selection and motor control",
+      "Processes pain affect and contributes to pain modulation",
+      "Participates in awareness of voluntariness of actions",
+      "Dysfunction implicated in chronic pain syndromes and motor conversion disorders"
+    ]
+  },
+  "34": {
+    "name": "Cingulum_Mid_R",
+    "structure": [
+      "Middle portion of the right cingulate gyrus",
+      "Contains neurons responsive to painful stimuli",
+      "Shows functional connectivity with pain processing networks",
+      "Connected with right motor and premotor regions"
+    ],
+    "function": [
+      "Processes emotional aspects of pain experience",
+      "Involved in autonomic responses to pain and stress",
+      "Contributes to motivation and effort allocation",
+      "Lesions associated with pain asymbolia (recognition without emotional response)"
+    ]
+  },
+  "35": {
+    "name": "Cingulum_Post_L",
+    "structure": [
+      "Posterior portion of the left cingulate gyrus corresponding to Brodmann areas 23 and 31",
+      "Forms part of the posterior medial cortex",
+      "Contains granular cortex with extensive connections to parietal regions",
+      "Key node in the default mode network"
+    ],
+    "function": [
+      "Critical for episodic memory retrieval and autobiographical memory",
+      "Involved in visuospatial cognition and navigation",
+      "Contributes to self-referential processing and internal mentation",
+      "Dysfunction associated with memory impairment and disorientation"
+    ]
+  },
+  "36": {
+    "name": "Cingulum_Post_R",
+    "structure": [
+      "Posterior portion of the right cingulate gyrus",
+      "Shows high metabolic activity during rest as part of default mode network",
+      "Connected with right medial temporal and parietal regions",
+      "Contains neurons activated during spatial navigation and memory tasks"
+    ],
+    "function": [
+      "Specialized for spatial aspects of autobiographical memory",
+      "Involved in scene construction and visual imagery",
+      "Contributes to spatial navigation and environmental memory",
+      "Lesions may result in topographical disorientation while preserving other memory functions"
+    ]
+  },
+  "37": {
+    "name": "Hippocampus_L",
+    "structure": [
+      "Left hippocampal formation in the medial temporal lobe",
+      "Consists of distinct subfields: CA1, CA2, CA3, CA4, dentate gyrus, and subiculum",
+      "Contains unique trisynaptic circuit (perforant path → dentate → CA3 → CA1)",
+      "Shows hemispheric specialization for verbal memory"
+    ],
+    "function": [
+      "Critical for episodic memory formation and declarative memory",
+      "Specialized for verbal and semantic memory in left hemisphere",
+      "Facilitates memory consolidation through replay during sleep",
+      "Damage results in anterograde amnesia and impaired verbal memory"
+    ]
+  },
+  "38": {
+    "name": "Hippocampus_R",
+    "structure": [
+      "Right hippocampal formation in the medial temporal lobe",
+      "Contains identical cellular architecture to left hippocampus",
+      "Shows functional specialization for spatial and visual memory",
+      "Contains specialized place cells that fire when animal is in specific locations"
+    ],
+    "function": [
+      "Critical for spatial navigation and environmental memory",
+      "Specialized for visuospatial memory and pattern recognition",
+      "Contributes to emotional memory with emphasis on spatial context",
+      "Damage results in topographical disorientation and spatial memory deficits"
+    ]
+  },
+  "39": {
+    "name": "ParaHippocampal_L",
+    "structure": [
+      "Left parahippocampal gyrus located in medial temporal lobe",
+      "Includes entorhinal cortex (Brodmann area 28) and perirhinal cortex",
+      "Serves as major input/output pathway for hippocampus",
+      "Contains neurons responsive to complex visual scenes and spatial configurations"
+    ],
+    "function": [
+      "Critical for contextual associations and memory encoding",
+      "Involved in semantic processing and verbal memory",
+      "Serves as gateway between neocortex and hippocampus",
+      "Lesions result in associative memory deficits and semantic impairment"
+    ]
+  },
+  "40": {
+    "name": "ParaHippocampal_R",
+    "structure": [
+      "Right parahippocampal gyrus in the medial temporal lobe",
+      "Contains parahippocampal place area specialized for scene recognition",
+      "Extensively connected with visual association areas",
+      "Shows greater activation during spatial navigation tasks"
+    ],
+    "function": [
+      "Specialized for processing spatial layouts and scenes",
+      "Critical for encoding and recognition of landmarks",
+      "Contributes to context-dependent memory with emphasis on spatial features",
+      "Lesions result in landmark agnosia and topographical disorientation"
+    ]
+  },
+  "41": {
+    "name": "Amygdala_L",
+    "structure": [
+      "Left amygdala located in the anterior medial temporal lobe",
+      "Consists of basolateral, centromedial, and cortical nuclear groups",
+      "Extensively connected with hypothalamus, prefrontal cortex, and sensory systems",
+      "Shows hemispheric specialization for language-based emotional processing"
+    ],
+    "function": [
+      "Critical for fear conditioning and threat detection",
+      "Involved in emotional memory enhancement, especially for verbal material",
+      "Mediates autonomic responses to emotional stimuli",
+      "Dysfunction implicated in anxiety disorders, PTSD, and mood disorders"
+    ]
+  },
+  "42": {
+    "name": "Amygdala_R",
+    "structure": [
+      "Right amygdala in the anterior medial temporal lobe",
+      "Contains identical nuclear divisions to left amygdala",
+      "Shows specialization for processing emotionally salient visual stimuli",
+      "Extensively connected with visual processing streams"
+    ],
+    "function": [
+      "Specialized for processing emotional facial expressions and visual emotional stimuli",
+      "Involved in rapid, automatic threat detection",
+      "Contributes to emotional modulation of memory with emphasis on visual material",
+      "Lesions result in impaired recognition of emotional expressions while preserving ability to identify faces"
+    ]
+  },
+  "43": {
+    "name": "Calcarine_L",
+    "structure": [
+      "Left calcarine sulcus containing primary visual cortex (V1, Brodmann area 17)",
+      "Located in the medial occipital lobe surrounding the calcarine fissure",
+      "Contains distinct layer IV with stria of Gennari visible macroscopically",
+      "Organized retinotopically with foveal representation at occipital pole"
+    ],
+    "function": [
+      "Processes basic visual information from right visual field",
+      "Performs primary analysis of visual features including orientation, spatial frequency, and color",
+      "Implements early visual processing including edge detection and contrast enhancement",
+      "Lesions result in right homonymous hemianopia or quadrantanopia"
+    ]
+  },
+  "44": {
+    "name": "Calcarine_R",
+    "structure": [
+      "Right calcarine sulcus containing primary visual cortex",
+      "Organized retinotopically with macular representation at posterior end",
+      "Contains columnar organization for orientation selectivity",
+      "Receives input from left visual field via optic radiations"
+    ],
+    "function": [
+      "Processes basic visual information from left visual field",
+      "Extracts elementary visual features including lines, edges, and contrast",
+      "Performs parallel processing of multiple visual attributes",
+      "Lesions result in left homonymous hemianopia or quadrantanopia"
+    ]
+  },
+  "45": {
+    "name": "Cuneus_L",
+    "structure": [
+      "Left cuneus located on the medial surface of the occipital lobe above the calcarine sulcus",
+      "Contains parts of primary visual cortex (V1) and secondary visual areas (V2, V3)",
+      "Organized retinotopically with representation of peripheral visual field",
+      "Connected with adjacent visual areas via vertical connections"
+    ],
+    "function": [
+      "Processes visual information from lower right visual field",
+      "Involved in basic visual processing and early visual integration",
+      "Contributes to visual attention and saccadic eye movements",
+      "Lesions result in right lower quadrantanopia"
+    ]
+  }, "46": {
+    "name": "Cuneus_R",
+    "structure": [
+      "Right cuneus located on the medial surface of the occipital lobe above the calcarine sulcus",
+      "Contains parts of primary visual cortex (V1) and secondary visual areas (V2, V3)",
+      "Organized retinotopically with representation of peripheral visual field",
+      "Connected with adjacent visual areas via vertical and horizontal connections"
+    ],
+    "function": [
+      "Processes visual information from lower left visual field",
+      "Involved in basic visual processing and early visual integration",
+      "Contributes to visual attention and saccadic eye movements",
+      "Lesions result in left lower quadrantanopia"
+    ]
+  },
+  "47": {
+    "name": "Lingual_L",
+    "structure": [
+      "Left lingual gyrus located on the medial surface of the occipital lobe below the calcarine sulcus",
+      "Extends anteriorly from the occipital pole to the parahippocampal gyrus",
+      "Contains portions of V1, V2, and V3 visual processing areas",
+      "Rich in connections with adjacent visual areas and ventral visual stream"
+    ],
+    "function": [
+      "Processes visual information from upper right visual field",
+      "Critical for processing visual features including color and form recognition",
+      "Involved in visual memory encoding and dream imagery",
+      "Contributes to reading processes and letter recognition"
+    ]
+  },
+  "48": {
+    "name": "Lingual_R",
+    "structure": [
+      "Right lingual gyrus located on the medial surface of the occipital lobe below the calcarine sulcus",
+      "Extends anteriorly from the occipital pole to the parahippocampal gyrus",
+      "Contains portions of V1, V2, and V3 visual processing areas",
+      "Forms part of the ventral visual processing stream"
+    ],
+    "function": [
+      "Processes visual information from upper left visual field",
+      "Important for visual feature analysis including color discrimination",
+      "Contributes to global scene recognition and visual context processing",
+      "Lesions may result in left upper quadrantanopia or achromatopsia"
+    ]
+  },
+  "49": {
+    "name": "Occipital_Sup_L",
+    "structure": [
+      "Left superior occipital gyrus located on the lateral and superior aspect of the occipital lobe",
+      "Contains extrastriate visual areas including V2 and V3",
+      "Connected to dorsal visual stream structures and parietal cortices",
+      "Organized retinotopically with central vision represented anteriorly"
+    ],
+    "function": [
+      "Processes higher-order visual information from right visual field",
+      "Contributes to visuospatial attention and visual feature binding",
+      "Involved in visual motion perception and spatial navigation",
+      "Integrates visual information for object location and motion tracking"
+    ]
+  },
+  "50": {
+    "name": "Occipital_Sup_R",
+    "structure": [
+      "Right superior occipital gyrus located on the lateral and superior aspect of the occipital lobe",
+      "Contains extrastriate visual areas including V2 and V3",
+      "Connected to dorsal visual stream structures and parietal cortices",
+      "Receives feedforward projections from primary visual cortex"
+    ],
+    "function": [
+      "Processes higher-order visual information from left visual field",
+      "Contributes to visuospatial attention and visual feature integration",
+      "Important for spatial vision and detection of motion in the environment",
+      "Participates in visual search and attentional allocation"
+    ]
+  },
+  "51": {
+    "name": "Occipital_Mid_L",
+    "structure": [
+      "Left middle occipital gyrus located on the lateral surface of the occipital lobe",
+      "Contains visual area V5/MT and other extrastriate regions",
+      "Bridges ventral and dorsal visual processing streams",
+      "Rich in connections with temporal and parietal visual areas"
+    ],
+    "function": [
+      "Specialized for visual motion detection and analysis in right visual field",
+      "Contributes to object recognition and visual form processing",
+      "Involved in spatial attention and visuomotor coordination",
+      "Important for perception of biological motion and action understanding"
+    ]
+  },
+  "52": {
+    "name": "Occipital_Mid_R",
+    "structure": [
+      "Right middle occipital gyrus located on the lateral surface of the occipital lobe",
+      "Contains visual area V5/MT and other extrastriate regions",
+      "Forms part of both dorsal and ventral visual processing streams",
+      "Highly developed in humans compared to non-human primates"
+    ],
+    "function": [
+      "Specialized for visual motion detection and analysis in left visual field",
+      "Contributes to visual form analysis and object discrimination",
+      "Important for spatial attention and visual search behaviors",
+      "Processes global visual patterns and complex motion patterns"
+    ]
+  },
+  "53": {
+    "name": "Occipital_Inf_L",
+    "structure": [
+      "Left inferior occipital gyrus located on the inferior lateral surface of the occipital lobe",
+      "Contains higher visual areas including parts of V3 and V4",
+      "Forms part of the ventral visual stream for object recognition",
+      "Connected to inferior temporal regions involved in visual processing"
+    ],
+    "function": [
+      "Processes complex visual features from right visual field",
+      "Involved in color perception and processing",
+      "Contributes to object identification and visual form analysis",
+      "Important for visual categorization and perceptual learning"
+    ]
+  },
+  "54": {
+    "name": "Occipital_Inf_R",
+    "structure": [
+      "Right inferior occipital gyrus located on the inferior lateral surface of the occipital lobe",
+      "Contains higher visual areas including parts of V3 and V4",
+      "Forms part of the ventral visual stream for object recognition",
+      "Projects anteriorly to temporal lobe visual areas"
+    ],
+    "function": [
+      "Processes complex visual features from left visual field",
+      "Important for color discrimination and processing",
+      "Contributes to object recognition and form analysis",
+      "Involved in visual categorization and face processing"
+    ]
+  },
+  "55": {
+    "name": "Fusiform_L",
+    "structure": [
+      "Left fusiform gyrus located on the ventral surface of the temporal and occipital lobes",
+      "Contains specialized regions including the fusiform face area (FFA) and visual word form area (VWFA)",
+      "Forms a central component of the ventral visual stream",
+      "Rich in connections with hippocampus and parahippocampal regions"
+    ],
+    "function": [
+      "Critical for face recognition and facial expression processing",
+      "Specialized for visual word form recognition and reading",
+      "Involved in expert visual categorization and visual memory",
+      "Contributes to color processing and multisensory integration"
+    ]
+  },
+  "56": {
+    "name": "Fusiform_R",
+    "structure": [
+      "Right fusiform gyrus located on the ventral surface of the temporal and occipital lobes",
+      "Contains the fusiform face area (FFA) specialized for face processing",
+      "Forms a central component of the ventral visual stream",
+      "Connected to amygdala and other limbic structures for emotional processing"
+    ],
+    "function": [
+      "Dominant hemisphere for face recognition and facial identity processing",
+      "Involved in processing emotional facial expressions",
+      "Contributes to visual expertise for non-facial stimuli",
+      "Important for visual object categorization and recognition"
+    ]
+  },
+  "57": {
+    "name": "Postcentral_L",
+    "structure": [
+      "Left postcentral gyrus located posterior to the central sulcus in the parietal lobe",
+      "Contains primary somatosensory cortex (Brodmann areas 1, 2, and 3)",
+      "Organized somatotopically with the face inferior, trunk central, and legs superior",
+      "Six distinct cortical layers with specialized cellular organization"
+    ],
+    "function": [
+      "Processes somatosensory input from the right side of the body",
+      "Responsible for tactile discrimination, proprioception, and temperature sensation",
+      "Processes touch, pressure, vibration, and pain sensations",
+      "Critical for stereognosis and fine tactile discrimination"
+    ]
+  },
+  "58": {
+    "name": "Postcentral_R",
+    "structure": [
+      "Right postcentral gyrus located posterior to the central sulcus in the parietal lobe",
+      "Contains primary somatosensory cortex (Brodmann areas 1, 2, and 3)",
+      "Organized somatotopically with inverted body representation (sensory homunculus)",
+      "Receives projections from ventral posterior nucleus of the thalamus"
+    ],
+    "function": [
+      "Processes somatosensory input from the left side of the body",
+      "Responsible for tactile discrimination, proprioception, and kinesthesia",
+      "Interprets texture, shape, and size of objects through touch",
+      "Lesions may cause contralateral hemihypesthesia or astereognosis"
+    ]
+  },
+  "59": {
+    "name": "Parietal_Sup_L",
+    "structure": [
+      "Left superior parietal lobule located posterior to the postcentral gyrus above the intraparietal sulcus",
+      "Contains Brodmann areas 5 and 7",
+      "Connected to premotor areas, prefrontal cortex, and occipital visual areas",
+      "Rich in connections with dorsal visual stream structures"
+    ],
+    "function": [
+      "Integrates somatosensory and visual information for spatial awareness",
+      "Critical for visuomotor coordination and reaching movements",
+      "Involved in spatial attention and mental rotation tasks",
+      "Important for interpreting spatial relationships and body schema"
+    ]
+  },
+  "60": {
+    "name": "Parietal_Sup_R",
+    "structure": [
+      "Right superior parietal lobule located posterior to the postcentral gyrus above the intraparietal sulcus",
+      "Contains Brodmann areas 5 and 7",
+      "Connected to premotor areas, prefrontal cortex, and occipital visual areas",
+      "Forms part of the dorsal visual stream ('where/how' pathway)"
+    ],
+    "function": [
+      "Dominant hemisphere for visuospatial processing and attention",
+      "Critical for mental imagery and spatial navigation",
+      "Contributes to eye-hand coordination and reaching movements",
+      "Involved in global attention and awareness of extrapersonal space"
+    ]
+  },
+  "61": {
+    "name": "Parietal_Inf_L",
+    "structure": [
+      "Left inferior parietal lobule located below the intraparietal sulcus",
+      "Contains the supramarginal and angular gyri (Brodmann areas 39 and 40)",
+      "Connected to language areas in left temporal and frontal lobes",
+      "Forms part of the dorsal visual stream with extensive frontoparietal connections"
+    ],
+    "function": [
+      "Critical for language processing, particularly phonological aspects",
+      "Involved in arithmetic calculation and numerical processing",
+      "Important for tool use understanding and praxis",
+      "Contributes to working memory and executive functions"
+    ]
+  },
+  "62": {
+    "name": "Parietal_Inf_R",
+    "structure": [
+      "Right inferior parietal lobule located below the intraparietal sulcus",
+      "Contains the supramarginal and angular gyri (Brodmann areas 39 and 40)",
+      "Connected to attentional networks and visuospatial processing regions",
+      "Rich in connections with visual association areas"
+    ],
+    "function": [
+      "Dominant for visuospatial attention and neglect syndromes when damaged",
+      "Important for body schema and self-awareness",
+      "Contributes to emotion recognition and social cognition",
+      "Involved in non-verbal aspects of communication and prosody"
+    ]
+  },
+  "63": {
+    "name": "SupraMarginal_L",
+    "structure": [
+      "Left supramarginal gyrus forms anterior part of the inferior parietal lobule",
+      "Contains Brodmann area 40",
+      "Connected to auditory areas, Wernicke's area, and motor regions",
+      "Wraps around the posterior end of the lateral sulcus"
+    ],
+    "function": [
+      "Critical for phonological processing and word reading",
+      "Important for verbal working memory and short-term verbal storage",
+      "Central to language comprehension and articulation",
+      "Involved in gesture recognition and praxis"
+    ]
+  },
+  "64": {
+    "name": "SupraMarginal_R",
+    "structure": [
+      "Right supramarginal gyrus forms anterior part of the inferior parietal lobule",
+      "Contains Brodmann area 40",
+      "Connected to sensorimotor integration circuits and attentional networks",
+      "Forms part of the mirror neuron system"
+    ],
+    "function": [
+      "Involved in spatial attention and visuospatial processing",
+      "Contributes to emotional processing and empathy",
+      "Important for recognition of emotions from facial expressions",
+      "Participates in integration of tactile and proprioceptive information"
+    ]
+  },
+  "65": {
+    "name": "Angular_L",
+    "structure": [
+      "Left angular gyrus forms posterior part of the inferior parietal lobule",
+      "Contains Brodmann area 39",
+      "Connected to visual, auditory, and language processing regions",
+      "Located at the junction of temporal, parietal, and occipital lobes"
+    ],
+    "function": [
+      "Critical for semantic processing and language comprehension",
+      "Essential for reading comprehension and word meaning",
+      "Involved in complex language functions including metaphor understanding",
+      "Contributes to arithmetic operations and mathematical reasoning"
+    ]
+  },
+  "66": {
+    "name": "Angular_R",
+    "structure": [
+      "Right angular gyrus forms posterior part of the inferior parietal lobule",
+      "Contains Brodmann area 39",
+      "Connected to attentional networks and visual association areas",
+      "Located at the junction of temporal, parietal, and occipital lobes"
+    ],
+    "function": [
+      "Important for visuospatial attention and spatial cognition",
+      "Contributes to processing of emotional context and social cues",
+      "Involved in theory of mind and perspective-taking abilities",
+      "Participates in episodic memory retrieval and mental imagery"
+    ]
+  },
+  "67": {
+    "name": "Precuneus_L",
+    "structure": [
+      "Left precuneus located on the medial surface of the parietal lobe",
+      "Contains Brodmann area 7 medial section",
+      "Connected extensively to thalamus, posterior cingulate, and prefrontal regions",
+      "Forms core component of the default mode network"
+    ],
+    "function": [
+      "Central to episodic memory retrieval and autobiographical memory",
+      "Involved in self-referential processing and consciousness",
+      "Contributes to visuospatial imagery and mental navigation",
+      "Important for attention shifting between different spatial locations"
+    ]
+  },
+  "68": {
+    "name": "Precuneus_R",
+    "structure": [
+      "Right precuneus located on the medial surface of the parietal lobe",
+      "Contains Brodmann area 7 medial section",
+      "Connected extensively to thalamus, posterior cingulate, and prefrontal regions",
+      "Higher metabolic activity at rest than most brain regions"
+    ],
+    "function": [
+      "Central to episodic memory retrieval and spatial memory",
+      "Important for self-consciousness and first-person perspective",
+      "Contributes to mental imagery and visualization",
+      "Involved in visuospatial processing and navigation"
+    ]
+  },
+  "69": {
+    "name": "Paracentral_Lobule_L",
+    "structure": [
+      "Left paracentral lobule located on the medial surface extending from precentral to postcentral gyri",
+      "Contains primary motor and sensory representations for the lower limb",
+      "Includes portions of Brodmann areas 1, 2, 3, 4, and 6",
+      "Connected to supplementary motor area and medial premotor regions"
+    ],
+    "function": [
+      "Controls voluntary movement of the right foot and leg",
+      "Processes sensory information from the right lower limb",
+      "Crucial for control of micturition and defecation",
+      "Important for coordinated locomotion and gait"
+    ]
+  },
+  "70": {
+    "name": "Paracentral_Lobule_R",
+    "structure": [
+      "Right paracentral lobule located on the medial surface extending from precentral to postcentral gyri",
+      "Contains primary motor and sensory representations for the lower limb",
+      "Includes portions of Brodmann areas 1, 2, 3, 4, and 6",
+      "Connected to deeper motor structures and central pattern generators"
+    ],
+    "function": [
+      "Controls voluntary movement of the left foot and leg",
+      "Processes sensory information from the left lower limb",
+      "Critical for bladder and bowel control",
+      "Involved in execution of complex lower limb movements"
+    ]
+  },
+  "71": {
+    "name": "Caudate_L",
+    "structure": [
+      "Left caudate nucleus, a C-shaped structure forming part of the dorsal striatum",
+      "Divided into head (anterior), body (middle), and tail (posterior) segments",
+      "Receives glutamatergic inputs from cortex and dopaminergic inputs from substantia nigra",
+      "Connected extensively to prefrontal cortical areas and thalamus"
+    ],
+    "function": [
+      "Critical component of cognitive and limbic basal ganglia circuits",
+      "Involved in goal-directed behaviors and action selection",
+      "Important for procedural learning and habit formation",
+      "Contributes to executive functions including cognitive flexibility"
+    ]
+  },
+  "72": {
+    "name": "Caudate_R",
+    "structure": [
+      "Right caudate nucleus, a C-shaped structure forming part of the dorsal striatum",
+      "Divided into head (adjacent to lateral ventricle), body, and tail segments",
+      "Rich in medium spiny neurons containing GABA and neuropeptides",
+      "Forms part of cortico-striato-thalamo-cortical circuits"
+    ],
+    "function": [
+      "Involved in reward processing and reinforcement learning",
+      "Contributes to cognitive control and inhibition of inappropriate responses",
+      "Important for procedural memory and sequence learning",
+      "Implicated in attention regulation and working memory"
+    ]
+  },
+  "73": {
+    "name": "Putamen_L",
+    "structure": [
+      "Left putamen, a rounded structure forming lateral part of the lentiform nucleus",
+      "Located lateral to the internal capsule and globus pallidus",
+      "Contains primarily medium spiny neurons with GABAergic outputs",
+      "Organized somatotopically with connections to sensorimotor cortex"
+    ],
+    "function": [
+      "Primary component of motor basal ganglia circuits",
+      "Critical for initiation and execution of voluntary movements",
+      "Involved in motor learning and automatic execution of learned movements",
+      "Contributes to timing and sequencing of complex motor actions"
+    ]
+  },
+  "74": {
+    "name": "Putamen_R",
+    "structure": [
+      "Right putamen, a rounded structure forming lateral part of the lentiform nucleus",
+      "Located lateral to the internal capsule and globus pallidus",
+      "Receives topographically organized cortical inputs",
+      "Connected to sensorimotor cortex, thalamus, and substantia nigra"
+    ],
+    "function": [
+      "Essential for regulation of movement and motor control",
+      "Involved in motor preparation and execution",
+      "Important for procedural learning and habit formation",
+      "Contributes to implicit learning of motor sequences"
+    ]
+  },
+  "75": {
+    "name": "Pallidum_L",
+    "structure": [
+      "Left globus pallidus, divided into internal (GPi) and external (GPe) segments",
+      "Forms medial part of the lentiform nucleus",
+      "Contains mainly GABAergic neurons with high firing rates",
+      "Major output nucleus of the basal ganglia to thalamus"
+    ],
+    "function": [
+      "Critical for regulation of voluntary movement",
+      "GPe forms part of the indirect pathway inhibiting unwanted movements",
+      "GPi serves as primary output conveying basal ganglia information to thalamus",
+      "Important for movement initiation and suppression of competing motor programs"
+    ]
+  },
+  "76": {
+    "name": "Pallidum_R",
+    "structure": [
+      "Right globus pallidus, divided into internal (GPi) and external (GPe) segments",
+      "Forms medial part of the lentiform nucleus",
+      "Contains mainly GABAergic projection neurons",
+      "Receives input primarily from striatum and subthalamic nucleus"
+    ],
+    "function": [
+      "Critical for regulation of voluntary movement",
+      "Involved in selection and inhibition of motor programs",
+      "GPi projects to thalamus forming final output stage of basal ganglia",
+      "Important for smooth execution of sequential movements"
+    ]
+  },
+  "77": {
+    "name": "Thalamus_L",
+    "structure": [
+      "Left thalamus, an ovoid mass of gray matter in the diencephalon",
+      "Composed of multiple nuclei organized into anterior, medial, lateral, and ventral groups",
+      "Connected reciprocally with cerebral cortex via thalamocortical and corticothalamic fibers",
+      "Forms part of the walls of the third ventricle"
+    ],
+    "function": [
+      "Serves as major relay station for sensory information to the cortex",
+      "Regulates consciousness, sleep, and alertness",
+      "Processes and integrates motor information from basal ganglia and cerebellum",
+      "Contributes to attention, memory, and language functions"
+    ]
+  },
+  "78": {
+    "name": "Thalamus_R",
+    "structure": [
+      "Right thalamus, an ovoid mass of gray matter in the diencephalon",
+      "Composed of multiple nuclei with specific functions and connections",
+      "Contains specific relay nuclei (LGN, MGN, VPL/VPM) and association nuclei",
+      "Connected to virtually all cortical areas via reciprocal projections"
+    ],
+    "function": [
+      "Gates and modulates sensory information to the cortex",
+      "Participates in motor control via ventral anterior and lateral nuclei",
+      "Involved in regulation of arousal and consciousness",
+      "Contributes to emotional processing via connections with limbic system"
+    ]
+  },
+  "79": {
+    "name": "Heschl_L",
+    "structure": [
+      "Left Heschl's gyrus (transverse temporal gyrus) located on the superior temporal plane",
+      "First gyrus of the temporal lobe, buried within the lateral sulcus",
+      "Contains primary auditory cortex (Brodmann areas 41 and 42)",
+      "Organized tonotopically with high frequencies represented medially"
+    ],
+    "function": [
+      "Processes basic auditory information including frequency, intensity, and timing",
+      "Critical for speech perception and phoneme discrimination",
+      "Essential for temporal processing of auditory signals",
+      "Important for pitch perception and harmonic analysis"
+    ]
+  },
+  "80": {
+    "name": "Heschl_R",
+    "structure": [
+      "Right Heschl's gyrus (transverse temporal gyrus) located on the superior temporal plane",
+      "First gyrus of the temporal lobe, hidden within the lateral sulcus",
+      "Contains primary auditory cortex (Brodmann areas 41 and 42)",
+      "Organized tonotopically with frequency-specific neurons"
+    ],
+    "function": [
+      "Processes basic auditory information from both ears (with contralateral dominance)",
+      "Specialized for processing musical elements including pitch and rhythm",
+      "Important for environmental sound recognition",
+      "Contributes to spatial localization of sounds"
+    ]
+  },
+  "81": {
+    "name": "Temporal_Sup_L",
+    "structure": [
+      "Left superior temporal gyrus located on the lateral surface of the temporal lobe",
+      "Contains auditory association cortex posterior to Heschl's gyrus",
+      "Includes Wernicke's area in its posterior portion",
+      "Connected to inferior frontal regions via the arcuate fasciculus"
+    ],
+    "function": [
+      "Critical for language comprehension and semantic processing",
+      "Processes complex auditory information including speech",
+      "Important for phonological processing and verbal working memory",
+      "Contributes to social cognition through voice and prosody analysis"
+    ]
+  },
+  "82": {
+    "name": "Temporal_Sup_R",
+    "structure": [
+      "Right superior temporal gyrus located on the lateral surface of the temporal lobe",
+      "Contains auditory association cortex posterior to Heschl's gyrus",
+      "Connected to homologous left hemisphere regions via corpus callosum",
+      "Rich in connections with multimodal association areas"
+    ],
+    "function": [
+      "Processes prosodic and emotional aspects of language",
+      "Important for music appreciation and processing",
+      "Involved in voice recognition and speaker identification",
+      "Contributes to auditory attention and environmental sound processing"
+    ]
+  },
+  "83": {
+    "name": "Temporal_Pole_Sup_L",
+    "structure": [
+      "Left superior temporal pole forming the anterior tip of the temporal lobe",
+      "Contains Brodmann area 38",
+      "Connected to limbic structures including amygdala and orbitofrontal cortex",
+      "Has rich multimodal connections with sensory association areas"
+    ],
+    "function": [
+      "Integrates complex auditory and linguistic information",
+      "Involved in social cognition and theory of mind",
+      "Important for semantic memory and conceptual knowledge",
+      "Contributes to narrative comprehension and social context processing"
+    ]
+  },
+  "84": {
+    "name": "Temporal_Pole_Sup_R",
+    "structure": [
+      "Right superior temporal pole forming the anterior tip of the temporal lobe",
+      "Contains Brodmann area 38",
+      "Connected to paralimbic regions and social cognition networks",
+      "Rich in connections with orbitofrontal cortex and insula"
+    ],
+    "function": [
+      "Important for socioemotional processing and empathy",
+      "Involved in face recognition and person knowledge",
+      "Contributes to processing emotional prosody in speech",
+      "Participates in autobiographical memory and personal semantics"
+    ]
+  },
+  "85": {
+    "name": "Temporal_Mid_L",
+    "structure": [
+      "Left middle temporal gyrus located on the lateral surface of the temporal lobe",
+      "Located between superior and inferior temporal sulci",
+      "Contains portions of the visual association cortex posteriorly",
+      "Connected to language networks and semantic processing systems"
+    ],
+    "function": [
+      "Critical for lexical-semantic processing and vocabulary knowledge",
+      "Important for processing of word meaning and conceptual knowledge",
+      "Involved in sentence comprehension and discourse processing",
+      "Contributes to multimodal semantic integration"
+    ]
+  },
+  "86": {
+    "name": "Temporal_Mid_R",
+    "structure": [
+      "Right middle temporal gyrus located on the lateral surface of the temporal lobe",
+      "Located between superior and inferior temporal sulci",
+      "Contains portions of the visual association cortex posteriorly",
+      "Connected to attention networks and visual processing streams"
+    ],
+    "function": [
+      "Involved in processing of complex visual stimuli including biological motion",
+      "Contributes to social perception and nonverbal communication",
+      "Important for processing metaphorical and abstract concepts",
+      "Participates in visual semantic processing and object recognition"
+    ]
+  },
+  "87": {
+    "name": "Temporal_Pole_Mid_L",
+    "structure": [
+      "Left middle temporal pole at the anterior extremity of the temporal lobe",
+      "Contains anterior portions of Brodmann area 21",
+      "Connected to limbic structures and anterior language regions",
+      "Forms part of the anterior temporal lobe semantic hub"
+    ],
+    "function": [
+      "Important for semantic processing and conceptual knowledge",
+      "Involved in social semantic processing and person knowledge",
+      "Contributes to narrative comprehension and complex language understanding",
+      "Participates in processing of unique entities and proper names"
+    ]
+  },
+  "88": {
+    "name": "Temporal_Pole_Mid_R",
+    "structure": [
+      "Right middle temporal pole at the anterior extremity of the temporal lobe",
+      "Contains anterior portions of Brodmann area 21",
+      "Connected to socioemotional processing networks",
+      "Rich in connections with orbitofrontal cortex and limbic structures"
+    ],
+    "function": [
+      "Important for social cognition and emotional processing",
+      "Involved in recognition of familiar faces and voices",
+      "Contributes to understanding of social contexts and relationships",
+      "Participates in processing of emotionally salient autobiographical memories"
+    ]
+  },
+  "89": {
+    "name": "Temporal_Inf_L",
+    "structure": [
+      "Left inferior temporal gyrus located on the inferior lateral surface of the temporal lobe",
+      "Contains visual association cortex including area V4",
+      "Forms part of the ventral visual stream ('what' pathway)",
+      "Connected to other temporal regions and fusiform gyrus"
+    ],
+    "function": [
+      "Critical for visual object recognition and identification",
+      "Important for processing of complex visual features and patterns",
+      "Involved in reading and visual word form processing",
+      "Contributes to category-specific semantic knowledge"
+    ]
+  },
+  "90": {
+    "name": "Temporal_Inf_R",
+    "structure": [
+      "Right inferior temporal gyrus located on the inferior lateral surface of the temporal lobe",
+      "Contains visual association cortex including area V4",
+      "Forms part of the ventral visual stream ('what' pathway)",
+      "Connected to other temporal regions and occipitotemporal areas"
+    ],
+    "function": [
+      "Important for visual object recognition and discrimination",
+      "Involved in face processing and visual expertise",
+      "Contributes to processing of complex visual patterns",
+      "Participates in visual memory encoding and retrieval"
+    ]
+  },
+  "91": {
+    "name": "Cerebelum_Crus1_L",
+    "structure": [
+      "Left cerebellar crus I located in the posterior lobe of the cerebellum",
+      "Part of the neocerebellum (phylogenetically recent)",
+      "Connected primarily to prefrontal and parietal association cortices",
+      "Contains high density of Purkinje cells with extensive dendritic arborization"
+    ],
+    "function": [
+      "Involved in higher cognitive functions including working memory",
+      "Contributes to language processing and verbal fluency",
+      "Participates in executive functions including planning and cognitive flexibility",
+      "Important for timing and sequencing of cognitive operations"
+    ]
+  },
+  "92": {
+    "name": "Cerebelum_Crus1_L",
+    "structure": [
+      "Left cerebellar hemisphere crus I of the posterior lobe",
+      "Located in the lateral-posterior aspect of the cerebellum",
+      "Forms part of the neocerebellum (phylogenetically newest region)",
+      "Receives input primarily from the cerebral cortex via pontine nuclei",
+      "Projects to the dentate nucleus which connects to thalamus and cerebral cortex"
+    ],
+    "function": [
+      "Involved in cognitive functions including working memory and executive function",
+      "Participates in complex motor planning and coordination",
+      "Contributes to language processing networks",
+      "Shows activation during tasks requiring timing and sequencing",
+      "Implicated in attentional processes and cognitive flexibility"
+    ]
+  },
+  "93": {
+    "name": "Cerebelum_Crus1_R",
+    "structure": [
+      "Right cerebellar hemisphere crus I of the posterior lobe",
+      "Located in the lateral-posterior aspect of the cerebellum",
+      "Forms part of the neocerebellum (phylogenetically newest region)",
+      "Receives input primarily from the cerebral cortex via pontine nuclei",
+      "Projects to the dentate nucleus which connects to thalamus and cerebral cortex"
+    ],
+    "function": [
+      "Involved in cognitive functions including spatial processing",
+      "Participates in complex motor planning and coordination",
+      "Contributes to visuospatial processing networks",
+      "Shows activation during tasks requiring timing and sequencing",
+      "Implicated in attentional processes and cognitive flexibility"
+    ]
+  },
+  "94": {
+    "name": "Cerebelum_Crus2_L",
+    "structure": [
+      "Left cerebellar hemisphere crus II of the posterior lobe",
+      "Positioned posterior to crus I in the lateral cerebellar hemisphere",
+      "Part of the neocerebellum with extensive corticopontine connections",
+      "Contains densely packed Purkinje cells and parallel fibers",
+      "Receives climbing fibers from the inferior olivary nucleus"
+    ],
+    "function": [
+      "Contributes to cognitive processing and emotional regulation",
+      "Participates in error detection during movement and learning",
+      "Involved in abstract reasoning and cognitive planning",
+      "Active during complex cognitive tasks requiring sequencing",
+      "Has functional connectivity with prefrontal networks"
+    ]
+  },
+  "95": {
+    "name": "Cerebelum_Crus2_R",
+    "structure": [
+      "Right cerebellar hemisphere crus II of the posterior lobe",
+      "Positioned posterior to crus I in the lateral cerebellar hemisphere",
+      "Part of the neocerebellum with extensive corticopontine connections",
+      "Contains densely packed Purkinje cells and parallel fibers",
+      "Receives climbing fibers from the inferior olivary nucleus"
+    ],
+    "function": [
+      "Contributes to cognitive processing and emotional regulation",
+      "Participates in error detection during movement and learning",
+      "Involved in visuospatial processing and mental imagery",
+      "Active during complex cognitive tasks requiring sequencing",
+      "Has functional connectivity with prefrontal and parietal networks"
+    ]
+  },
+  "96": {
+    "name": "Cerebelum_3_L",
+    "structure": [
+      "Left cerebellar lobule III, part of the anterior lobe",
+      "Located in the anterior-medial aspect of the cerebellum",
+      "Part of the spinocerebellum (paleocerebellum)",
+      "Receives somatosensory input from the spinal cord via spinocerebellar tracts",
+      "Projects to the interposed nucleus which connects to the red nucleus and thalamus"
+    ],
+    "function": [
+      "Involved in coordination of ipsilateral limb movements",
+      "Processes proprioceptive information from the left side of the body",
+      "Participates in motor learning and adaptation",
+      "Contributes to posture and balance regulation",
+      "Modulates muscle tone and coordination during movements"
+    ]
+  },
+  "97": {
+    "name": "Cerebelum_3_R",
+    "structure": [
+      "Right cerebellar lobule III, part of the anterior lobe",
+      "Located in the anterior-medial aspect of the cerebellum",
+      "Part of the spinocerebellum (paleocerebellum)",
+      "Receives somatosensory input from the spinal cord via spinocerebellar tracts",
+      "Projects to the interposed nucleus which connects to the red nucleus and thalamus"
+    ],
+    "function": [
+      "Involved in coordination of ipsilateral limb movements",
+      "Processes proprioceptive information from the right side of the body",
+      "Participates in motor learning and adaptation",
+      "Contributes to posture and balance regulation",
+      "Modulates muscle tone and coordination during movements"
+    ]
+  },
+  "98": {
+    "name": "Cerebelum_4_5_L",
+    "structure": [
+      "Left cerebellar lobules IV and V, part of the anterior lobe",
+      "Located in the anterior superior aspect of the cerebellum",
+      "Part of the spinocerebellum with sensorimotor representations",
+      "Receives input from proprioceptors and the motor cortex",
+      "Contains somatotopic representation of the body (cerebellar homunculus)"
+    ],
+    "function": [
+      "Controls coordination of voluntary limb movements on the left side",
+      "Integrates sensory information for coordinated movement execution",
+      "Involved in predictive control of reaching and grasping",
+      "Participates in corrective movements during ongoing motor tasks",
+      "Important for motor skill acquisition and consolidation"
+    ]
+  },
+  "99": {
+    "name": "Cerebelum_4_5_R",
+    "structure": [
+      "Right cerebellar lobules IV and V, part of the anterior lobe",
+      "Located in the anterior superior aspect of the cerebellum",
+      "Part of the spinocerebellum with sensorimotor representations",
+      "Receives input from proprioceptors and the motor cortex",
+      "Contains somatotopic representation of the body (cerebellar homunculus)"
+    ],
+    "function": [
+      "Controls coordination of voluntary limb movements on the right side",
+      "Integrates sensory information for coordinated movement execution",
+      "Involved in predictive control of reaching and grasping",
+      "Participates in corrective movements during ongoing motor tasks",
+      "Important for motor skill acquisition and consolidation"
+    ]
+  },
+  "100": {
+    "name": "Cerebelum_6_L",
+    "structure": [
+      "Left cerebellar lobule VI, positioned at the transition between anterior and posterior lobes",
+      "Located at the superior surface of the cerebellum",
+      "Contains dense granule cell layer and elaborate Purkinje cell dendritic trees",
+      "Receives input from both motor and association cortices via pontine nuclei",
+      "Projects primarily to the dentate nucleus"
+    ],
+    "function": [
+      "Plays a dual role in both motor and cognitive function",
+      "Involved in oculomotor control and saccadic eye movements",
+      "Participates in spatial processing and motor imagery",
+      "Contributes to language processing networks in the left hemisphere",
+      "Activated during procedural learning and skilled movement execution"
+    ]
+  },
+  "101": {
+    "name": "Cerebelum_6_R",
+    "structure": [
+      "Right cerebellar lobule VI, positioned at the transition between anterior and posterior lobes",
+      "Located at the superior surface of the cerebellum",
+      "Contains dense granule cell layer and elaborate Purkinje cell dendritic trees",
+      "Receives input from both motor and association cortices via pontine nuclei",
+      "Projects primarily to the dentate nucleus"
+    ],
+    "function": [
+      "Plays a dual role in both motor and cognitive function",
+      "Involved in oculomotor control and saccadic eye movements",
+      "Participates in spatial processing and motor imagery",
+      "Contributes to visuospatial processing networks",
+      "Activated during procedural learning and skilled movement execution"
+    ]
+  },
+  "102": {
+    "name": "Cerebelum_7b_L",
+    "structure": [
+      "Left cerebellar lobule VIIB, part of the posterior lobe",
+      "Located in the inferior posterior aspect of the cerebellum",
+      "Part of the neocerebellum with extensive connections to association cortices",
+      "Receives input primarily from prefrontal and parietal cortices via pontine nuclei",
+      "Projects to the dentate and interposed nuclei"
+    ],
+    "function": [
+      "Involved in higher-order cognitive functions",
+      "Participates in executive function and working memory processes",
+      "Contributes to error detection and performance monitoring",
+      "Active during complex cognitive tasks requiring sequencing",
+      "Plays a role in attentional shifting and cognitive flexibility"
+    ]
+  },
+  "103": {
+    "name": "Cerebelum_7b_R",
+    "structure": [
+      "Right cerebellar lobule VIIB, part of the posterior lobe",
+      "Located in the inferior posterior aspect of the cerebellum",
+      "Part of the neocerebellum with extensive connections to association cortices",
+      "Receives input primarily from prefrontal and parietal cortices via pontine nuclei",
+      "Projects to the dentate and interposed nuclei"
+    ],
+    "function": [
+      "Involved in higher-order cognitive functions",
+      "Participates in executive function and working memory processes",
+      "Contributes to error detection and performance monitoring",
+      "Active during complex cognitive tasks requiring visuospatial processing",
+      "Plays a role in attentional shifting and cognitive flexibility"
+    ]
+  },
+  "104": {
+    "name": "Cerebelum_8_L",
+    "structure": [
+      "Left cerebellar lobule VIII, part of the posterior lobe",
+      "Located in the posterior-inferior aspect of the cerebellum",
+      "Contains secondary somatosensory representations",
+      "Receives input from both sensorimotor and association cortices",
+      "Projects primarily to the interposed and dentate nuclei"
+    ],
+    "function": [
+      "Involved in sensorimotor coordination of complex movements",
+      "Participates in execution and timing of sequential movements",
+      "Contributes to procedural learning and skill acquisition",
+      "Has functional connectivity with sensorimotor networks",
+      "Activated during tasks requiring precise timing and coordination"
+    ]
+  },
+  "105": {
+    "name": "Cerebelum_8_R",
+    "structure": [
+      "Right cerebellar lobule VIII, part of the posterior lobe",
+      "Located in the posterior-inferior aspect of the cerebellum",
+      "Contains secondary somatosensory representations",
+      "Receives input from both sensorimotor and association cortices",
+      "Projects primarily to the interposed and dentate nuclei"
+    ],
+    "function": [
+      "Involved in sensorimotor coordination of complex movements",
+      "Participates in execution and timing of sequential movements",
+      "Contributes to procedural learning and skill acquisition",
+      "Has functional connectivity with sensorimotor networks",
+      "Activated during tasks requiring precise timing and coordination"
+    ]
+  },
+  "106": {
+    "name": "Cerebelum_9_L",
+    "structure": [
+      "Left cerebellar lobule IX (uvula), part of the posterior lobe",
+      "Located in the posterior-inferior vermis and adjacent hemisphere",
+      "Part of the vestibulocerebellum (archicerebellum)",
+      "Receives vestibular input and visual motion information",
+      "Projects to the fastigial and vestibular nuclei"
+    ],
+    "function": [
+      "Processes vestibular and visual information for balance control",
+      "Participates in coordination of eye movements with head and body motion",
+      "Involved in spatial orientation and navigation",
+      "Contributes to autonomic regulation including cardiovascular control",
+      "Plays a role in cerebellar-mediated reflexes"
+    ]
+  },
+  "107": {
+    "name": "Cerebelum_9_R",
+    "structure": [
+      "Right cerebellar lobule IX (uvula), part of the posterior lobe",
+      "Located in the posterior-inferior vermis and adjacent hemisphere",
+      "Part of the vestibulocerebellum (archicerebellum)",
+      "Receives vestibular input and visual motion information",
+      "Projects to the fastigial and vestibular nuclei"
+    ],
+    "function": [
+      "Processes vestibular and visual information for balance control",
+      "Participates in coordination of eye movements with head and body motion",
+      "Involved in spatial orientation and navigation",
+      "Contributes to autonomic regulation including cardiovascular control",
+      "Plays a role in cerebellar-mediated reflexes"
+    ]
+  },
+  "108": {
+    "name": "Cerebelum_10_L",
+    "structure": [
+      "Left cerebellar lobule X (flocculus), part of the flocculonodular lobe",
+      "Located at the most inferior aspect of the cerebellum",
+      "Oldest part of the cerebellum phylogenetically (archicerebellum)",
+      "Receives direct vestibular input via mossy fibers",
+      "Projects to the vestibular nuclei in the brainstem"
+    ],
+    "function": [
+      "Critical for vestibulo-ocular reflex (VOR) adaptation",
+      "Maintains gaze stability during head movements",
+      "Integrates vestibular and visual information for balance",
+      "Involved in learning of compensatory eye movements",
+      "Dysfunction results in nystagmus and balance disorders"
+    ]
+  },
+  "109": {
+    "name": "Cerebelum_10_R",
+    "structure": [
+      "Right cerebellar lobule X (flocculus), part of the flocculonodular lobe",
+      "Located at the most inferior aspect of the cerebellum",
+      "Oldest part of the cerebellum phylogenetically (archicerebellum)",
+      "Receives direct vestibular input via mossy fibers",
+      "Projects to the vestibular nuclei in the brainstem"
+    ],
+    "function": [
+      "Critical for vestibulo-ocular reflex (VOR) adaptation",
+      "Maintains gaze stability during head movements",
+      "Integrates vestibular and visual information for balance",
+      "Involved in learning of compensatory eye movements",
+      "Dysfunction results in nystagmus and balance disorders"
+    ]
+  },
+  "110": {
+    "name": "Vermis_1_2",
+    "structure": [
+      "Cerebellar vermis lobules I and II (lingula), midline structure of anterior lobe",
+      "Most superior and anterior part of the vermis",
+      "Part of the spinocerebellum with primarily motor functions",
+      "Receives input from vestibular nuclei and spinal cord",
+      "Projects primarily to the fastigial nucleus"
+    ],
+    "function": [
+      "Involved in postural control and balance",
+      "Regulates trunk and proximal limb movements",
+      "Coordinates midline body movements",
+      "Participates in autonomic functions including respiratory control",
+      "Lesions may result in truncal ataxia and gait disturbances"
+    ]
+  },
+  "111": {
+    "name": "Vermis_3",
+    "structure": [
+      "Cerebellar vermis lobule III (central lobule), midline structure of anterior lobe",
+      "Located between vermis lobules II and IV",
+      "Part of the spinocerebellum with extensive proprioceptive input",
+      "Contains Purkinje cells projecting primarily to fastigial nucleus",
+      "Receives input from spinocerebellar tracts"
+    ],
+    "function": [
+      "Controls axial and proximal limb movements",
+      "Contributes to postural stability during stance and gait",
+      "Involved in coordination of bilateral movements",
+      "Integrates proprioceptive information for movement control",
+      "Dysfunction contributes to midline cerebellar syndromes"
+    ]
+  },
+  "112": {
+    "name": "Vermis_4_5",
+    "structure": [
+      "Cerebellar vermis lobules IV and V (culmen), midline structures of anterior lobe",
+      "Centrally located in the superior aspect of the vermis",
+      "Receives input from motor cortex via cortico-pontine-cerebellar pathway",
+      "Contains somatotopic representation of body parts",
+      "Projects primarily to fastigial nucleus"
+    ],
+    "function": [
+      "Coordinates voluntary movements of the extremities",
+      "Contributes to gait control and bilateral coordination",
+      "Involved in motor planning and execution",
+      "Participates in feed-forward control of movement",
+      "Damage results in ataxia and decomposition of movement"
+    ]
+  },
+  "113": {
+    "name": "Vermis_6",
+    "structure": [
+      "Cerebellar vermis lobule VI (declive), midline structure at border of anterior and posterior lobes",
+      "Located in central superior vermis",
+      "Receives input from motor and premotor cortices",
+      "Contains somatotopic representation with emphasis on distal limbs",
+      "Projects to fastigial and interposed nuclei"
+    ],
+    "function": [
+      "Involved in coordination of skilled voluntary movements",
+      "Participates in saccadic and smooth pursuit eye movements",
+      "Contributes to spatial aspects of movement planning",
+      "Active during complex motor sequence learning",
+      "Implicated in attention to action and motor imagery"
+    ]
+  },
+  "114": {
+    "name": "Vermis_7",
+    "structure": [
+      "Cerebellar vermis lobule VII (folium and tuber), midline structure of posterior lobe",
+      "Comprises posterior superior aspect of vermis",
+      "Receives input from association cortices via pontine nuclei",
+      "Contains high density of Purkinje cells projecting to fastigial nucleus",
+      "Has extensive connections with limbic structures"
+    ],
+    "function": [
+      "Involved in cognitive and emotional processing",
+      "Contributes to executive functions and working memory",
+      "Participates in visually guided movement planning",
+      "Important for cerebellar contributions to language processing",
+      "Implicated in cerebellar cognitive affective syndrome when damaged"
+    ]
+  },
+  "115": {
+    "name": "Vermis_8",
+    "structure": [
+      "Cerebellar vermis lobule VIII (pyramis), midline structure of posterior lobe",
+      "Located in posterior inferior vermis",
+      "Receives input from sensorimotor cortices",
+      "Contains secondary representation of extremities",
+      "Projects primarily to fastigial and interposed nuclei"
+    ],
+    "function": [
+      "Coordinates complex multi-joint movements",
+      "Involved in timing and sequencing of motor actions",
+      "Participates in motor adaptation and error correction",
+      "Contributes to coordination of lower limb movements",
+      "Important for gait coordination and stability"
+    ]
+  },
+  "116": {
+    "name": "Vermis_9",
+    "structure": [
+      "Cerebellar vermis lobule IX (uvula), midline structure of posterior lobe",
+      "Located in most posterior inferior vermis",
+      "Part of the vestibulocerebellum",
+      "Receives vestibular and visual inputs",
+      "Projects to fastigial and vestibular nuclei"
+    ],
+    "function": [
+      "Crucial for balance and spatial orientation",
+      "Integrates vestibular signals for postural control",
+      "Involved in adaptation of vestibulo-ocular reflexes",
+      "Contributes to autonomic regulation including cardiovascular control",
+      "Lesions can result in truncal ataxia and disturbances in equilibrium"
+    ]
+  },
+  "117": {
+    "name": "Vermis_10",
+    "structure": [
+      "Cerebellar vermis lobule X (nodulus), most inferior midline structure",
+      "Part of the flocculonodular lobe (archicerebellum)",
+      "Phylogenetically oldest part of the vermis",
+      "Receives direct vestibular afferents",
+      "Projects primarily to vestibular nuclei"
+    ],
+    "function": [
+      "Critical for vestibular processing and balance",
+      "Regulates vestibulo-ocular and vestibulospinal reflexes",
+      "Contributes to spatial orientation in three-dimensional space",
+      "Important for adaptation to altered gravity conditions",
+      "Lesions result in severe equilibrium disturbances and nystagmus"
+    ]
+  }
+}

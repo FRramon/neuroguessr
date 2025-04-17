@@ -2,10 +2,10 @@
 
 
 a = Analysis(
-    ['neuroguessr_test.py'],
+    ['neuroguessr_time.py'],
     pathex=[],
     binaries=[],
-    datas=[('../data', 'data')],
+    datas=[('../data', 'data'), ('../code/neuroguessr5.png', 'code')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
@@ -32,7 +32,7 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon=['neuroguessr3.icns'],
+    icon=['neuroguessr5.icns'],
 )
 coll = COLLECT(
     exe,
@@ -46,6 +46,6 @@ coll = COLLECT(
 app = BUNDLE(
     coll,
     name='NeuroGuessr.app',
-    icon='neuroguessr3.icns',
+    icon='neuroguessr5.icns',
     bundle_identifier=None,
 )

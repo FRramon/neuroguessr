@@ -4672,6 +4672,10 @@
 		<data>
 		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
 		</data>
+		<key>Resources/code/neuroguessr5.png</key>
+		<data>
+		IsvjIygXLUUOosYucHa7ecKKbs8=
+		</data>
 		<key>Resources/cryptography-41.0.7.dist-info/INSTALLER</key>
 		<data>
 		k+mggahkOFMDC/LGzbaeWUrqc1o=
@@ -4744,6 +4748,10 @@
 		<data>
 		RusAS/JQHgsO/50iewFUthM22mo=
 		</data>
+		<key>Resources/data/HarvardOxford-Subcortical.json</key>
+		<data>
+		nZIlSoGI0aYJFfuxfudOfu4NA8c=
+		</data>
 		<key>Resources/data/HarvardOxford-Subcortical.txt</key>
 		<data>
 		+boNWCOU3HJPM8W4QusGIrDj4X8=
@@ -4804,6 +4812,10 @@
 		<data>
 		6ogDj1xlfdqnIgjCkj05tGdXh54=
 		</data>
+		<key>Resources/data/aal.json</key>
+		<data>
+		mq3UPoVsO3RAJVYkVJDZI57Vdus=
+		</data>
 		<key>Resources/data/aal.nii.gz</key>
 		<data>
 		KT/G38+7/w9j42fisxsFqJhrgEc=
@@ -4815,6 +4827,10 @@
 		<key>Resources/data/aal.txt</key>
 		<data>
 		IgoMXg3l3J7ChPbpY9dY8O+q52A=
+		</data>
+		<key>Resources/data/aal_registered_to_MNI.nii.gz</key>
+		<data>
+		aK2OmhfaSwRC4IO5Gevul6RzN5A=
 		</data>
 		<key>Resources/data/aal_stride.nii.gz</key>
 		<data>
@@ -4879,6 +4895,10 @@
 		<key>Resources/data/thalamus_lut.txt</key>
 		<data>
 		Nk1SJSayOulCBgTfKC5l2teK6Gc=
+		</data>
+		<key>Resources/data/transformation_matrix.txt</key>
+		<data>
+		B+9a2MmmHQCCXt5paBDT+H+UrBI=
 		</data>
 		<key>Resources/data/xtract.nii.gz</key>
 		<data>
@@ -13360,9 +13380,9 @@
 		<data>
 		+zfVwjpd9IrUytLvYFJQy8NNSDg=
 		</data>
-		<key>Resources/neuroguessr3.icns</key>
+		<key>Resources/neuroguessr5.icns</key>
 		<data>
-		3eHRNcIVYLfh42RPjrdgRpLefhQ=
+		ie5QDw6Z3RDJVxJjza9RYjq2Yuc=
 		</data>
 		<key>Resources/pandas/io/formats/templates/html.tpl</key>
 		<data>
@@ -21784,6 +21804,11 @@
 		<dict>
 			<key>symlink</key>
 			<string>../Resources/certifi</string>
+		</dict>
+		<key>Frameworks/code</key>
+		<dict>
+			<key>symlink</key>
+			<string>../Resources/code</string>
 		</dict>
 		<key>Frameworks/contourpy/_contourpy.cpython-311-darwin.so</key>
 		<dict>
@@ -33701,6 +33726,13 @@
 			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
 			</data>
 		</dict>
+		<key>Resources/code/neuroguessr5.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			HqzqaVUUVUQ6VKhyRQCBMnP4o7RJjb7rfDN4ubZtk98=
+			</data>
+		</dict>
 		<key>Resources/contourpy</key>
 		<dict>
 			<key>symlink</key>
@@ -33842,6 +33874,13 @@
 			uOtbpeeHpNO0QvdQQfUz8xsnioPkZ70qsiQ4wc/zZYE=
 			</data>
 		</dict>
+		<key>Resources/data/HarvardOxford-Subcortical.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8nbgtcQJObAIL6y3B3gU439VY8Bhk7raKPw0vwZXqdo=
+			</data>
+		</dict>
 		<key>Resources/data/HarvardOxford-Subcortical.txt</key>
 		<dict>
 			<key>hash2</key>
@@ -33947,6 +33986,13 @@
 			+fARXspdk50pQXtnCALZOWzGL4P4zfPP1bluzVdKZfQ=
 			</data>
 		</dict>
+		<key>Resources/data/aal.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			JlStYV4eMdQZXqRkIkOq9FCPq3tqfFvYZNAol33Yk+w=
+			</data>
+		</dict>
 		<key>Resources/data/aal.nii.gz</key>
 		<dict>
 			<key>hash2</key>
@@ -33966,6 +34012,13 @@
 			<key>hash2</key>
 			<data>
 			QOQgEEr8P/PCQiaWWYe7nei3guyqjnbElMBdHG47gcY=
+			</data>
+		</dict>
+		<key>Resources/data/aal_registered_to_MNI.nii.gz</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5Uzy3mNXzkyXvLh7aeXZiaBj+aQroibbnfaUm2cPtW4=
 			</data>
 		</dict>
 		<key>Resources/data/aal_stride.nii.gz</key>
@@ -34078,6 +34131,13 @@
 			<key>hash2</key>
 			<data>
 			iK7Wxhu5u6GvzBB52Skqo2Fo0b9KdzJFp8VCyztuocU=
+			</data>
+		</dict>
+		<key>Resources/data/transformation_matrix.txt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			JeoQzQwtdldpYj/wRmEVLK9x6lr+Eni+PKdR2EGLYoc=
 			</data>
 		</dict>
 		<key>Resources/data/xtract.nii.gz</key>
@@ -49255,11 +49315,11 @@
 			Uj41eN2/ytUpM9JCPcWVERTvc/SN8YC2pgFJi6XKBxo=
 			</data>
 		</dict>
-		<key>Resources/neuroguessr3.icns</key>
+		<key>Resources/neuroguessr5.icns</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ckv50jVCsRZy4UrrKgW/gxRhZN857cDIvRD52JpkY4g=
+			wKWqTTjLeY04+aXkZ2u83tWAM2aTqIybM9XkTog1xkw=
 			</data>
 		</dict>
 		<key>Resources/numba</key>
