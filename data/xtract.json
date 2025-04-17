@@ -1,0 +1,645 @@
+{
+  "0": {
+    "name": "Background",
+    "structure": [
+      "Represents non-labeled or non-specific tissue in tractography imaging",
+      "Includes regions not assigned to a specific white matter tract or anatomical structure",
+      "Typically used as a reference or null label in segmentation and visualization"
+    ],
+    "function": [
+      "No specific neurological function",
+      "Serves as a placeholder in imaging datasets to differentiate labeled tracts from surrounding tissue",
+      "Ensures accurate visualization of tractography by providing contrast to labeled structures"
+    ]
+  },
+  "1": {
+    "name": "Anterior-Commissure",
+    "structure": [
+      "A compact bundle of white matter fibers connecting the temporal lobes bilaterally",
+      "Located anterior to the fornix and inferior to the basal ganglia",
+      "Composed primarily of myelinated axons facilitating interhemispheric communication",
+      "Visible in coronal sections of MRI, often used as a landmark in neuroimaging"
+    ],
+    "function": [
+      "Facilitates interhemispheric transfer of olfactory, auditory, and visual information",
+      "Plays a role in coordinating functions of the amygdala and temporal cortex",
+      "Contributes to emotional and memory processing by connecting homologous regions",
+      "Damage may impair interhemispheric integration of sensory and emotional data"
+    ]
+  },
+  "2": {
+    "name": "Arcuate-Fasciculus-L",
+    "structure": [
+      "A long, curved bundle of white matter fibers in the left hemisphere",
+      "Connects Broca’s area (inferior frontal gyrus) to Wernicke’s area (superior temporal gyrus)",
+      "Arcs around the Sylvian fissure, passing through the parietal and temporal lobes",
+      "Composed of both direct and indirect segments, with strong connections to the superior longitudinal fasciculus"
+    ],
+    "function": [
+      "Critical for language processing, linking speech production and comprehension areas",
+      "Supports syntactic processing, verbal working memory, and articulation",
+      "Facilitates reading and writing by integrating auditory and motor language regions",
+      "Lesions may result in conduction aphasia, characterized by impaired repetition with intact comprehension"
+    ]
+  },
+  "3": {
+    "name": "Arcuate-Fasciculus-R",
+    "structure": [
+      "Homologous to the left arcuate fasciculus, located in the right hemisphere",
+      "Connects frontal, parietal, and temporal cortices, with less pronounced language specialization",
+      "Curves around the Sylvian fissure, integrating with the superior longitudinal fasciculus",
+      "Exhibits asymmetry compared to the left, with fewer fibers in most individuals"
+    ],
+    "function": [
+      "Contributes to prosody, emotional tone, and non-verbal auditory processing",
+      "Supports visuospatial processing and attention in the right hemisphere",
+      "Plays a role in music perception and processing of complex auditory stimuli",
+      "Damage may impair prosodic speech and spatial attention, contributing to neglect syndromes"
+    ]
+  },
+  "4": {
+    "name": "Acoustic-Radiation-L",
+    "structure": [
+      "White matter tract in the left hemisphere connecting the medial geniculate nucleus (MGN) of the thalamus to the primary auditory cortex (Heschl’s gyrus)",
+      "Courses through the sublenticular portion of the internal capsule",
+      "Composed of myelinated axons transmitting auditory signals",
+      "Identifiable in high-resolution diffusion tensor imaging (DTI)"
+    ],
+    "function": [
+      "Transmits auditory information from the thalamus to the cortex for sound processing",
+      "Critical for sound localization, pitch perception, and auditory discrimination",
+      "Supports language comprehension by relaying auditory input to Wernicke’s area",
+      "Lesions may cause cortical deafness or auditory agnosia in the contralateral ear"
+    ]
+  },
+  "5": {
+    "name": "Acoustic-Radiation-R",
+    "structure": [
+      "Right hemisphere counterpart to the acoustic radiation, connecting the MGN to Heschl’s gyrus",
+      "Mirrors the left acoustic radiation’s trajectory through the internal capsule",
+      "Composed of myelinated fibers with high directional coherence in DTI",
+      "Symmetrical to the left in structure but may show functional specialization"
+    ],
+    "function": [
+      "Relays auditory signals for processing in the right auditory cortex",
+      "Contributes to spatial sound localization and non-verbal auditory processing",
+      "Supports music perception and emotional tone recognition",
+      "Damage may disrupt auditory processing, particularly for spatial and prosodic cues"
+    ]
+  },
+  "6": {
+    "name": "Anterior-Thalamic-Radiation-L",
+    "structure": [
+      "White matter tract in the left hemisphere connecting the anterior and medial thalamus to the prefrontal cortex",
+      "Courses through the anterior limb of the internal capsule",
+      "Includes projections from the dorsomedial and anterior thalamic nuclei",
+      "Integrates with the cingulum and uncinate fasciculus in frontal regions"
+    ],
+    "function": [
+      "Facilitates executive function, decision-making, and working memory by connecting thalamus to prefrontal cortex",
+      "Supports emotional regulation via connections to the orbitofrontal cortex",
+      "Plays a role in attention and cognitive control",
+      "Lesions may impair executive function, memory, and emotional processing"
+    ]
+  },
+  "7": {
+    "name": "Anterior-Thalamic-Radiation-R",
+    "structure": [
+      "Right hemisphere tract mirroring the left anterior thalamic radiation",
+      "Connects the thalamus to the right prefrontal cortex via the internal capsule",
+      "Composed of reciprocal thalamocortical and corticothalamic fibers",
+      "Highly myelinated, ensuring rapid signal transmission"
+    ],
+    "function": [
+      "Supports executive functions, including planning and problem-solving in the right hemisphere",
+      "Contributes to spatial working memory and visuospatial attention",
+      "Facilitates emotional processing through orbitofrontal connections",
+      "Damage may lead to deficits in attention, spatial cognition, and emotional regulation"
+    ]
+  },
+  "8": {
+    "name": "Cingulum-subsection-Dorsal-L",
+    "structure": [
+      "Dorsal subsection of the cingulum in the left hemisphere, located above the corpus callosum",
+      "Connects the cingulate gyrus to the frontal and parietal cortices",
+      "Composed of short and long association fibers within the cingulate cortex",
+      "Integrates with the precuneus and medial prefrontal cortex"
+    ],
+    "function": [
+      "Supports executive control, attention, and self-referential processing",
+      "Plays a role in the default mode network, active during introspection and memory retrieval",
+      "Contributes to emotional regulation and decision-making",
+      "Lesions may impair attention, memory, and emotional stability"
+    ]
+  },
+  "9": {
+    "name": "Cingulum-subsection-Dorsal-R",
+    "structure": [
+      "Right hemisphere dorsal cingulum, mirroring the left in structure",
+      "Courses along the cingulate gyrus, connecting to frontal and parietal regions",
+      "Contains myelinated fibers with strong connectivity to the precuneus",
+      "Part of the limbic system’s white matter network"
+    ],
+    "function": [
+      "Facilitates visuospatial attention and spatial memory in the right hemisphere",
+      "Contributes to the default mode network, supporting self-referential thought",
+      "Supports emotional processing and motivational behavior",
+      "Damage may disrupt spatial cognition and emotional regulation"
+    ]
+  },
+  "10": {
+    "name": "Cingulum-subsection-Peri-genual-L",
+    "structure": [
+      "Peri-genual subsection of the left cingulum, located anterior to the genu of the corpus callosum",
+      "Connects the subgenual and pregenual anterior cingulate cortex to medial frontal regions",
+      "Composed of short association fibers within the limbic system",
+      "Highly integrated with orbitofrontal and ventromedial prefrontal cortices"
+    ],
+    "function": [
+      "Critical for emotional regulation and mood processing",
+      "Supports reward-based decision-making and motivation",
+      "Plays a role in autonomic responses to emotional stimuli",
+      "Lesions are associated with depression, apathy, and impaired emotional control"
+    ]
+  },
+  "11": {
+    "name": "Cingulum-subsection-Peri-genual-R",
+    "structure": [
+      "Right hemisphere peri-genual cingulum, symmetrical to the left",
+      "Connects the anterior cingulate cortex to medial prefrontal and orbitofrontal regions",
+      "Contains densely packed myelinated fibers for rapid limbic integration",
+      "Visible in DTI as a distinct bundle anterior to the corpus callosum"
+    ],
+    "function": [
+      "Facilitates emotional processing and reward valuation in the right hemisphere",
+      "Contributes to autonomic regulation and stress responses",
+      "Supports decision-making under uncertainty",
+      "Damage may lead to emotional dysregulation and impaired reward processing"
+    ]
+  },
+  "12": {
+    "name": "Cingulum-subsection-Temporal-L",
+    "structure": [
+      "Temporal subsection of the left cingulum, extending into the parahippocampal gyrus",
+      "Connects the posterior cingulate cortex to the medial temporal lobe",
+      "Integrates with the hippocampus and entorhinal cortex",
+      "Composed of long association fibers within the limbic system"
+    ],
+    "function": [
+      "Critical for episodic memory formation and retrieval",
+      "Supports spatial navigation and contextual memory processing",
+      "Facilitates integration of emotional and cognitive memory components",
+      "Lesions may impair memory consolidation and spatial orientation"
+    ]
+  },
+  "13": {
+    "name": "Cingulum-subsection-Temporal-R",
+    "structure": [
+      "Right hemisphere temporal cingulum, mirroring the left in trajectory",
+      "Connects the posterior cingulate to the right hippocampus and parahippocampal gyrus",
+      "Contains myelinated fibers supporting limbic-cortical communication",
+      "Highly conserved across individuals in DTI studies"
+    ],
+    "function": [
+      "Supports spatial memory and navigation in the right hemisphere",
+      "Contributes to episodic memory and emotional memory integration",
+      "Plays a role in contextual processing and scene recognition",
+      "Damage may disrupt spatial memory and contextual recall"
+    ]
+  },
+  "14": {
+    "name": "Corticospinal-Tract-L",
+    "structure": [
+      "Major descending white matter tract in the left hemisphere, originating in the primary motor cortex",
+      "Courses through the posterior limb of the internal capsule, cerebral peduncles, and medullary pyramids",
+      "Contains large myelinated axons from Betz cells in layer V of the motor cortex",
+      "Crosses at the pyramidal decussation to innervate contralateral spinal motor neurons"
+    ],
+    "function": [
+      "Controls voluntary motor movements of the right side of the body",
+      "Transmits precise motor commands for fine and gross motor skills",
+      "Supports skilled movements such as writing and grasping",
+      "Lesions cause contralateral hemiparesis, spasticity, and upper motor neuron signs"
+    ]
+  },
+  "15": {
+    "name": "Corticospinal-Tract-R",
+    "structure": [
+      "Right hemisphere corticospinal tract, symmetrical to the left",
+      "Originates in the right primary motor cortex, descending through the brainstem",
+      "Crosses at the medullary pyramids to innervate left-sided spinal motor neurons",
+      "Highly myelinated for rapid conduction of motor signals"
+    ],
+    "function": [
+      "Controls voluntary motor movements of the left side of the body",
+      "Facilitates precise motor execution for skilled tasks",
+      "Coordinates with basal ganglia and cerebellum for smooth movement",
+      "Damage results in left-sided weakness, hyperreflexia, and Babinski sign"
+    ]
+  },
+  "16": {
+    "name": "Frontal-Aslant-Tract-L",
+    "structure": [
+      "Short-range white matter tract in the left frontal lobe",
+      "Connects the inferior frontal gyrus (Broca’s area) to the supplementary motor area",
+      "Courses obliquely within the frontal lobe, anterior to the corticospinal tract",
+      "Identifiable in DTI as a distinct bundle in the superior frontal region"
+    ],
+    "function": [
+      "Supports speech initiation and fluency",
+      "Coordinates motor planning for articulate speech and complex movements",
+      "Plays a role in inhibitory control and action selection",
+      "Lesions may cause non-fluent aphasia or motor apraxia"
+    ]
+  },
+  "17": {
+    "name": "Frontal-Aslant-Tract-R",
+    "structure": [
+      "Right hemisphere counterpart to the frontal aslant tract",
+      "Connects the right inferior frontal gyrus to the supplementary motor area",
+      "Mirrors the left in structure but with less language-specific function",
+      "Composed of short association fibers within the frontal lobe"
+    ],
+    "function": [
+      "Contributes to motor planning and coordination in the right hemisphere",
+      "Supports non-verbal aspects of communication, such as gesture and prosody",
+      "Facilitates inhibitory control and action monitoring",
+      "Damage may impair motor coordination and non-verbal expression"
+    ]
+  },
+  "18": {
+    "name": "Forceps-Major",
+    "structure": [
+      "A subset of the corpus callosum connecting the occipital lobes bilaterally",
+      "Courses through the splenium of the corpus callosum",
+      "Composed of large myelinated fibers for rapid interhemispheric transfer",
+      "Visible in DTI as a robust posterior bundle"
+    ],
+    "function": [
+      "Facilitates interhemispheric integration of visual and spatial information",
+      "Supports coordinated processing of visual fields across hemispheres",
+      "Plays a role in visuospatial attention and scene perception",
+      "Lesions may cause visual disconnection syndromes or impaired spatial integration"
+    ]
+  },
+  "19": {
+    "name": "Forceps-Minor",
+    "structure": [
+      "A subset of the corpus callosum connecting the prefrontal cortices bilaterally",
+      "Courses through the genu of the corpus callosum",
+      "Contains densely packed myelinated fibers for frontal integration",
+      "Identifiable in DTI as an anterior bundle"
+    ],
+    "function": [
+      "Supports interhemispheric communication for executive function and decision-making",
+      "Facilitates coordination of attention and working memory across frontal lobes",
+      "Contributes to emotional regulation and social cognition",
+      "Damage may impair frontal lobe integration, leading to executive dysfunction"
+    ]
+  },
+  "20": {
+    "name": "Fornix-L",
+    "structure": [
+      "Major white matter tract of the limbic system in the left hemisphere",
+      "Connects the hippocampus to the mammillary bodies, septum, and hypothalamus",
+      "Courses around the thalamus, forming the crura and body of the fornix",
+      "Composed of myelinated axons critical for memory circuits"
+    ],
+    "function": [
+      "Critical for episodic memory formation and consolidation",
+      "Relays information between the hippocampus and diencephalon",
+      "Supports spatial navigation and emotional memory processing",
+      "Lesions may cause anterograde amnesia and memory deficits"
+    ]
+  },
+  "21": {
+    "name": "Fornix-R",
+    "structure": [
+      "Right hemisphere fornix, symmetrical to the left",
+      "Connects the right hippocampus to subcortical limbic structures",
+      "Forms part of the Papez circuit, looping around the thalamus",
+      "Highly conserved in structure across individuals"
+    ],
+    "function": [
+      "Supports episodic and spatial memory in the right hemisphere",
+      "Facilitates emotional memory integration with hypothalamic functions",
+      "Contributes to contextual learning and memory retrieval",
+      "Damage may impair memory consolidation and emotional processing"
+    ]
+  },
+  "22": {
+    "name": "Inferior-Fronto-Occipital-Fasciculus-L",
+    "structure": [
+      "Long association tract in the left hemisphere connecting the frontal and occipital lobes",
+      "Courses through the external capsule, adjacent to the uncinate fasciculus",
+      "Connects the inferior frontal gyrus to the occipital and posterior temporal cortices",
+      "Composed of myelinated fibers supporting multimodal integration"
+    ],
+    "function": [
+      "Supports language processing, particularly semantic and syntactic comprehension",
+      "Facilitates reading and visual-verbal integration",
+      "Contributes to executive function and attention",
+      "Lesions may impair language comprehension and visual processing"
+    ]
+  },
+  "23": {
+    "name": "Inferior-Fronto-Occipital-Fasciculus-R",
+    "structure": [
+      "Right hemisphere counterpart to the inferior fronto-occipital fasciculus",
+      "Connects the right frontal lobe to occipital and temporal regions",
+      "Courses parallel to the inferior longitudinal fasciculus",
+      "Highly myelinated for rapid signal transmission"
+    ],
+    "function": [
+      "Supports visuospatial processing and attention in the right hemisphere",
+      "Facilitates integration of visual and executive functions",
+      "Contributes to non-verbal communication and spatial cognition",
+      "Damage may cause visuospatial neglect or impaired visual integration"
+    ]
+  },
+  "24": {
+    "name": "Inferior-Longitudinal-Fasciculus-L",
+    "structure": [
+      "Long association tract in the left hemisphere connecting the occipital and temporal lobes",
+      "Courses along the lateral ventricle, adjacent to the optic radiation",
+      "Connects the visual cortex to the anterior temporal lobe and amygdala",
+      "Composed of myelinated fibers for visual-emotional integration"
+    ],
+    "function": [
+      "Supports visual memory and object recognition",
+      "Facilitates emotional processing of visual stimuli via amygdala connections",
+      "Contributes to face recognition and visual association",
+      "Lesions may cause visual agnosia or impaired visual memory"
+    ]
+  },
+  "25": {
+    "name": "Inferior-Longitudinal-Fasciculus-R",
+    "structure": [
+      "Right hemisphere inferior longitudinal fasciculus, mirroring the left",
+      "Connects the right occipital lobe to the temporal lobe and amygdala",
+      "Courses along the ventral visual stream",
+      "Identifiable in DTI as a ventral bundle"
+    ],
+    "function": [
+      "Supports visual memory and spatial processing in the right hemisphere",
+      "Facilitates emotional valence of visual stimuli",
+      "Contributes to object and face recognition",
+      "Damage may impair visual recognition and emotional processing"
+    ]
+  },
+  "26": {
+    "name": "Middle-Cerebellar-Peduncle",
+    "structure": [
+      "Major white matter tract connecting the pons to the cerebellum",
+      "Composed of mossy fibers carrying afferent signals from the cortex and brainstem",
+      "Forms the largest input pathway to the cerebellum",
+      "Visible in DTI as a broad bundle in the posterior fossa"
+    ],
+    "function": [
+      "Relays motor and sensory information to the cerebellum for coordination",
+      "Supports fine motor control, balance, and posture",
+      "Facilitates sensorimotor integration and timing",
+      "Lesions may cause ataxia, dysmetria, and impaired coordination"
+    ]
+  },
+  "27": {
+    "name": "Middle-Longitudinal-Fasciculus-L",
+    "structure": [
+      "White matter tract in the left hemisphere connecting the superior temporal gyrus to the parietal lobe",
+      "Courses along the superior temporal sulcus, integrating auditory and parietal regions",
+      "Composed of short and long association fibers",
+      "Less studied but identifiable in high-resolution DTI"
+    ],
+    "function": [
+      "Supports auditory-spatial integration and sound localization",
+      "Contributes to language processing and verbal working memory",
+      "Facilitates attention to auditory stimuli",
+      "Lesions may impair auditory attention and language processing"
+    ]
+  },
+  "28": {
+    "name": "Middle-Longitudinal-Fasciculus-R",
+    "structure": [
+      "Right hemisphere middle longitudinal fasciculus, symmetrical to the left",
+      "Connects the right superior temporal gyrus to parietal regions",
+      "Courses along the superior temporal sulcus",
+      "Composed of myelinated fibers for auditory-parietal integration"
+    ],
+    "function": [
+      "Supports spatial sound localization and auditory attention",
+      "Contributes to music perception and prosodic processing",
+      "Facilitates visuospatial integration with auditory cues",
+      "Damage may impair auditory-spatial processing and attention"
+    ]
+  },
+  "29": {
+    "name": "Optic-Radiation-L",
+    "structure": [
+      "White matter tract in the left hemisphere connecting the lateral geniculate nucleus (LGN) to the primary visual cortex",
+      "Courses through the retrolenticular internal capsule, forming Meyer’s loop",
+      "Contains myelinated axons transmitting visual information",
+      "Identifiable in DTI as a posterior bundle"
+    ],
+    "function": [
+      "Transmits visual information from the thalamus to the visual cortex",
+      "Supports processing of the right visual field",
+      "Critical for visual perception, including color and motion",
+      "Lesions cause contralateral homonymous hemianopia"
+    ]
+  },
+  "30": {
+    "name": "Optic-Radiation-R",
+    "structure": [
+      "Right hemisphere optic radiation, connecting the LGN to the right visual cortex",
+      "Mirrors the left in trajectory, including Meyer’s loop",
+      "Composed of highly myelinated fibers for rapid visual processing",
+      "Visible in DTI as a symmetrical posterior tract"
+    ],
+    "function": [
+      "Relays visual information for the left visual field",
+      "Supports visual perception, including form and depth",
+      "Contributes to visuospatial processing in the right hemisphere",
+      "Damage causes left homonymous hemianopia"
+    ]
+  },
+  "31": {
+    "name": "Superior-Longitudinal-Fasciculus-1-L",
+    "structure": [
+      "Dorsal subsection of the superior longitudinal fasciculus in the left hemisphere",
+      "Connects the superior frontal gyrus to the superior parietal lobule",
+      "Courses above the Sylvian fissure, parallel to the arcuate fasciculus",
+      "Composed of long association fibers for frontoparietal integration"
+    ],
+    "function": [
+      "Supports executive function and working memory",
+      "Facilitates attention and motor planning",
+      "Contributes to language processing via parietal-frontal connections",
+      "Lesions may impair attention, working memory, and motor coordination"
+    ]
+  },
+  "32": {
+    "name": "Superior-Longitudinal-Fasciculus-1-R",
+    "structure": [
+      "Right hemisphere superior longitudinal fasciculus I, mirroring the left",
+      "Connects the right frontal and parietal lobes",
+      "Courses dorsally, integrating with other frontoparietal tracts",
+      "Highly myelinated for rapid signal transmission"
+    ],
+    "function": [
+      "Supports visuospatial attention and working memory",
+      "Facilitates motor planning and coordination in the right hemisphere",
+      "Contributes to spatial cognition and action monitoring",
+      "Damage may cause neglect syndromes and impaired spatial attention"
+    ]
+  },
+  "33": {
+    "name": "Superior-Longitudinal-Fasciculus-2-L",
+    "structure": [
+      "Middle subsection of the superior longitudinal fasciculus in the left hemisphere",
+      "Connects the inferior frontal gyrus to the inferior parietal lobule",
+      "Courses laterally, integrating language and attention networks",
+      "Composed of myelinated fibers for frontoparietal communication"
+    ],
+    "function": [
+      "Supports language processing, particularly articulation and comprehension",
+      "Facilitates attention and verbal working memory",
+      "Contributes to gesture and motor planning",
+      "Lesions may cause aphasia or apraxia"
+    ]
+  },
+  "34": {
+    "name": "Superior-Longitudinal-Fasciculus-2-R",
+    "structure": [
+      "Right hemisphere superior longitudinal fasciculus II, symmetrical to the left",
+      "Connects the right frontal and parietal lobes",
+      "Courses laterally, integrating visuospatial and motor networks",
+      "Visible in DTI as a robust bundle"
+    ],
+    "function": [
+      "Supports visuospatial processing and attention",
+      "Facilitates gesture and non-verbal communication",
+      "Contributes to motor planning and spatial cognition",
+      "Damage may impair spatial attention and motor coordination"
+    ]
+  },
+  "35": {
+    "name": "Superior-Longitudinal-Fasciculus-3-L",
+    "structure": [
+      "Ventral subsection of the superior longitudinal fasciculus in the left hemisphere",
+      "Connects the inferior frontal gyrus to the supramarginal gyrus",
+      "Courses ventrally, closely associated with the arcuate fasciculus",
+      "Composed of short association fibers for language integration"
+    ],
+    "function": [
+      "Critical for phonological processing and speech articulation",
+      "Supports verbal working memory and repetition",
+      "Facilitates sensory-motor integration for speech",
+      "Lesions may cause conduction aphasia or phonological deficits"
+    ]
+  },
+  "36": {
+    "name": "Superior-Longitudinal-Fasciculus-3-R",
+    "structure": [
+      "Right hemisphere superior longitudinal fasciculus III, mirroring the left",
+      "Connects the right inferior frontal gyrus to the parietal lobe",
+      "Courses ventrally, integrating motor and sensory regions",
+      "Identifiable in DTI as a ventral bundle"
+    ],
+    "function": [
+      "Supports non-verbal communication, including gesture and prosody",
+      "Facilitates sensory-motor integration for motor tasks",
+      "Contributes to spatial attention and action monitoring",
+      "Damage may impair non-verbal communication and motor coordination"
+    ]
+  },
+  "37": {
+    "name": "Superior-Thalamic-Radiation-L",
+    "structure": [
+      "White matter tract in the left hemisphere connecting the thalamus to the superior frontal cortex",
+      "Courses through the superior aspect of the internal capsule",
+      "Contains thalamocortical and corticothalamic projections",
+      "Integrates with the cingulum and superior longitudinal fasciculus"
+    ],
+    "function": [
+      "Supports executive function and attention via thalamic-frontal connections",
+      "Facilitates sensory integration and cognitive control",
+      "Contributes to working memory and decision-making",
+      "Lesions may impair attention, memory, and executive function"
+    ]
+  },
+  "38": {
+    "name": "Superior-Thalamic-Radiation-R",
+    "structure": [
+      "Right hemisphere superior thalamic radiation, symmetrical to the left",
+      "Connects the thalamus to the right superior frontal cortex",
+      "Courses through the internal capsule, integrating with frontal networks",
+      "Composed of myelinated fibers for rapid thalamocortical communication"
+    ],
+    "function": [
+      "Supports visuospatial attention and working memory",
+      "Facilitates sensory integration and cognitive control in the right hemisphere",
+      "Contributes to executive function and spatial cognition",
+      "Damage may cause neglect syndromes and impaired attention"
+    ]
+  },
+  "39": {
+    "name": "Uncinate-Fasciculus-L",
+    "structure": [
+      "C-shaped white matter tract in the left hemisphere connecting the anterior temporal lobe to the orbitofrontal cortex",
+      "Courses through the external capsule, hooking around the Sylvian fissure",
+      "Composed of myelinated fibers integrating limbic and frontal regions",
+      "Visible in DTI as a ventral bundle"
+    ],
+    "function": [
+      "Supports emotional processing and memory by linking the amygdala and frontal cortex",
+      "Facilitates semantic processing and language comprehension",
+      "Contributes to reward-based decision-making",
+      "Lesions may cause emotional dysregulation and memory deficits"
+    ]
+  },
+  "40": {
+    "name": "Uncinate-Fasciculus-R",
+    "structure": [
+      "Right hemisphere uncinate fasciculus, mirroring the left",
+      "Connects the right anterior temporal lobe to the orbitofrontal cortex",
+      "Courses ventrally, integrating limbic and frontal networks",
+      "Highly myelinated for rapid signal transmission"
+    ],
+    "function": [
+      "Supports emotional processing and reward valuation in the right hemisphere",
+      "Facilitates spatial memory and contextual processing",
+      "Contributes to decision-making and emotional regulation",
+      "Damage may impair emotional processing and memory"
+    ]
+  },
+  "41": {
+    "name": "Vertical-Occipital-Fasciculus-L",
+    "structure": [
+      "Short-range white matter tract in the left occipital lobe",
+      "Connects the dorsal and ventral visual streams within the occipital cortex",
+      "Courses vertically, integrating higher-order visual areas",
+      "Identifiable in DTI as a compact occipital bundle"
+    ],
+    "function": [
+      "Supports integration of form and motion in visual processing",
+      "Facilitates object recognition and visual attention",
+      "Contributes to reading and visual-verbal integration",
+      "Lesions may impair visual association and object recognition"
+    ]
+  },
+  "42": {
+    "name": "Vertical-Occipital-Fasciculus-R",
+    "structure": [
+      "Right hemisphere vertical occipital fasciculus, symmetrical to the left",
+      "Connects the dorsal and ventral visual streams in the right occipital lobe",
+      "Courses vertically, integrating visual processing areas",
+      "Composed of short association fibers"
+    ],
+    "function": [
+      "Supports visuospatial processing and motion perception",
+      "Facilitates object recognition and spatial attention",
+      "Contributes to visual integration in the right hemisphere",
+      "Damage may impair visuospatial processing and visual attention"
+    ]
+  }
+}

@@ -9,9 +9,12 @@ import nibabel as nib
 from pathlib import Path
 from PyQt5.QtWidgets import (QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout,
                              QLabel, QPushButton, QStackedWidget, QSlider, QMessageBox,
-                             QButtonGroup, QGridLayout, QCheckBox, QTextEdit)
+                             QButtonGroup, QGridLayout, QCheckBox, QTextEdit, QGroupBox)
 from PyQt5.QtCore import Qt, QTimer, pyqtSignal
-from PyQt5.QtGui import QPixmap, QPainter, QColor, QPen, QFont, QPalette, QImage
+from PyQt5.QtGui import QPixmap, QPainter, QColor, QPen, QFont, QPalette, QImage , QFontDatabase
+
+
+
 
 def get_resource_path(relative_path):
     """Get the absolute path to a resource, works for both development and PyInstaller."""
@@ -20,6 +23,8 @@ def get_resource_path(relative_path):
     else:
         base_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
     return os.path.join(base_path, relative_path)
+
+
 
 class BrainSliceView(QLabel):
     """Widget to display a single brain slice with click, drag, and zoom functionality."""
@@ -390,8 +395,6 @@ class NeuroGuessrGame(QMainWindow):
         self.start_time = None
         self.total_time = 0
         self.pr_file = os.path.join(Path.home(), ".neuroguessr", "pr.json")
-        self.pr_data = self.load_pr()
-        self.pr_label = None  # Will be set in setup_ui
         self.atlas_options = {
             "AAL": (
                 get_resource_path("data/aal_stride_regrid.nii.gz"),
@@ -422,6 +425,7 @@ class NeuroGuessrGame(QMainWindow):
                 get_resource_path("data/xtract.txt")
             )
         }
+        self.pr_data = self.load_pr()
         self.current_atlas = "AAL"
         self.setup_ui()
         self.game_timer = QTimer()
@@ -432,9 +436,20 @@ class NeuroGuessrGame(QMainWindow):
         os.makedirs(os.path.dirname(self.pr_file), exist_ok=True)
         try:
             with open(self.pr_file, 'r') as f:
-                return json.load(f)
+                data = json.load(f)
+                # Ensure each atlas has all required fields
+                for atlas in self.atlas_options.keys():
+                    if atlas not in data:
+                        data[atlas] = {"time": float("inf"), "errors": 0, "best_ratio": 0.0, "best_streak": 0}
+                    else:
+                        data[atlas].setdefault("time", float("inf"))
+                        data[atlas].setdefault("errors", 0)
+                        data[atlas].setdefault("best_ratio", 0.0)
+                        data[atlas].setdefault("best_streak", 0)
+                return data
         except (FileNotFoundError, json.JSONDecodeError):
-            return {}  # Initialize empty PR data
+            return {atlas: {"time": float("inf"), "errors": 0, "best_ratio": 0.0, "best_streak": 0}
+                    for atlas in self.atlas_options.keys()}
 
     def save_pr(self):
         """Save personal records to JSON file."""
@@ -464,7 +479,7 @@ class NeuroGuessrGame(QMainWindow):
             logo_label.setText("Logo Not Found")
             print(f"Warning: Could not load logo at {logo_path}")
         else:
-            scaled_pixmap = pixmap.scaled(500, 500, Qt.KeepAspectRatio, Qt.SmoothTransformation)
+            scaled_pixmap = pixmap.scaled(300, 300, Qt.KeepAspectRatio, Qt.SmoothTransformation)
             logo_label.setPixmap(scaled_pixmap)
         top_layout.addWidget(logo_label)
         
@@ -477,7 +492,7 @@ class NeuroGuessrGame(QMainWindow):
 
         mode_label = QLabel("Game Mode")
         mode_label.setStyleSheet("color: white; font-size: 18px;")
-        mode_label.setFont(QFont("Helvetica [Cronyx]", 18))
+        mode_label.setFont(QFont("Helvetica [Cronyx]", 20, QFont.Bold))
         mode_label.setAlignment(Qt.AlignCenter)
         landing_layout.addWidget(mode_label)
         
@@ -524,7 +539,7 @@ class NeuroGuessrGame(QMainWindow):
 
         atlas_label = QLabel("Select Atlas")
         atlas_label.setStyleSheet("color: white; font-size: 18px;")
-        atlas_label.setFont(QFont("Helvetica [Cronyx]", 18))
+        atlas_label.setFont(QFont("Helvetica [Cronyx]", 20, QFont.Bold))
         atlas_label.setAlignment(Qt.AlignCenter)
         landing_layout.addWidget(atlas_label)
         
@@ -552,12 +567,75 @@ class NeuroGuessrGame(QMainWindow):
         
         landing_layout.addLayout(atlas_buttons_layout)
         
-        self.pr_label = QLabel("Personal Record: Not set")
-        self.pr_label.setStyleSheet("color: white; font-size: 16px;")
-        self.pr_label.setFont(QFont("Helvetica [Cronyx]", 16))
-        self.pr_label.setAlignment(Qt.AlignCenter)
-        landing_layout.addWidget(self.pr_label)
-        self.update_pr_label()  # Initialize PR label
+        # Personal Best Box with Icons
+        self.pr_box = QGroupBox("Personal Best")
+        self.pr_box.setStyleSheet("""
+            QGroupBox {color: white; font-size: 18px; font-weight: bold; border: 2px solid #444; border-radius: 10px; padding: 10px;}
+            QGroupBox::title {subcontrol-origin: margin; subcontrol-position: top center; padding: 0 3px;}
+        """)
+        self.pr_box.setFont(QFont("Helvetica [Cronyx]",20, QFont.Bold))
+        self.pr_box.setAlignment(Qt.AlignCenter)
+        pr_layout = QVBoxLayout(self.pr_box)
+        pr_layout.setSpacing(20)
+        pr_layout.setAlignment(Qt.AlignCenter)
+        
+        # Best Ratio with Speedometer Icon
+        ratio_layout = QHBoxLayout()
+        ratio_layout.setAlignment(Qt.AlignCenter)
+        ratio_icon = QLabel()
+        ratio_icon_path = get_resource_path("code/speedometer.png")
+        ratio_pixmap = QPixmap(ratio_icon_path)
+        if not ratio_pixmap.isNull():
+            ratio_icon.setPixmap(ratio_pixmap.scaled(36, 36, Qt.KeepAspectRatio, Qt.SmoothTransformation))
+        else:
+            ratio_icon.setText("⚡")
+        ratio_layout.addWidget(ratio_icon)
+        self.ratio_pr_label = QLabel("Accuracy: 0")
+        self.ratio_pr_label.setStyleSheet("color: white; font-size: 18px;")
+        self.ratio_pr_label.setFont(QFont("Helvetica [Cronyx]", 22))
+        ratio_layout.addWidget(self.ratio_pr_label)
+        ratio_layout.addSpacing(10)
+        pr_layout.addLayout(ratio_layout)
+        
+        # Best Time with Stopwatch Icon
+        time_layout = QHBoxLayout()
+        time_layout.setAlignment(Qt.AlignCenter)
+        time_icon = QLabel()
+        time_icon_path = get_resource_path("code/stopwatch.png")
+        time_pixmap = QPixmap(time_icon_path)
+        if not time_pixmap.isNull():
+            time_icon.setPixmap(time_pixmap.scaled(36, 36, Qt.KeepAspectRatio, Qt.SmoothTransformation))
+        else:
+            time_icon.setText("⏱")
+        time_layout.addWidget(time_icon)
+        self.time_pr_label = QLabel("Time: 0")
+        self.time_pr_label.setStyleSheet("color: white; font-size: 18px;")
+        self.time_pr_label.setFont(QFont("Helvetica [Cronyx]",22))
+        time_layout.addWidget(self.time_pr_label)
+        time_layout.addSpacing(10)
+        pr_layout.addLayout(time_layout)
+        
+        # Best Streak with Flame Icon
+        streak_layout = QHBoxLayout()
+        streak_layout.setAlignment(Qt.AlignCenter)
+        pr_layout.addLayout(streak_layout)
+        streak_icon = QLabel()
+        streak_icon_path = get_resource_path("code/flame.png")
+        streak_pixmap = QPixmap(streak_icon_path)
+        if not streak_pixmap.isNull():
+            streak_icon.setPixmap(streak_pixmap.scaled(36, 36, Qt.KeepAspectRatio, Qt.SmoothTransformation))
+        else:
+            streak_icon.setText("🔥")
+        streak_layout.addWidget(streak_icon)
+        self.streak_pr_label = QLabel("Streak: 0")
+        self.streak_pr_label.setStyleSheet("color: white; font-size: 18px;")
+        self.streak_pr_label.setFont(QFont("Helvetica [Cronyx]", 22))
+        streak_layout.addWidget(self.streak_pr_label)
+        streak_layout.addSpacing(10)
+
+        
+        landing_layout.addWidget(self.pr_box)
+        self.update_pr_label()  # Initialize PR labels
         self.atlas_button_group.buttonClicked.connect(self.update_pr_label)
         
         buttons_layout = QHBoxLayout()
@@ -618,6 +696,8 @@ class NeuroGuessrGame(QMainWindow):
         self.target_label.setStyleSheet("color: white; background-color: #333; padding: 5px; border-radius: 5px;")
         self.target_label.setAlignment(Qt.AlignCenter)
         self.timer_label = QLabel("Time: 3:00")
+        self.timer_label.setFont(QFont("Helvetica [Cronyx]", 14))
+        self.target_label.setStyleSheet("color: white; background-color: #333; padding: 5px; border-radius: 5px;")
         self.timer_label.setFont(QFont("Helvetica [Cronyx]", 14))
         self.timer_label.setStyleSheet("color: white; background-color: #333; padding: 5px; border-radius: 5px;")
         score_layout = QVBoxLayout()
@@ -773,17 +853,31 @@ class NeuroGuessrGame(QMainWindow):
         self.load_data()
 
     def update_pr_label(self):
-        """Update the PR label based on the selected atlas."""
+        """Update the PR labels based on the selected atlas."""
         atlas_names = list(self.atlas_options.keys())
         selected_atlas_id = self.atlas_button_group.checkedId()
         atlas = atlas_names[selected_atlas_id]
-        pr = self.pr_data.get(atlas, {"time": float("inf"), "errors": 0})
+        pr = self.pr_data.get(atlas, {"time": float("inf"), "errors": 0, "best_ratio": 0.0, "best_streak": 0})
+        
+        # Update time PR
         if pr["time"] == float("inf"):
-            self.pr_label.setText("Personal Record: Not set")
+            self.time_pr_label.setText("0")
         else:
             minutes = pr["time"] // 60
             seconds = pr["time"] % 60
-            self.pr_label.setText(f"Personal Record: {minutes}:{seconds:02d}")
+            self.time_pr_label.setText(f"{minutes}'{seconds:02d}\" ")
+        
+        # Update accuracy PR
+        if pr["best_ratio"] == 0.0:
+            self.ratio_pr_label.setText("0")
+        else:
+            self.ratio_pr_label.setText(f"{pr['best_ratio']:.1f}%")
+        
+        # Update streak PR
+        if pr["best_streak"] == 0:
+            self.streak_pr_label.setText("0")
+        else:
+            self.streak_pr_label.setText(f"{pr['best_streak']}")
 
     def toggle_atlas_visibility(self, state):
         self.show_atlas = (state == Qt.Checked)
@@ -859,7 +953,7 @@ class NeuroGuessrGame(QMainWindow):
         self.load_data()
         self.set_game_mode(self.game_mode)
         self.reset_game_ui()
-        self.update_pr_label()  # Ensure PR label is updated
+        self.update_pr_label()
         self.memo_widget.setVisible(self.game_mode == "Practice")
         self.stacked_widget.setCurrentWidget(self.game_widget)
 
@@ -950,7 +1044,7 @@ class NeuroGuessrGame(QMainWindow):
             self.error_label.setText("Errors: 0")
             self.memo_widget.setVisible(True)
         elif mode == "Contre la Montre":
-            self.timer_label.setText("Time: 0:00")
+            self.timer_label.setText("Time: 0'00\" ")
             self.score_label.setText("Regions Found: 0")
             self.memo_widget.setVisible(False)
         else:
@@ -973,7 +1067,7 @@ class NeuroGuessrGame(QMainWindow):
             random.shuffle(self.remaining_regions)
             self.start_time = time.time()
             self.score_label.setText(f"Regions Found: 0/{len(self.all_regions)}")
-            self.timer_label.setText("Time: 0:00")
+            self.timer_label.setText("Time: 0'00\" ")
         else:
             self.time_remaining = 180 if self.game_mode == "Contre la Montre" else 0
             self.score_label.setText(f"{'Streak' if self.game_mode == 'Streak' else 'Correct'}: {self.score}")
@@ -1172,18 +1266,40 @@ class NeuroGuessrGame(QMainWindow):
     def end_game(self):
         self.game_running = False
         self.game_timer.stop()
+        
+        # Calculate error-to-correct ratio only for Practice and Contre la Montre
+        if self.game_mode in ["Practice", "Contre la Montre"]:
+            if self.score > 0:
+                accuracy = (self.score / (self.score + self.errors)) * 100
+            else:
+                accuracy = 0.0 if self.errors > 0 else 100.0
+            current_pr = self.pr_data.get(self.current_atlas, {"time": float("inf"), "errors": 0, "best_ratio": 0.0, "best_streak": 0})
+            
+            # Update best accuracy
+            if accuracy > current_pr["best_ratio"]:
+                self.pr_data[self.current_atlas]["best_ratio"] = accuracy
+                self.save_pr()
+                self.update_pr_label()
+                if accuracy == 100.0:
+                    QMessageBox.information(self, "Perfect Run!", f"Perfect run with 100% accuracy for {self.current_atlas}!")
+                else:
+                    QMessageBox.information(self, "New Accuracy Record!", f"New best accuracy for {self.current_atlas}: {accuracy:.1f}%!")
+        else:
+            accuracy = 0.0  # Not calculated for Streak mode
+        
+        # Update time and streak PRs
         if self.game_mode == "Contre la Montre":
             if self.errors == 0:
                 current_time = self.total_time
-                atlas = self.current_atlas
-                current_pr = self.pr_data.get(atlas, {"time": float("inf"), "errors": 0})
+                current_pr = self.pr_data.get(self.current_atlas, {"time": float("inf"), "errors": 0, "best_ratio": 0.0, "best_streak": 0})
                 if current_time < current_pr["time"]:
-                    self.pr_data[atlas] = {"time": current_time, "errors": 0}
+                    self.pr_data[self.current_atlas]["time"] = current_time
                     self.save_pr()
                     self.update_pr_label()
                     QMessageBox.information(self, "New Personal Record!",
-                                            f"New PR for {atlas}: {current_time // 60}:{current_time % 60:02d}!")
+                                            f"New PR for {self.current_atlas}: {current_time // 60}'{current_time % 60:02d} \" !")
             recap = f"Game Over!\n\nAll regions found in {self.total_time} seconds.\n"
+            recap += f"Accuracy: {accuracy:.1f}%\n"
             recap += f"Errors: {self.errors}\n"
             if self.incorrect_guesses:
                 recap += "Incorrect guesses:\n" + "\n".join([f"- Looked for {target}, clicked {clicked}"
@@ -1191,6 +1307,12 @@ class NeuroGuessrGame(QMainWindow):
             else:
                 recap += "No errors."
         elif self.game_mode == "Streak":
+            current_pr = self.pr_data.get(self.current_atlas, {"time": float("inf"), "errors": 0, "best_ratio": 0.0, "best_streak": 0})
+            if self.score > current_pr["best_streak"]:
+                self.pr_data[self.current_atlas]["best_streak"] = self.score
+                self.save_pr()
+                self.update_pr_label()
+                QMessageBox.information(self, "New Streak Record!", f"New best streak for {self.current_atlas}: {self.score}!")
             recap = f"Game Over!\n\nStreak: {self.score}\n"
             if self.correct_guesses:
                 recap += "Regions found:\n" + "\n".join([f"- {region}" for region in self.correct_guesses])
@@ -1198,6 +1320,7 @@ class NeuroGuessrGame(QMainWindow):
                 recap += "No regions found."
         else:
             recap = f"Practice Ended!\n\nCorrect Guesses: {self.score}\n"
+            recap += f"Accuracy: {accuracy:.1f}%\n"
             if self.correct_guesses:
                 recap += "Regions found:\n" + "\n".join([f"- {region}" for region in self.correct_guesses]) + "\n\n"
             else:

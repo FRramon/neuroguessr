@@ -1,0 +1,775 @@
+{
+  "1": {
+    "name": "Primary Somatosensory Cortex (BA 1)",
+    "structure": [
+      "Located in the postcentral gyrus of the parietal lobe",
+      "Occupies the crown/apex of the postcentral gyrus",
+      "Contains dense granular layer IV with high density of sensory neurons",
+      "Receives projections from ventral posterior lateral nucleus of thalamus"
+    ],
+    "function": [
+      "Processes tactile sensations including fine touch and pressure discrimination",
+      "Maintains somatotopic representation of contralateral body (sensory homunculus)",
+      "Specializes in texture discrimination and proprioceptive feedback",
+      "Damage results in contralateral tactile agnosia and impaired two-point discrimination"
+    ]
+  },
+  "2": {
+    "name": "Primary Somatosensory Cortex (BA 2)",
+    "structure": [
+      "Located in the posterior aspect of the postcentral gyrus",
+      "Borders the postcentral sulcus and adjoins BA 1 anteriorly",
+      "Contains slightly less dense granular layer IV compared to BA 1",
+      "Receives projections from thalamus and integrates input from BA 1 and BA 3"
+    ],
+    "function": [
+      "Specialized in proprioception and sense of position",
+      "Processes tactile information related to size and shape discrimination",
+      "Integrates sensory input from multiple receptors for complex tactile recognition",
+      "Contributes to stereognosis (recognition of objects by touch alone)"
+    ]
+  },
+  "3": {
+    "name": "Primary Somatosensory Cortex (BA 3)",
+    "structure": [
+      "Located on the anterior part of the postcentral gyrus, adjacent to central sulcus",
+      "Subdivided into BA 3a (deep in sulcus) and BA 3b (on surface)",
+      "BA 3a receives primarily proprioceptive input, BA 3b receives cutaneous input",
+      "Most granular cortex of the somatosensory areas with prominent layer IV"
+    ],
+    "function": [
+      "Serves as the primary receptor zone for somatosensory input",
+      "Processes basic tactile sensations and discriminative touch",
+      "Maintains detailed somatotopic organization (fine representation of fingers and lips)",
+      "Damage results in contralateral hemihypesthesia (decreased tactile sensation)"
+    ]
+  },
+  "4": {
+    "name": "Primary Motor Cortex (BA 4)",
+    "structure": [
+      "Located on the precentral gyrus of the frontal lobe, anterior to central sulcus",
+      "Contains giant pyramidal cells of Betz in layer V that form the corticospinal tract",
+      "Organized somatotopically as motor homunculus (legs medial, face lateral)",
+      "Agranular cortex with poorly developed layer IV and prominent layer V"
+    ],
+    "function": [
+      "Controls voluntary movement execution for the contralateral body",
+      "Encodes movement parameters including direction, force, and speed",
+      "Forms direct monosynaptic connections with spinal motor neurons via corticospinal tract",
+      "Damage results in contralateral hemiplegia/hemiparesis with upper motor neuron signs"
+    ]
+  },
+  "5": {
+    "name": "Somatosensory Association Cortex (BA 5)",
+    "structure": [
+      "Located in the superior parietal lobule, posterior to the postcentral gyrus",
+      "Receives projections from primary somatosensory cortex (BA 1, 2, 3)",
+      "Contains moderate granular layer IV with association cortex characteristics",
+      "Densely connected with other sensory association areas and motor planning regions"
+    ],
+    "function": [
+      "Integrates tactile and proprioceptive information for stereognosis",
+      "Contributes to spatial awareness of body position and limb coordination",
+      "Important for skilled manual activities requiring tactile guidance",
+      "Damage contributes to tactile agnosia and deficits in hand-eye coordination"
+    ]
+  },
+  "6": {
+    "name": "Premotor and Supplementary Motor Cortex (BA 6)",
+    "structure": [
+      "Located anterior to primary motor cortex on the lateral and medial surfaces",
+      "Supplementary motor area (SMA) on medial surface, premotor cortex laterally",
+      "Larger pyramidal cells than association cortex but smaller than primary motor",
+      "Receives input from prefrontal cortex, parietal lobe, and basal ganglia"
+    ],
+    "function": [
+      "Plans and coordinates complex movement sequences prior to execution",
+      "SMA specializes in bimanual coordination and internally-generated movements",
+      "Lateral premotor area involved in visually-guided and externally-triggered movements",
+      "Damage results in apraxia and difficulty with movement sequencing"
+    ]
+  },
+  "7": {
+    "name": "Somatosensory Association Cortex (BA 7)",
+    "structure": [
+      "Located in the posterior parietal cortex, superior parietal lobule",
+      "Extends onto both lateral and medial (precuneus) surfaces of the hemisphere",
+      "Receives extensive connections from visual, auditory, and somatosensory regions",
+      "Well-developed granular layer IV typical of association cortex"
+    ],
+    "function": [
+      "Integrates multimodal sensory information for spatial awareness",
+      "Essential for visuomotor coordination and visually guided reaching/grasping",
+      "Contributes to mental rotation and spatial manipulation of objects",
+      "Damage results in optic ataxia and deficits in spatial awareness"
+    ]
+  },
+  "8": {
+    "name": "Frontal Eye Fields (BA 8)",
+    "structure": [
+      "Located in the middle frontal gyrus and extends onto superior frontal gyrus",
+      "Contains moderate-sized pyramidal cells in layer V",
+      "Connected to visual cortex, superior colliculus, and brainstem oculomotor nuclei",
+      "Borders premotor cortex posteriorly and prefrontal regions anteriorly"
+    ],
+    "function": [
+      "Controls voluntary saccadic eye movements and visual attention",
+      "Involved in anticipatory eye movements and prediction of visual targets",
+      "Participates in smooth pursuit eye movements with parietal regions",
+      "Unilateral damage results in contralateral gaze preference and impaired saccades"
+    ]
+  },
+  "9": {
+    "name": "Dorsolateral Prefrontal Cortex (BA 9)",
+    "structure": [
+      "Located in the superior and middle frontal gyri of the prefrontal cortex",
+      "Granular prefrontal cortex with well-developed layer IV",
+      "Extensive connections with other prefrontal regions, thalamus, and limbic structures",
+      "Dense dopaminergic innervation from ventral tegmental area"
+    ],
+    "function": [
+      "Involved in executive functions, working memory, and attention control",
+      "Crucial for planning, decision-making, and cognitive flexibility",
+      "Supports monitoring of behavior and integration of information over time",
+      "Dysfunction associated with cognitive deficits in schizophrenia and depression"
+    ]
+  },
+  "10": {
+    "name": "Anterior Prefrontal Cortex (BA 10)",
+    "structure": [
+      "Located at the frontal pole, most anterior portion of the frontal lobe",
+      "Largest single cytoarchitectonic area in human prefrontal cortex",
+      "High neuronal density with extensive dendritic arborization",
+      "Rich connections with multimodal association areas and limbic structures"
+    ],
+    "function": [
+      "Supports metacognition, introspection, and self-awareness",
+      "Involved in complex cognitive operations like multitasking and prospective memory",
+      "Facilitates integration of emotional and cognitive processes",
+      "Critical for planning of future actions and evaluation of hypothetical scenarios"
+    ]
+  },
+  "11": {
+    "name": "Orbitofrontal Area (BA 11)",
+    "structure": [
+      "Located on the orbital surface of the frontal lobe",
+      "Agranular/dysgranular cortex transitioning to mesocortex medially",
+      "Receives direct projections from olfactory bulb and primary olfactory cortex",
+      "Dense reciprocal connections with amygdala, hypothalamus, and ventral striatum"
+    ],
+    "function": [
+      "Processes reward value and guides reward-based decision making",
+      "Critical for olfactory identification and hedonic evaluation of odors",
+      "Involved in emotional regulation and social behavior",
+      "Damage associated with impulsivity, disinhibition, and altered personality"
+    ]
+  },
+  "12": {
+    "name": "Orbitofrontal Area (BA 12)",
+    "structure": [
+      "Located on the posterior orbital surface, between BA 11 and anterior insula",
+      "Transitional zone between orbitofrontal and insular cortex",
+      "Thin cortical layers with moderate development of granular layer IV",
+      "Connected with anterior insula, temporal pole, and ventromedial prefrontal regions"
+    ],
+    "function": [
+      "Integrates visceral and gustatory information with emotional processing",
+      "Participates in evaluation of food-related stimuli and feeding behavior",
+      "Contributes to stimulus-reinforcement association learning",
+      "Involved in emotional aspects of decision-making and risk assessment"
+    ]
+  },
+  "13": {
+    "name": "Insular Cortex (BA 13)",
+    "structure": [
+      "Located deep within the lateral sulcus, covered by the opercula",
+      "Agranular cortex anteriorly transitioning to granular cortex posteriorly",
+      "Direct connections with gustatory and visceral afferents",
+      "Rich in von Economo neurons in the anterior portion"
+    ],
+    "function": [
+      "Processes interoceptive information including pain, temperature, and visceral sensations",
+      "Integrates gustatory information and contributes to taste perception",
+      "Involved in emotional awareness and empathy",
+      "Participates in autonomic regulation and visceromotor control"
+    ]
+  },
+  "14": {
+    "name": "Insular Cortex (BA 14)",
+    "structure": [
+      "Located in the anterior ventral insula",
+      "Agranular cortex with poor laminar differentiation",
+      "Connected with amygdala, ventral striatum, and autonomic centers",
+      "Contains high concentration of von Economo neurons"
+    ],
+    "function": [
+      "Processes visceral sensations and interoceptive awareness",
+      "Contributes to emotional processing with emphasis on disgust",
+      "Participates in autonomic regulation including cardiovascular control",
+      "Involved in addiction processes and craving"
+    ]
+  },
+  "15": {
+    "name": "Anterior Temporal Lobe (BA 15)",
+    "structure": [
+      "Located in the anterior portion of the middle temporal gyrus",
+      "Characterized by moderate granular layer IV",
+      "Connected with amygdala, temporal pole, and prefrontal regions",
+      "Forms part of the ventral visual stream in primates"
+    ],
+    "function": [
+      "Involved in semantic processing and conceptual knowledge",
+      "Contributes to social cognition and theory of mind",
+      "Integrates complex visual features with semantic information",
+      "Damage associated with semantic dementia and loss of conceptual knowledge"
+    ]
+  },
+  "16": {
+    "name": "Insular Cortex (BA 16)",
+    "structure": [
+      "Located in the posterior insular cortex",
+      "Granular cortex with well-defined layer IV",
+      "Receives projections from somatosensory thalamus and primary sensory cortices",
+      "Connected with secondary somatosensory cortex and posterior parietal areas"
+    ],
+    "function": [
+      "Processes somatosensory information particularly pain and temperature",
+      "Integrates vestibular signals contributing to spatial orientation",
+      "Involved in sensorimotor integration and proprioception",
+      "Participates in sensory aspects of interoception"
+    ]
+  },
+  "17": {
+    "name": "Primary Visual Cortex (BA 17)",
+    "structure": [
+      "Located in the banks of the calcarine sulcus in the occipital lobe",
+      "Contains distinctive stria of Gennari (dense myelinated band in layer IV)",
+      "Organized retinotopically with macula having largest representation",
+      "Direct projections from lateral geniculate nucleus via optic radiations"
+    ],
+    "function": [
+      "Performs initial cortical processing of visual information",
+      "Detects basic visual features including edges, orientation, and spatial frequency",
+      "Organizes input in ocular dominance columns and orientation columns",
+      "Damage results in scotomas or cortical blindness corresponding to retinotopic organization"
+    ]
+  },
+  "18": {
+    "name": "Secondary Visual Cortex (BA 18)",
+    "structure": [
+      "Surrounds primary visual cortex in occipital lobe",
+      "Less prominent stria of Gennari compared to BA 17",
+      "Maintains retinotopic organization but with larger receptive fields",
+      "Multiple functional subdivisions including V2, V3, and V4 in humans"
+    ],
+    "function": [
+      "Processes intermediate visual features like contours and motion detection",
+      "Contains specialized regions for color processing (V4)",
+      "Integrates information from both eyes beyond level of V1",
+      "Contributes to figure-ground segregation and border ownership"
+    ]
+  },
+  "19": {
+    "name": "Associative Visual Cortex (BA 19)",
+    "structure": [
+      "Located anterior to BA 18 extending into the parieto-occipital and temporal regions",
+      "Includes portions of V3, V4, and V5/MT visual areas",
+      "Contains neurons with large receptive fields responsive to complex visual features",
+      "Connected extensively with parietal and temporal association cortices"
+    ],
+    "function": [
+      "Processes complex visual features and motion (especially V5/MT)",
+      "Integrates visual information for object recognition and spatial awareness",
+      "Contributes to visual attention and visual working memory",
+      "Damage can result in visual agnosia or specific visual processing deficits"
+    ]
+  },
+  "20": {
+    "name": "Inferior Temporal Gyrus (BA 20)",
+    "structure": [
+      "Located on the inferior temporal gyrus, ventral temporal lobe",
+      "Granular cortex with well-developed layer IV",
+      "Forms part of the ventral visual stream (\"what pathway\")",
+      "Extensive connections with visual association areas and limbic structures"
+    ],
+    "function": [
+      "Critical for object recognition and visual categorization",
+      "Processes complex visual features and contributes to face recognition",
+      "Involved in multimodal integration of visual and auditory information",
+      "Damage may result in category-specific visual agnosia"
+    ]
+  },
+  "21": {
+    "name": "Middle Temporal Gyrus (BA 21)",
+    "structure": [
+      "Located on the middle temporal gyrus, lateral temporal lobe",
+      "Typical association cortex with well-developed layers II and IV",
+      "Connected with auditory, visual, and multimodal association areas",
+      "Forms part of both dorsal and ventral processing streams"
+    ],
+    "function": [
+      "Processes complex auditory information and language comprehension",
+      "Involved in semantic processing and conceptual knowledge",
+      "Contributes to biological motion perception and social cognition",
+      "Left hemisphere damage associated with lexical-semantic deficits"
+    ]
+  },
+  "22": {
+    "name": "Superior Temporal Gyrus (BA 22)",
+    "structure": [
+      "Located on the superior temporal gyrus, includes Wernicke's area in left hemisphere",
+      "Granular cortex with well-developed layer IV",
+      "Contains primary and association auditory cortex posteriorly",
+      "Connected with frontal language areas via arcuate fasciculus"
+    ],
+    "function": [
+      "Critical for auditory processing and language comprehension",
+      "Left posterior STG (Wernicke's area) essential for speech comprehension",
+      "Right STG involved in prosody and emotional aspects of language",
+      "Damage to left BA 22 results in Wernicke's aphasia with impaired comprehension"
+    ]
+  },
+  "23": {
+    "name": "Ventral Posterior Cingulate Cortex (BA 23)",
+    "structure": [
+      "Located in the posterior cingulate gyrus, ventral portion",
+      "Granular cortex with well-developed layer IV",
+      "Connected with parahippocampal regions and parietal association cortex",
+      "Forms part of the default mode network"
+    ],
+    "function": [
+      "Involved in internally directed cognition and autobiographical memory",
+      "Participates in spatial memory and navigation",
+      "Contributes to assessment of risk and reward in decision making",
+      "Functions as a key node in the default mode network during rest"
+    ]
+  },
+  "24": {
+    "name": "Ventral Anterior Cingulate Cortex (BA 24)",
+    "structure": [
+      "Located in the anterior cingulate gyrus, ventral to the genu of corpus callosum",
+      "Agranular cortex with poorly developed layer IV",
+      "Dense connections with amygdala, PAG, hypothalamus, and autonomic centers",
+      "Contains spindle-shaped von Economo neurons"
+    ],
+    "function": [
+      "Processes emotional aspects of pain and negative affect",
+      "Involved in autonomic regulation and visceromotor control",
+      "Participates in fear conditioning and emotional learning",
+      "Dysfunction associated with mood disorders and chronic pain syndromes"
+    ]
+  },
+  "25": {
+    "name": "Subgenual Area (BA 25)",
+    "structure": [
+      "Located beneath the genu of corpus callosum in the medial prefrontal cortex",
+      "Agranular/dysgranular transitional cortex",
+      "Dense connections with hypothalamus, amygdala, and brainstem autonomic centers",
+      "Rich in serotonergic receptors and target for deep brain stimulation"
+    ],
+    "function": [
+      "Regulates autonomic and endocrine responses to emotional stimuli",
+      "Critically involved in mood regulation and stress responses",
+      "Contributes to visceromotor control and interoceptive processing",
+      "Hyperactivity associated with treatment-resistant depression"
+    ]
+  },
+  "26": {
+    "name": "Ectosplenial Portion (BA 26)",
+    "structure": [
+      "Located in the retrosplenial region, around the splenium of corpus callosum",
+      "Thin cortex with granular features",
+      "Connected with posterior cingulate and parahippocampal regions",
+      "Forms part of the posterior limbic system"
+    ],
+    "function": [
+      "Contributes to spatial navigation and orientation",
+      "Involved in episodic memory retrieval",
+      "Participates in translating between allocentric and egocentric reference frames",
+      "Damage associated with topographical disorientation and navigational deficits"
+    ]
+  },
+  "27": {
+    "name": "Piriform Cortex (BA 27)",
+    "structure": [
+      "Located in the anterior parahippocampal gyrus, near uncus",
+      "Paleocortex with three layers (characteristic of primary olfactory cortex)",
+      "Receives direct projections from olfactory bulb via lateral olfactory tract",
+      "Connected with amygdala, entorhinal cortex, and orbitofrontal regions"
+    ],
+    "function": [
+      "Serves as primary olfactory cortex processing odor information",
+      "Involved in olfactory discrimination and identification",
+      "Contributes to olfactory memory formation and retrieval",
+      "Participates in integration of olfaction with emotional processing"
+    ]
+  },
+  "28": {
+    "name": "Ventral Entorhinal Cortex (BA 28)",
+    "structure": [
+      "Located in the anterior parahippocampal gyrus, medial temporal lobe",
+      "Transitional cortex with features between iso- and allocortex",
+      "Contains distinctive cell islands in layer II (islands of Calleja)",
+      "Major interface between neocortex and hippocampal formation"
+    ],
+    "function": [
+      "Serves as gateway for information flow to and from hippocampus",
+      "Critical for episodic memory formation and consolidation",
+      "Contains grid cells that map spatial environment",
+      "Early site of pathology in Alzheimer's disease"
+    ]
+  },
+  "29": {
+    "name": "Retrosplenial Cingulate Cortex (BA 29)",
+    "structure": [
+      "Located in the retrosplenial cortex around splenium of corpus callosum",
+      "Granular cortex with distinctive cytochrome oxidase activity",
+      "Connected with visual areas, posterior parietal cortex, and hippocampus",
+      "Forms part of the default mode network"
+    ],
+    "function": [
+      "Integrates visual-spatial information with memory",
+      "Essential for spatial navigation and orientation",
+      "Participates in episodic memory retrieval",
+      "Damage associated with anterograde amnesia and topographical disorientation"
+    ]
+  },
+  "30": {
+    "name": "Part of Cingulate Cortex (BA 30)",
+    "structure": [
+      "Located in the retrosplenial cortex adjacent to BA 29",
+      "Granular cortex with moderate layer IV development",
+      "Connected with posterior cingulate, precuneus, and parahippocampal regions",
+      "Forms part of posterior medial memory system"
+    ],
+    "function": [
+      "Contributes to spatial cognition and navigation",
+      "Involved in autobiographical memory retrieval",
+      "Participates in scene construction and mental imagery",
+      "Functions within the default mode network during internal cognition"
+    ]
+  },
+  "31": {
+    "name": "Dorsal Posterior Cingulate Cortex (BA 31)",
+    "structure": [
+      "Located in the posterior cingulate gyrus, extends onto medial parietal lobe",
+      "Granular cortex with well-developed layer IV",
+      "Connected with parietal association cortices and precuneus",
+      "Forms core node of the default mode network"
+    ],
+    "function": [
+      "Involved in internally directed cognition and self-referential thought",
+      "Participates in autobiographical memory retrieval",
+      "Contributes to monitoring of sensory environment (sentinel function)",
+      "Dysfunction implicated in disorders of consciousness"
+    ]
+  },
+  "32": {
+    "name": "Dorsal Anterior Cingulate Cortex (BA 32)",
+    "structure": [
+      "Located dorsal to anterior cingulate cortex, extending onto medial frontal surface",
+      "Transitional cortex between agranular BA 24 and granular prefrontal cortex",
+      "Dense connections with lateral prefrontal, motor, and limbic regions",
+      "Rich dopaminergic innervation from ventral tegmental area"
+    ],
+    "function": [
+      "Critical for performance monitoring and cognitive control",
+      "Detects conflicts between competing responses and signals need for control",
+      "Involved in error detection and evaluation of outcomes",
+      "Participates in attention regulation and task switching"
+    ]
+  },
+  "33": {
+    "name": "Part of Anterior Cingulate Cortex (BA 33)",
+    "structure": [
+      "Located in the depth of the callosal sulcus, inferior to the body of corpus callosum",
+      "Thin cortex with primitive laminar organization",
+      "Connected with other cingulate regions and subcortical autonomic centers",
+      "Forms part of the limbic system"
+    ],
+    "function": [
+      "Contributes to autonomic regulation and visceromotor control",
+      "Involved in emotional processing and affective responses",
+      "Participates in pain processing particularly emotional aspects",
+      "Functionally integrated with adjacent cingulate regions"
+    ]
+  },
+  "34": {
+    "name": "Dorsal Entorhinal Cortex (BA 34)",
+    "structure": [
+      "Located in the anterior portion of the parahippocampal gyrus",
+      "Transitional cortex between isocortex and allocortex",
+      "Connected with olfactory regions, amygdala, and hippocampus",
+      "Contains specialized cells forming part of the medial temporal lobe memory system"
+    ],
+    "function": [
+      "Processes olfactory information integrated with emotional context",
+      "Contributes to episodic memory encoding",
+      "Participates in spatial navigation with place and grid cells",
+      "Forms part of the medial temporal lobe declarative memory system"
+    ]
+  },
+  "35": {
+    "name": "Perirhinal Cortex (BA 35)",
+    "structure": [
+      "Located in the anterior parahippocampal gyrus lateral to entorhinal cortex",
+      "Transitional cortex with features between isocortex and mesocortex",
+      "Connected with sensory association cortices and hippocampal formation",
+      "Forms part of the parahippocampal-hippocampal memory system"
+    ],
+    "function": [
+      "Critical for object recognition memory and familiarity judgments",
+      "Involved in associating objects with contexts",
+      "Contributes to perceptual processing for complex visual stimuli",
+      "Damage results in impaired recognition memory and visual discrimination"
+    ]
+  },
+  "36": {
+    "name": "Ectorhinal Area (BA 36)",
+    "structure": [
+      "Located in the lateral fusiform gyrus and inferior temporal gyrus",
+      "Granular cortex with well-developed layer IV",
+      "Connected with visual association areas and medial temporal structures",
+      "Forms part of the ventral visual stream"
+    ],
+    "function": [
+      "Processes complex visual features for object recognition",
+      "Critical for face processing and recognition",
+      "Contributes to category-specific visual processing (e.g., places, faces, tools)",
+      "Involved in semantic processing and multimodal integration"
+    ]
+  },
+  "37": {
+    "name": "Fusiform Gyrus (BA 37)",
+    "structure": [
+      "Located in the fusiform gyrus at the temporo-occipital junction",
+      "Granular cortex with well-developed layer IV",
+      "Connected with visual areas, language regions, and medial temporal structures",
+      "Contains functionally specialized regions including fusiform face area"
+    ],
+    "function": [
+      "Critical for face recognition (fusiform face area)",
+      "Contains regions specialized for recognizing places, bodies, and words",
+      "Left hemisphere involved in visual word form processing",
+      "Participates in object recognition and visual categorization"
+    ]
+  },
+  "38": {
+    "name": "Temporopolar Area (BA 38)",
+    "structure": [
+      "Located at the anterior tip of temporal lobe (temporal pole)",
+      "Transitional cortex with features between isocortex and paralimbic cortex",
+      "Rich connections with amygdala, orbitofrontal cortex, and insular regions",
+      "Forms part of the extended limbic system"
+    ],
+    "function": [
+      "Integrates complex perceptual inputs with emotional and social contexts",
+      "Critical for social cognition and theory of mind",
+      "Involved in semantic memory for unique entities and proper names",
+      "Damage associated with semantic dementia and socioemotional processing deficits"
+    ]
+  },
+  "39": {
+    "name": "Angular Gyrus (BA 39)",
+    "structure": [
+      "Located in the posterior part of inferior parietal lobule",
+      "Granular cortex with well-developed layer IV",
+      "Connected with visual, auditory, and somatosensory association areas",
+      "Forms part of the default mode network"
+    ],
+    "function": [
+      "Critical for semantic processing and language comprehension",
+      "Involved in reading and arithmetic processing",
+      "Contributes to attention shifting between different sensory modalities",
+      "Left angular gyrus damage results in deficits including alexia and agraphia"
+    ]
+  },
+  "40": {
+    "name": "Supramarginal Gyrus (BA 40)",
+    "structure": [
+      "Located in the anterior part of inferior parietal lobule",
+      "Granular cortex with well-developed layer IV",
+      "Connected with somatosensory, auditory, and premotor regions",
+      "Forms part of the dorsal stream for visual processing"
+    ],
+    "function": [
+      "Processes spatial aspects of sensorimotor integration",
+      "Left hemisphere involved in phonological processing and verbal working memory",
+      "Contributes to tool use understanding and action observation",
+      "Damage to left supramarginal gyrus results in conduction aphasia"
+    ]
+  },
+  "41": {
+    "name": "Auditory Cortex (BA 41)",
+    "structure": [
+      "Located on Heschl's gyrus within the lateral sulcus",
+      "Koniocortex with densely packed granular layer IV",
+      "Receives direct projections from medial geniculate nucleus of thalamus",
+      "Organized tonotopically with frequency-specific responses"
+    ],
+    "function": [
+      "Serves as primary auditory cortex processing basic sound features",
+      "Performs spectrotemporal analysis of auditory signals",
+      "Processes pitch, intensity, and timing of sounds",
+      "Bilateral damage results in cortical deafness"
+    ]
+  },
+  "42": {
+    "name": "Auditory Cortex (BA 42)",
+    "structure": [
+      "Located on the lateral portion of the superior temporal gyrus, surrounding BA 41",
+      "Less densely granular than BA 41 but still koniocortical features",
+      "Connected with primary auditory cortex and auditory association areas",
+      "Maintains partial tonotopic organization"
+    ],
+    "function": [
+      "Functions as secondary auditory cortex",
+      "Processes complex sounds and acoustic patterns",
+      "Contributes to sound localization and auditory scene analysis",
+      "Participates in early stages of speech sound processing"
+    ]
+  },
+  "43": {
+    "name": "Primary Gustatory Cortex (BA 43)",
+    "structure": [
+      "Located at the base of the postcentral gyrus near the lateral sulcus",
+      "Granular cortex with sensory features",
+      "Receives projections from ventral posterior medial nucleus of thalamus",
+      "Connected with insula and orbitofrontal gustatory regions"
+    ],
+    "function": [
+      "Processes basic taste sensations (sweet, sour, salty, bitter, umami)",
+      "Encodes intensity and quality of taste stimuli",
+      "Integrates taste with somatosensory information from the tongue",
+      "Damage can result in ageusia (loss of taste perception)"
+    ]
+  },
+  "44": {
+    "name": "Pars Opercularis (BA 44)",
+    "structure": [
+      "Posterior part of the inferior frontal gyrus",
+      "Bordered anteriorly by the ascending ramus of the lateral sulcus",
+      "Bordered posteriorly by the precentral sulcus",
+      "Contains canonical mirror neurons in humans",
+      "Densely connected to premotor cortex, primary motor cortex, and superior temporal gyrus",
+      "Higher cellular density and more pyramidal cells compared to neighboring regions"
+    ],
+    "function": [
+      "Forms part of Broca's area in the dominant hemisphere (typically left)",
+      "Critical for phonological processing and speech production",
+      "Involved in syntactic processing during language comprehension",
+      "Essential for verbal working memory",
+      "Participates in action observation and imitation networks",
+      "Lesions in dominant hemisphere result in Broca's aphasia characterized by non-fluent speech with preserved comprehension"
+    ]
+  },
+  "45": {
+    "name": "Pars Triangularis (BA 45)",
+    "structure": [
+      "Triangular region of the inferior frontal gyrus between the anterior and ascending rami of the lateral sulcus",
+      "Anterior component of Broca's area in the dominant hemisphere",
+      "Rich connections with dorsolateral prefrontal cortex, inferior parietal lobule, and temporal regions",
+      "Contains high density of von Economo neurons",
+      "Asymmetrical between hemispheres with larger volume typically in the left hemisphere"
+    ],
+    "function": [
+      "Crucial for semantic processing during language tasks",
+      "Involved in sentence comprehension, particularly for complex grammatical structures",
+      "Active during lexical retrieval and semantic decision tasks",
+      "Participates in response inhibition and cognitive control",
+      "Contributes to verbal fluency and controlled semantic retrieval",
+      "Damage contributes to certain forms of transcortical motor aphasia"
+    ]
+  },
+  "46": {
+    "name": "Dorsolateral Prefrontal Cortex (BA 46)",
+    "structure": [
+      "Located in the middle frontal gyrus",
+      "Rich reciprocal connections with other prefrontal regions, parietal cortex, and subcortical structures including striatum and thalamus",
+      "Higher density of dopaminergic innervation compared to other cortical regions",
+      "Well-developed layers II and IV with prominent pyramidal cells in layers III and V",
+      "Extensively connected to multimodal association areas"
+    ],
+    "function": [
+      "Critical hub for executive functions including working memory, cognitive flexibility, and planning",
+      "Maintains and manipulates information in working memory",
+      "Mediates task switching and adaptation to changing environmental demands",
+      "Regulates attention allocation and inhibits inappropriate responses",
+      "Important for abstract reasoning and problem-solving",
+      "Dysfunction associated with impaired executive function seen in schizophrenia, ADHD, and frontal lobe syndrome"
+    ]
+  },
+  "47": {
+    "name": "Pars Orbitalis (BA 47)",
+    "structure": [
+      "Forms the most anterior and ventral part of the inferior frontal gyrus",
+      "Located lateral to the orbital surface of the frontal lobe",
+      "Connections with limbic structures, orbitofrontal regions, and temporal pole",
+      "Less asymmetry between hemispheres compared to other language-related regions",
+      "Agranular/dysgranular cortex transitioning to fully granular cortex"
+    ],
+    "function": [
+      "Involved in processing of emotional prosody in speech",
+      "Participates in semantic aspects of language processing",
+      "Important for decision-making involving reward evaluation",
+      "Active during tasks requiring processing of emotional stimuli",
+      "Contributes to social cognition and theory of mind",
+      "Damage associated with impaired emotional regulation and social cognition deficits"
+    ]
+  },
+  "48": {
+    "name": "Retrosubicular Area (BA 48)",
+    "structure": [
+      "Located posterior to the subiculum in the medial temporal lobe",
+      "Transitional zone between hippocampal formation and parahippocampal cortex",
+      "Three-layered allocortex transitioning to six-layered isocortex",
+      "Rich in interneurons and with distinctive columnar organization",
+      "Receives projections from CA1 field of hippocampus and entorhinal cortex"
+    ],
+    "function": [
+      "Processes spatial and contextual information for memory formation",
+      "Involved in consolidation of episodic memories",
+      "Participates in spatial navigation circuits",
+      "Mediates information flow between hippocampus and neocortex",
+      "Important for context-dependent memory retrieval",
+      "Dysfunction may contribute to context-inappropriate memory recall seen in PTSD"
+    ]
+  },
+  "49": {
+    "name": "Parasubicular Area (BA 49)",
+    "structure": [
+      "Located adjacent to the subiculum in the medial temporal lobe",
+      "Part of the hippocampal formation alongside entorhinal cortex",
+      "Contains specialized cell types including head direction cells",
+      "Strong connections with the entorhinal cortex, presubiculum, and mammillary bodies",
+      "Organized in distinct cellular layers with characteristic cytoarchitecture"
+    ],
+    "function": [
+      "Critical for encoding spatial orientation and head direction",
+      "Processes environmental landmark information",
+      "Contributes to path integration during navigation",
+      "Forms part of the extended hippocampal spatial memory network",
+      "Involved in episodic memory formation with spatial components",
+      "Lesions associated with topographical disorientation and navigational deficits"
+    ]
+  },
+  "52": {
+    "name": "Parainsular Area (BA 52)",
+    "structure": [
+      "Located in the depth of the lateral sulcus adjacent to the insular cortex",
+      "Transitional zone between allocortex of insula and isocortex of operculum",
+      "Contains agranular and dysgranular cortical regions",
+      "Rich in von Economo neurons and fork cells",
+      "Receives convergent input from multiple sensory modalities",
+      "Connected to limbic structures, thalamus, and sensory association cortices"
+    ],
+    "function": [
+      "Integrates interoceptive information with external sensory input",
+      "Involved in visceral sensory processing and autonomic regulation",
+      "Contributes to taste perception and gustatory processing",
+      "Participates in multimodal sensory integration",
+      "Important for awareness of internal bodily states",
+      "Damage may contribute to disorders of interoception and autonomic regulation"
+    ]
+  }
+}

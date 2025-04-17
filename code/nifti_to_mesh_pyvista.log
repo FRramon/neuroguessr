@@ -1,0 +1,26 @@
+2025-04-17 21:10:13,507 - INFO - Starting main function
+2025-04-17 21:10:13,507 - INFO - Converting NIfTI /Users/francoisramon/Desktop/These/neuroguessr/data/xtract.nii.gz to OBJ /Users/francoisramon/Desktop/These/neuroguessr/data/atlas_mesh.obj
+2025-04-17 21:10:13,626 - DEBUG - NIfTI data shape: (182, 218, 182), unique values: [ 0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23
+ 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42]
+2025-04-17 21:10:13,629 - DEBUG - After thresholding (>= 1): 521310 voxels are 1
+2025-04-17 21:10:13,715 - DEBUG - Mesh generated: 262604 vertices, 527446 faces
+2025-04-17 21:10:15,580 - DEBUG - 5 items cleared from cache: ['edges_face', 'edges', 'triangles', 'triangles_cross', 'mass_properties']
+2025-04-17 21:10:17,282 - DEBUG - Mesh smoothed
+2025-04-17 21:10:17,298 - DEBUG - 5 items cleared from cache: ['edges_face', 'edges', 'triangles', 'triangles_cross', 'mass_properties']
+2025-04-17 21:10:17,600 - DEBUG - Mesh cleaned: 262604 vertices, 527446 faces
+2025-04-17 21:10:17,604 - DEBUG - Exporting 527446 faces as OBJ
+2025-04-17 21:10:18,163 - INFO - OBJ file saved to /Users/francoisramon/Desktop/These/neuroguessr/data/atlas_mesh.obj
+2025-04-17 21:15:19,621 - INFO - Starting main function
+2025-04-17 21:15:19,622 - INFO - Converting NIfTI /Users/francoisramon/Desktop/These/neuroguessr/data/xtract.nii.gz to OBJ /Users/francoisramon/Desktop/These/neuroguessr/data/atlas_mesh.obj
+2025-04-17 21:15:19,736 - DEBUG - NIfTI data shape: (182, 218, 182), unique values: [ 0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23
+ 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42]
+2025-04-17 21:15:19,740 - DEBUG - After thresholding (>= 1): 521310 voxels are 1
+2025-04-17 21:15:19,826 - DEBUG - Mesh generated: 262604 vertices, 527446 faces
+2025-04-17 21:15:21,685 - DEBUG - 5 items cleared from cache: ['edges_face', 'edges', 'triangles', 'triangles_cross', 'mass_properties']
+2025-04-17 21:15:23,441 - DEBUG - Mesh smoothed
+2025-04-17 21:15:23,457 - DEBUG - 5 items cleared from cache: ['edges_face', 'edges', 'triangles', 'triangles_cross', 'mass_properties']
+2025-04-17 21:15:23,774 - DEBUG - Mesh cleaned: 262604 vertices, 527446 faces
+2025-04-17 21:15:23,782 - DEBUG - Exporting 527446 faces as OBJ
+2025-04-17 21:15:24,347 - INFO - OBJ file saved to /Users/francoisramon/Desktop/These/neuroguessr/data/atlas_mesh.obj
+2025-04-17 21:15:24,417 - DEBUG - Crosshair world coordinates: [ 43. -49.  42.]
+2025-04-17 21:18:02,646 - INFO - PyVista plot displayed

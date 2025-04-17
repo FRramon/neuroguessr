@@ -14,11 +14,11 @@ Types if import:
 IMPORTANT: Do NOT post this list to the issue-tracker. Use it as a basis for
             tracking down the missing module yourself. Thanks!
 
-missing module named urllib.urlopen - imported by urllib (delayed, optional), lxml.html (delayed, optional)
-missing module named urllib.urlencode - imported by urllib (delayed, optional), lxml.html (delayed, optional)
 missing module named 'org.python' - imported by copy (optional), xml.sax (delayed, conditional)
 missing module named _frozen_importlib_external - imported by importlib._bootstrap (delayed), importlib (optional), importlib.abc (optional), zipimport (top-level)
 excluded module named _frozen_importlib - imported by importlib (optional), importlib.abc (optional), zipimport (top-level)
+missing module named urllib.urlopen - imported by urllib (delayed, optional), lxml.html (delayed, optional)
+missing module named urllib.urlencode - imported by urllib (delayed, optional), lxml.html (delayed, optional)
 missing module named winreg - imported by importlib._bootstrap_external (conditional), platform (delayed, optional), mimetypes (optional), urllib.request (delayed, conditional, optional), distutils._msvccompiler (top-level), distutils.msvc9compiler (top-level), IPython.utils.path (delayed, conditional, optional), jedi.api.environment (delayed), requests.utils (delayed, conditional, optional), platformdirs.windows (delayed, optional), matplotlib.font_manager (delayed), matplotlib (delayed, conditional), babel.localtime._win32 (optional), numba.misc.appdirs (delayed), pkg_resources._vendor.platformdirs.windows (delayed, optional), setuptools.msvc (conditional), setuptools._distutils._msvccompiler (top-level), setuptools._distutils.msvc9compiler (top-level), setuptools._distutils.msvccompiler (optional), pygments.formatters.img (optional)
 missing module named nt - imported by os (delayed, conditional, optional), ntpath (optional), shutil (conditional), importlib._bootstrap_external (conditional), ctypes (delayed, conditional)
 missing module named _winapi - imported by encodings (delayed, conditional, optional), ntpath (optional), subprocess (conditional), multiprocessing.connection (optional), multiprocessing.spawn (delayed, conditional), multiprocessing.reduction (conditional), multiprocessing.shared_memory (conditional), multiprocessing.heap (conditional), multiprocessing.popen_spawn_win32 (top-level), asyncio.windows_events (top-level), asyncio.windows_utils (top-level), mimetypes (optional), jupyter_client.launcher (delayed, conditional, optional), ipykernel.parentpoller (delayed, optional)

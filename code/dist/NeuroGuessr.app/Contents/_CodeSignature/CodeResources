@@ -4860,6 +4860,10 @@
 		<data>
 		zhDRTMMR1QT77pW+JwTQ9SwaDME=
 		</data>
+		<key>Resources/data/atlas_mesh.obj</key>
+		<data>
+		YEiEqyTzVY5nvbyfbiYo4RpSW4E=
+		</data>
 		<key>Resources/data/brainstem_lut.txt</key>
 		<data>
 		zURgOLxQpTjrw8pbgyC/zm/DEPg=
@@ -4891,6 +4895,10 @@
 		<key>Resources/data/mni_icbm152_t1_tal_nlin_asym_09c.nii.gz</key>
 		<data>
 		mcX75IlH/Z8fL4U917i3tALD9R8=
+		</data>
+		<key>Resources/data/temp_mri_mesh.obj</key>
+		<data>
+		YSDxLk5XSa3cut0In4Lp/fbdrOk=
 		</data>
 		<key>Resources/data/thalamus_lut.txt</key>
 		<data>
@@ -21400,271 +21408,271 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			250Txe7vkeyU7HcrhAKHQNz8hvA=
+			+XZoy7sRspKkEIye5eNqL2QT5nI=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"db9d13c5eeef91ec94ec772b84028740dcfc86f0"</string>
+			<string>cdhash H"f97668cbbb11b292a4108c9ee5e36a2f6413e672"</string>
 		</dict>
 		<key>Frameworks/PyQt5/Qt5/lib/QtDBus.framework</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			E9f6JUGwAAFvFpvETW7ziH0Xjr4=
+			Nthr+KlHu5/+fRfRbXcrvMQ/X+k=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"13d7fa2541b000016f169bc44d6ef3887d178ebe"</string>
+			<string>cdhash H"36d86bf8a947bb9ffe7d17d16d772bbcc43f5fe9"</string>
 		</dict>
 		<key>Frameworks/PyQt5/Qt5/lib/QtGui.framework</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			EYLV6/fEvGkRXNc6tdhDKlK+/Ws=
+			uNIKAJ2F8aSZ4OUiNVlNrobisM8=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"1182d5ebf7c4bc69115cd73ab5d8432a52befd6b"</string>
+			<string>cdhash H"b8d20a009d85f1a499e0e52235594dae86e2b0cf"</string>
 		</dict>
 		<key>Frameworks/PyQt5/Qt5/lib/QtNetwork.framework</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			iPp3ag42dtJ2EO6X2vzOzL9c5DM=
+			I/3VLfsZhnLVot0PNZc9k6HAEdA=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"88fa776a0e3676d27610ee97dafcceccbf5ce433"</string>
+			<string>cdhash H"23fdd52dfb198672d5a2dd0f35973d93a1c011d0"</string>
 		</dict>
 		<key>Frameworks/PyQt5/Qt5/lib/QtPrintSupport.framework</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			ZBHbSFlGu3O2hqkcoNYUaLMjupM=
+			FCOrjW244pNBrnFd0On3Gv6FqWE=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"6411db485946bb73b686a91ca0d61468b323ba93"</string>
+			<string>cdhash H"1423ab8d6db8e29341ae715dd0e9f71afe85a961"</string>
 		</dict>
 		<key>Frameworks/PyQt5/Qt5/lib/QtQml.framework</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			NglrzUTHZ8fZ+UA6CGEZIsj+jUY=
+			NHhB7luTjDYTlK4qALJfNDsS9ho=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"36096bcd44c767c7d9f9403a08611922c8fe8d46"</string>
+			<string>cdhash H"347841ee5b938c361394ae2a00b25f343b12f61a"</string>
 		</dict>
 		<key>Frameworks/PyQt5/Qt5/lib/QtQmlModels.framework</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			lH20HL/tjS8ssBoovnBM2NQF0PU=
+			zeNRzv1qtXQDQW4U9E788gIpEWc=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"947db41cbfed8d2f2cb01a28be704cd8d405d0f5"</string>
+			<string>cdhash H"cde351cefd6ab57403416e14f44efcf202291167"</string>
 		</dict>
 		<key>Frameworks/PyQt5/Qt5/lib/QtQuick.framework</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			Mv1Z1TRy9KnRGwjftC+d97YtnFI=
+			XS15CVK4RoCfbmyeSPACA9f7Kgg=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"32fd59d53472f4a9d11b08dfb42f9df7b62d9c52"</string>
+			<string>cdhash H"5d2d790952b846809f6e6c9e48f00203d7fb2a08"</string>
 		</dict>
 		<key>Frameworks/PyQt5/Qt5/lib/QtSvg.framework</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			fjAELAl37gjaxgCRQ5eYmZ8RnQs=
+			nXyBSVBt5FRnxsLT3RdWIO9ZS8o=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"7e30042c0977ee08dac60091439798999f119d0b"</string>
+			<string>cdhash H"9d7c8149506de45467c6c2d3dd175620ef594bca"</string>
 		</dict>
 		<key>Frameworks/PyQt5/Qt5/lib/QtWebSockets.framework</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			aE8LoY45Hp5hPjvPUQMrmxYuAvs=
+			EqOLw8DCqIwpvZP9K+dPvClwkbo=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"684f0ba18e391e9e613e3bcf51032b9b162e02fb"</string>
+			<string>cdhash H"12a38bc3c0c2a88c29bd93fd2be74fbc297091ba"</string>
 		</dict>
 		<key>Frameworks/PyQt5/Qt5/lib/QtWidgets.framework</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			Q5nmbp4hZJaev21sSDLJtx0R6Ak=
+			sKToaV6JzyeGwKmPCHOD/B51qtY=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"4399e66e9e2164969ebf6d6c4832c9b71d11e809"</string>
+			<string>cdhash H"b0a4e8695e89cf2786c0a98f087383fc1e75aad6"</string>
 		</dict>
 		<key>Frameworks/PyQt5/Qt5/plugins/generic/libqtuiotouchplugin.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			5jGZNyIcjvLQKwfoTc1pZnn5lLE=
+			eFt75CFvfTz42My/9msJAKzz2Dc=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"e6319937221c8ef2d02b07e84dcd696679f994b1"</string>
+			<string>cdhash H"785b7be4216f7d3cf8d8ccbff66b0900acf3d837"</string>
 		</dict>
 		<key>Frameworks/PyQt5/Qt5/plugins/iconengines/libqsvgicon.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			QezczmDYvyYl10rEoCkNM+5shqU=
+			sG4NxJr3QtRQht3JzaSN/6DtteA=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"41ecdcce60d8bf2625d74ac4a0290d33ee6c86a5"</string>
+			<string>cdhash H"b06e0dc49af742d45086ddc9cda48dffa0edb5e0"</string>
 		</dict>
 		<key>Frameworks/PyQt5/Qt5/plugins/imageformats/libqgif.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			wObQCuU2C6ktnOiS+F/2RKKGHU0=
+			aG101fVj2epRKC1ILtTyaBU+KWk=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"c0e6d00ae5360ba92d9ce892f85ff644a2861d4d"</string>
+			<string>cdhash H"686d74d5f563d9ea51282d482ed4f268153e2969"</string>
 		</dict>
 		<key>Frameworks/PyQt5/Qt5/plugins/imageformats/libqicns.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			ob8esZXU9+5CRVIOBVw6BQ/EHwQ=
+			DJZBbvo7DI1y251+tQXoklsYmJw=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"a1bf1eb195d4f7ee4245520e055c3a050fc41f04"</string>
+			<string>cdhash H"0c96416efa3b0c8d72db9d7eb505e8925b18989c"</string>
 		</dict>
 		<key>Frameworks/PyQt5/Qt5/plugins/imageformats/libqico.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			mux1UYUTC6HrN9tDb/Vf5USxj2I=
+			I4W5kvn6Z134o5W504vgdPtmzdw=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"9aec755185130ba1eb37db436ff55fe544b18f62"</string>
+			<string>cdhash H"2385b992f9fa675df8a395b9d38be074fb66cddc"</string>
 		</dict>
 		<key>Frameworks/PyQt5/Qt5/plugins/imageformats/libqjpeg.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			/Mvq1Ez8opFdR9qu3rvbK7UN20w=
+			zlZtHKm2c7/zpnZ8/9oE61n+FO8=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"fccbead44cfca2915d47daaedebbdb2bb50ddb4c"</string>
+			<string>cdhash H"ce566d1ca9b673bff3a6767cffda04eb59fe14ef"</string>
 		</dict>
 		<key>Frameworks/PyQt5/Qt5/plugins/imageformats/libqmacheif.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			u64IDr9qpfsa21s1o/IADfi33ws=
+			fVzj1ee7x5dBHaNm3JBwk2J1BVE=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"bbae080ebf6aa5fb1adb5b35a3f2000df8b7df0b"</string>
+			<string>cdhash H"7d5ce3d5e7bbc797411da366dc90709362750551"</string>
 		</dict>
 		<key>Frameworks/PyQt5/Qt5/plugins/imageformats/libqmacjp2.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			oilICtJExPv16awv64BBXe4NojQ=
+			tlvHb+jCLjp/BIQHUKvqVmCdtEE=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"a229480ad244c4fbf5e9ac2feb80415dee0da234"</string>
+			<string>cdhash H"b65bc76fe8c22e3a7f04840750abea56609db441"</string>
 		</dict>
 		<key>Frameworks/PyQt5/Qt5/plugins/imageformats/libqsvg.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			Grly+lfGeX8NdKNhYUQUzIgmgnY=
+			w3oy4wYaYI3EkaoSHtLpcxsX9Kk=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"1ab972fa57c6797f0d74a361614414cc88268276"</string>
+			<string>cdhash H"c37a32e3061a608dc491aa121ed2e9731b17f4a9"</string>
 		</dict>
 		<key>Frameworks/PyQt5/Qt5/plugins/imageformats/libqtga.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			rKyqr8gDU8qt64R5vTozrllsE18=
+			Feu+E+bhTuAbP8pVKFj7kIgLBAE=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"acacaaafc80353caadeb8479bd3a33ae596c135f"</string>
+			<string>cdhash H"15ebbe13e6e14ee01b3fca552858fb90880b0401"</string>
 		</dict>
 		<key>Frameworks/PyQt5/Qt5/plugins/imageformats/libqtiff.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			v3FBQjsVMKQxn80ulvO5Ix2m1MM=
+			0WBsPzk6YaP8wTSvAVooO6wZANQ=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"bf7141423b1530a4319fcd2e96f3b9231da6d4c3"</string>
+			<string>cdhash H"d1606c3f393a61a3fcc134af015a283bac1900d4"</string>
 		</dict>
 		<key>Frameworks/PyQt5/Qt5/plugins/imageformats/libqwbmp.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			aEJV/XZPQd6ghdjcdeNAmrFwoIk=
+			x2dfJV6BFsEjtsPSVT6cgTzifjc=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"684255fd764f41dea085d8dc75e3409ab170a089"</string>
+			<string>cdhash H"c7675f255e8116c123b6c3d2553e9c813ce27e37"</string>
 		</dict>
 		<key>Frameworks/PyQt5/Qt5/plugins/imageformats/libqwebp.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			1hRWBAffO2DQOhIE5W888AE/rTI=
+			EvMe4dbBdcu6426OhPgAQNF3IFI=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"d614560407df3b60d03a1204e56f3cf0013fad32"</string>
+			<string>cdhash H"12f31ee1d6c175cbbae36e8e84f80040d1772052"</string>
 		</dict>
 		<key>Frameworks/PyQt5/Qt5/plugins/platforms/libqcocoa.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			xJvfALC82dCNi5Ks7y0EHDv5OtU=
+			nYUxjdFjuFfIwMTg5hrrP3vTL+8=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"c49bdf00b0bcd9d08d8b92acef2d041c3bf93ad5"</string>
+			<string>cdhash H"9d85318dd163b857c8c0c4e0e61aeb3f7bd32fef"</string>
 		</dict>
 		<key>Frameworks/PyQt5/Qt5/plugins/platforms/libqminimal.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			VboPbo3kOcRQBwvp8Ro8hw4u9yk=
+			J/dCSD6lGquJFZAnsU0P+Ph92tY=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"55ba0f6e8de439c450070be9f11a3c870e2ef729"</string>
+			<string>cdhash H"27f742483ea51aab89159027b14d0ff8f87ddad6"</string>
 		</dict>
 		<key>Frameworks/PyQt5/Qt5/plugins/platforms/libqoffscreen.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			xNVwqzaNCATQlaV8r75AKIvuy+Y=
+			/cM8JjpHKp68aNFUthsDB2BrRPk=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"c4d570ab368d0804d095a57cafbe40288beecbe6"</string>
+			<string>cdhash H"fdc33c263a472a9ebc68d154b61b0307606b44f9"</string>
 		</dict>
 		<key>Frameworks/PyQt5/Qt5/plugins/platforms/libqwebgl.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			sPgWUzFKHttG83lz0vAxbOiP2Us=
+			ZTatfiUxN5BKlXFbh9NG7nGg3ng=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"b0f81653314a1edb46f37973d2f0316ce88fd94b"</string>
+			<string>cdhash H"6536ad7e253137904a95715b87d346ee71a0de78"</string>
 		</dict>
 		<key>Frameworks/PyQt5/Qt5/plugins/platformthemes/libqxdgdesktopportal.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			Zgb6exu9SJz81mgU/VP8k3IoTgM=
+			Q2++rIeZGDcLW5TlVocEQitjsps=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"6606fa7b1bbd489cfcd66814fd53fc9372284e03"</string>
+			<string>cdhash H"436fbeac879918370b5b94e5568704422b63b29b"</string>
 		</dict>
 		<key>Frameworks/PyQt5/Qt5/plugins/styles/libqmacstyle.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			5khvxdz48EJCmjegRhb+jHfZwCA=
+			uDl45ErTV9zWw6kxeV8u80I5msY=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"e6486fc5dcf8f042429a37a04616fe8c77d9c020"</string>
+			<string>cdhash H"b83978e44ad357dcd6c3a931795f2ef342399ac6"</string>
 		</dict>
 		<key>Frameworks/PyQt5/Qt5/translations</key>
 		<dict>
@@ -21675,37 +21683,37 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			P19B+XDnc4qvT4lxpIwkT4d6L00=
+			EULOlGwkrNBEL2DskIKy+Du03aA=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"3f5f41f970e7738aaf4f8971a48c244f877a2f4d"</string>
+			<string>cdhash H"1142ce946c24acd0442f60ec9082b2f83bb4dda0"</string>
 		</dict>
 		<key>Frameworks/PyQt5/QtGui.abi3.so</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			vpL8aUo11ORWV6IKD/zVs5nmO8U=
+			H+AcTmOdpD2zQ9sgfmPteNjio2s=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"be92fc694a35d4e45657a20a0ffcd5b399e63bc5"</string>
+			<string>cdhash H"1fe01c4e639da43db343db207e63ed78d8e2a36b"</string>
 		</dict>
 		<key>Frameworks/PyQt5/QtWidgets.abi3.so</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			pE/ojrpixBAMJZus8z0JfAe4QJg=
+			3+sXRWEn4fJG25foIyGddOJ3fJI=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"a44fe88eba62c4100c259bacf33d097c07b84098"</string>
+			<string>cdhash H"dfeb17456127e1f246db97e823219d74e2777c92"</string>
 		</dict>
 		<key>Frameworks/PyQt5/sip.cpython-311-darwin.so</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			0k+8rAiEtZ6/1xjXSc5p+ujsu1A=
+			L8LtP60BPTuDh9a5//c9SEC/k/M=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"d24fbcac0884b59ebfd718d749ce69fae8ecbb50"</string>
+			<string>cdhash H"2fc2ed3fad013d3b8387d6b9fff73d4840bf93f3"</string>
 		</dict>
 		<key>Frameworks/QtCore</key>
 		<dict>
@@ -34070,6 +34078,13 @@
 			9PX0m0G6J9NIL+AvB2KnWIng34dBLSQW8HYn9xYvDLg=
 			</data>
 		</dict>
+		<key>Resources/data/atlas_mesh.obj</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			LpWcSBhWn9bwNA6kSs1sBmSaSZqLqU4CfITUB72Jnuk=
+			</data>
+		</dict>
 		<key>Resources/data/brainstem_lut.txt</key>
 		<dict>
 			<key>hash2</key>
@@ -34124,6 +34139,13 @@
 			<key>hash2</key>
 			<data>
 			ZVABkUQ4X6qlpqPbanvctAyH14sCm8S8lCCpidObOlU=
+			</data>
+		</dict>
+		<key>Resources/data/temp_mri_mesh.obj</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vafIoJXhkQpf2vSr549N50+GMIMGVipkYkPeistvYZs=
 			</data>
 		</dict>
 		<key>Resources/data/thalamus_lut.txt</key>
