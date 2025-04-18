@@ -1,6 +1,0 @@
-#No. Label Name:                            R   G   B   A
-0    Background                          0   0   0   0
-1    Medulla                             255 0   0   255
-2    Pons                                0   200 80  255
-3    SCP                                 124 252 0   255
-4    Midbrain                            65  105 225 255 
