@@ -4672,9 +4672,97 @@
 		<data>
 		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
 		</data>
+		<key>Resources/code/NeuroGuessr.spec</key>
+		<data>
+		4mRYPK3+JOijMoyQf3dkTcgpV9A=
+		</data>
+		<key>Resources/code/build.sh.rtf</key>
+		<data>
+		Z+5zlT6rYIij1IVWLJupVG85nTA=
+		</data>
+		<key>Resources/code/conversion.py</key>
+		<data>
+		iuu1hBXDlmPnAl38S3ZWsbqGn8A=
+		</data>
+		<key>Resources/code/convert_atlas.py</key>
+		<data>
+		OtM6KSXPISKa2g/80p32enOpFHI=
+		</data>
+		<key>Resources/code/flame.png</key>
+		<data>
+		eBhaa9zv9bItS263npadPlskh7M=
+		</data>
+		<key>Resources/code/neuroguessr.png</key>
+		<data>
+		BMCj7gLtmEgezIcj3+4mATf9gfQ=
+		</data>
+		<key>Resources/code/neuroguessr.py</key>
+		<data>
+		hL8Gx2qzspXtPL5/66xqxCXY0Kw=
+		</data>
+		<key>Resources/code/neuroguessr3.icns</key>
+		<data>
+		3eHRNcIVYLfh42RPjrdgRpLefhQ=
+		</data>
+		<key>Resources/code/neuroguessr4.icns</key>
+		<data>
+		pxR/tnnTHwwfPOtieEmTKFe9deA=
+		</data>
+		<key>Resources/code/neuroguessr4.png</key>
+		<data>
+		UOeEaIFjehgHDN9SByJWrlCKF6w=
+		</data>
+		<key>Resources/code/neuroguessr5.icns</key>
+		<data>
+		ie5QDw6Z3RDJVxJjza9RYjq2Yuc=
+		</data>
 		<key>Resources/code/neuroguessr5.png</key>
 		<data>
 		IsvjIygXLUUOosYucHa7ecKKbs8=
+		</data>
+		<key>Resources/code/neuroguessr_2d.py</key>
+		<data>
+		rvbzJC6mqglV2OWDTsr0OO/Cx6c=
+		</data>
+		<key>Resources/code/neuroguessr_3d.py</key>
+		<data>
+		92R3tD/AkiNb5Cy77XqRt5YsBoQ=
+		</data>
+		<key>Resources/code/neuroguessr_score.py</key>
+		<data>
+		IuO1qfheCqXGncyaO5W74ZF8BzA=
+		</data>
+		<key>Resources/code/neuroguessr_time.py</key>
+		<data>
+		/V+RQmyLOLtp21omgqK6mG+PgKs=
+		</data>
+		<key>Resources/code/qt3d.py</key>
+		<data>
+		gBTAoQ/LVUpMxlVvthIOhB70ZJE=
+		</data>
+		<key>Resources/code/qt3d_2.py</key>
+		<data>
+		Za/1p+dV5AXB2k/gIOZMYJV/YRI=
+		</data>
+		<key>Resources/code/qt3d_4.py</key>
+		<data>
+		YpnK7Rk1OhGb/jcCESnqhmzlmmI=
+		</data>
+		<key>Resources/code/qt_3d_2.py</key>
+		<data>
+		Dn+5HqcCxP6AyXsEEzN2FCgWmoE=
+		</data>
+		<key>Resources/code/speedometer.png</key>
+		<data>
+		g6AJkkW9B5NL86CqS474ueZKSiA=
+		</data>
+		<key>Resources/code/stopwatch.png</key>
+		<data>
+		8Z2WkLg/kaUEXM6kySJOtxYWqjQ=
+		</data>
+		<key>Resources/code/temp_mri_mesh.obj</key>
+		<data>
+		YSDxLk5XSa3cut0In4Lp/fbdrOk=
 		</data>
 		<key>Resources/cryptography-41.0.7.dist-info/INSTALLER</key>
 		<data>
@@ -4739,6 +4827,10 @@
 		<key>Resources/data/Cerebellum_MNIfnirt.xml</key>
 		<data>
 		vOzTA/O9OMRSnrvk7WNHyMo3x2Y=
+		</data>
+		<key>Resources/data/HarvardOxford-Cortical.json</key>
+		<data>
+		vtkn4Yd0pIpSyuAbOPK+xkOZ5CQ=
 		</data>
 		<key>Resources/data/HarvardOxford-Cortical.txt</key>
 		<data>
@@ -4868,6 +4960,10 @@
 		<data>
 		zURgOLxQpTjrw8pbgyC/zm/DEPg=
 		</data>
+		<key>Resources/data/brodmann.json</key>
+		<data>
+		8LvE538ZKJjiZyuYe4RtuGwvVQk=
+		</data>
 		<key>Resources/data/brodmann.nii.gz</key>
 		<data>
 		abk2Nyu1BcFk5MxxsdHcYeqNpKk=
@@ -4907,6 +5003,10 @@
 		<key>Resources/data/transformation_matrix.txt</key>
 		<data>
 		B+9a2MmmHQCCXt5paBDT+H+UrBI=
+		</data>
+		<key>Resources/data/xtract.json</key>
+		<data>
+		dWDqlwrz0weCu+sCFT7HFE9m05Q=
 		</data>
 		<key>Resources/data/xtract.nii.gz</key>
 		<data>
@@ -33734,11 +33834,165 @@
 			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
 			</data>
 		</dict>
+		<key>Resources/code/NeuroGuessr.spec</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5DscqwrqQ7vbj4hMxHHfGIJlujM1YaZ9yGAwk08KdR0=
+			</data>
+		</dict>
+		<key>Resources/code/build.sh.rtf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			35tkXKCGhN4hh+892x13/cpJS37aOAwhv7ZmmGtOHYU=
+			</data>
+		</dict>
+		<key>Resources/code/conversion.py</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1QAnvqFTLqZXqv6Q65qRJbeBbeSDBxZPRAw/h12wO+Q=
+			</data>
+		</dict>
+		<key>Resources/code/convert_atlas.py</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			huldn1Snm35UStROtZzK5YFtPyG3pVpsCD3OXvS99FU=
+			</data>
+		</dict>
+		<key>Resources/code/flame.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			B/7VsD4NTzytk7O7naS2KYzqA7arQJ4jAu6eOoE1Dw8=
+			</data>
+		</dict>
+		<key>Resources/code/neuroguessr.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tyiuOI6qhF/L9cCF12wnhKn1djH8DHCoXyjIOpA7jvI=
+			</data>
+		</dict>
+		<key>Resources/code/neuroguessr.py</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			IEw38Tfa+wY/MTBBtyZfJmdr/te7vMu5YGizwzDWxbs=
+			</data>
+		</dict>
+		<key>Resources/code/neuroguessr3.icns</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ckv50jVCsRZy4UrrKgW/gxRhZN857cDIvRD52JpkY4g=
+			</data>
+		</dict>
+		<key>Resources/code/neuroguessr4.icns</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VkbKieEBo0rRuOTriw1e5kG3venuDBa74+/Q3WVbdhw=
+			</data>
+		</dict>
+		<key>Resources/code/neuroguessr4.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8bvd2GGpkLxHNU2iOWoasA4ZTpjbdU4w+QsbpAi9YQg=
+			</data>
+		</dict>
+		<key>Resources/code/neuroguessr5.icns</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			wKWqTTjLeY04+aXkZ2u83tWAM2aTqIybM9XkTog1xkw=
+			</data>
+		</dict>
 		<key>Resources/code/neuroguessr5.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			HqzqaVUUVUQ6VKhyRQCBMnP4o7RJjb7rfDN4ubZtk98=
+			</data>
+		</dict>
+		<key>Resources/code/neuroguessr_2d.py</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pVxOFIB7tPYUBkuKR4YfT5WwQv1fDmDNy6vWuiu0kPs=
+			</data>
+		</dict>
+		<key>Resources/code/neuroguessr_3d.py</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			F18o06bZnrYYkJkZ6b942S0taBY3ZVkAqSlCMyjJ4jg=
+			</data>
+		</dict>
+		<key>Resources/code/neuroguessr_score.py</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5BneNN+xhhSbAk39NdqfxnrZ6ELW6HBl/S+TgmIZE7I=
+			</data>
+		</dict>
+		<key>Resources/code/neuroguessr_time.py</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			g3Mt5Za7dAo2nhWbpE6ewBtQ8sx8JswCFO9AFe955Bk=
+			</data>
+		</dict>
+		<key>Resources/code/qt3d.py</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Qc3XMoOjN+QiP6lREGX6SVDD1aRljpqjT4rv/GzR0r8=
+			</data>
+		</dict>
+		<key>Resources/code/qt3d_2.py</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Glbo9mYt8LNJBasNLFjWUOmcrIOHyFfCA/AL36BYOmU=
+			</data>
+		</dict>
+		<key>Resources/code/qt3d_4.py</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Mo0w/V27+d4rEQkZXRHP+5FPICHEa6KCoOTWSXdKc3M=
+			</data>
+		</dict>
+		<key>Resources/code/qt_3d_2.py</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cW+DVgncgEpUfXFpm5A7GxrCsq6Mfk3Eod+GIGCeePg=
+			</data>
+		</dict>
+		<key>Resources/code/speedometer.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			35MaaLpZVHSVRddK4PaIKjCtKOMppFxtkcLaX9/RfBE=
+			</data>
+		</dict>
+		<key>Resources/code/stopwatch.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			NwandO1GR5qdoXSdzTFgDr/8Qx1uuCsf+pqKoFEUx/I=
+			</data>
+		</dict>
+		<key>Resources/code/temp_mri_mesh.obj</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vafIoJXhkQpf2vSr549N50+GMIMGVipkYkPeistvYZs=
 			</data>
 		</dict>
 		<key>Resources/contourpy</key>
@@ -33866,6 +34120,13 @@
 			<key>hash2</key>
 			<data>
 			eXJCPBKE1X5J01OkbqF4FD14gd6Nb9KowsuoGfa1U4A=
+			</data>
+		</dict>
+		<key>Resources/data/HarvardOxford-Cortical.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0zcyW3sDyABQo5/vYi9um/GBib4SHW9vi7Flqc5/ZsQ=
 			</data>
 		</dict>
 		<key>Resources/data/HarvardOxford-Cortical.txt</key>
@@ -34092,6 +34353,13 @@
 			9vNt+W6WGoPjQDlYGPKRnVrnd4+CvkYE0bTcoUO+fKI=
 			</data>
 		</dict>
+		<key>Resources/data/brodmann.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			khUO9xRqujQiRNaqpriSyoAPHbNiushe7MzZ/7IlWvk=
+			</data>
+		</dict>
 		<key>Resources/data/brodmann.nii.gz</key>
 		<dict>
 			<key>hash2</key>
@@ -34160,6 +34428,13 @@
 			<key>hash2</key>
 			<data>
 			JeoQzQwtdldpYj/wRmEVLK9x6lr+Eni+PKdR2EGLYoc=
+			</data>
+		</dict>
+		<key>Resources/data/xtract.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jidgwUCpx+D+GCdNMijRaReV5l5WMEJIQdRNWUX9/VY=
 			</data>
 		</dict>
 		<key>Resources/data/xtract.nii.gz</key>
