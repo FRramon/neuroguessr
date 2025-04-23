@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['neuroguessr_2d.py'],
+    ['neuroguessr_color.py'],
     pathex=[],
     binaries=[],
     datas=[('../data', 'data'), ('../code', 'code')],

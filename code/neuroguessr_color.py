@@ -272,8 +272,8 @@ class NeuroGuessrGame(QMainWindow):
                 get_resource_path("data/HarvardOxford-Cortical.txt")
             ),
             "Subcortical": (
-                get_resource_path("data/HarvardOxford-sub-maxprob-thr25-1mm_stride.nii.gz"),
-                get_resource_path("data/HarvardOxford-Subcortical.txt")
+                get_resource_path("data/ICBM2009b_asym-SubCorSeg-1mm_nn_stride.nii.gz"),
+                get_resource_path("data/subcortical_bb.txt")
             ),
             "Cerebellum": (
                 get_resource_path("data/Cerebellum-MNIfnirt-maxprob-thr25-1mm_stride.nii.gz"),
@@ -282,6 +282,18 @@ class NeuroGuessrGame(QMainWindow):
             "Xtract": (
                 get_resource_path("data/xtract_stride.nii.gz"),
                 get_resource_path("data/xtract.txt")
+            ) ,
+            "Thalamus": (
+                get_resource_path("data/Thalamus-thr0_stride_nn_sub.nii.gz"),
+                get_resource_path("data/thalamus_lut.txt")
+            )  ,
+            "Brain Stem": (
+                get_resource_path("data/Brainstem-thr0_stride_nn_sub.nii.gz"),
+                get_resource_path("data/brainstem_lut.txt")
+            )  ,
+            "Hippocampus Amygdala": (
+                get_resource_path("data/HippoAmyg_left-thr0_stride_nn_sub.nii.gz"),
+                get_resource_path("data/hippoamyg_left_lut.txt")
             )
         }
         self.pr_data = self.load_pr()

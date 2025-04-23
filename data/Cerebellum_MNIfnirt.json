@@ -1,0 +1,435 @@
+{
+  "0": {
+    "name": "Background",
+    "structure": [
+      "Represents non-labeled or non-specific tissue in neuroimaging",
+      "Includes regions not assigned to a specific cerebellar structure",
+      "Typically used as a reference or null label in segmentation and visualization"
+    ],
+    "function": [
+      "No specific neurological function",
+      "Serves as a placeholder in imaging datasets to differentiate labeled structures from surrounding tissue",
+      "Ensures accurate visualization by providing contrast to labeled cerebellar regions"
+    ]
+  },
+  "1": {
+    "name": "Left-I-IV",
+    "structure": [
+      "Anterior lobe lobules I-IV in the left cerebellar hemisphere",
+      "Located in the most rostral portion of the cerebellum, adjacent to the primary fissure",
+      "Receives input primarily from the spinocerebellar tracts",
+      "Projects to the fastigial nucleus of the deep cerebellar nuclei"
+    ],
+    "function": [
+      "Processes proprioceptive information from the ipsilateral lower limbs",
+      "Involved in the coordination of posture and gross motor movements",
+      "Contributes to maintenance of balance and equilibrium during stance and locomotion",
+      "Damage may result in ataxic gait and impaired lower limb coordination"
+    ]
+  },
+  "2": {
+    "name": "Right-I-IV",
+    "structure": [
+      "Anterior lobe lobules I-IV in the right cerebellar hemisphere",
+      "Positioned in the superior and anterior aspect of the cerebellum",
+      "Connected to the spinal cord via spinocerebellar pathways",
+      "Contains significant representation of lower limb somatotopy"
+    ],
+    "function": [
+      "Processes proprioceptive information from the ipsilateral lower limbs",
+      "Contributes to automated postural adjustments during standing and walking",
+      "Modulates muscle tone and coordination of leg movements",
+      "Works with vestibular system to maintain postural stability"
+    ]
+  },
+  "3": {
+    "name": "Left-V",
+    "structure": [
+      "Lobule V of the left cerebellar hemisphere within the anterior lobe",
+      "Located immediately anterior to the primary fissure",
+      "Receives input from spinocerebellar tracts and corticopontocerebellar pathways",
+      "Contains representations of the ipsilateral upper and lower limbs"
+    ],
+    "function": [
+      "Coordinates voluntary movements of the ipsilateral limbs",
+      "Involved in the timing and execution of skilled motor sequences",
+      "Participates in the learning of procedural motor skills",
+      "Contributes to motor planning and execution of limb movements"
+    ]
+  },
+  "4": {
+    "name": "Right-V",
+    "structure": [
+      "Lobule V of the right cerebellar hemisphere within the anterior lobe",
+      "Positioned just rostral to the primary fissure",
+      "Receives substantial somatosensory input via spinocerebellar tracts",
+      "Contains somatotopic representations with emphasis on limb coordination"
+    ],
+    "function": [
+      "Mediates coordination of voluntary ipsilateral limb movements",
+      "Contributes to motor learning and adaptation of movement patterns",
+      "Processes proprioceptive feedback during ongoing movements",
+      "Involved in error correction during execution of skilled movements"
+    ]
+  },
+  "5": {
+    "name": "Left-VI",
+    "structure": [
+      "Lobule VI of the left cerebellar hemisphere in the posterior lobe",
+      "Located posterior to the primary fissure",
+      "Receives extensive input from corticopontocerebellar pathways",
+      "Contains representations of hand and orofacial regions"
+    ],
+    "function": [
+      "Involved in coordination of fine motor movements, particularly of the hands",
+      "Participates in cognitive aspects of motor planning and execution",
+      "Contributes to procedural learning and motor adaptation",
+      "Active during language-related motor tasks and articulation"
+    ]
+  },
+  "6": {
+    "name": "Vermis-VI",
+    "structure": [
+      "Midline vermis portion of lobule VI, connecting left and right hemispheres",
+      "Part of the posterior lobe of the cerebellum",
+      "Receives vestibular, visual, and auditory inputs",
+      "Projects primarily to the fastigial nucleus"
+    ],
+    "function": [
+      "Coordinates eye movements and gaze stabilization",
+      "Involved in midline motor control and postural adjustments of the trunk",
+      "Participates in emotional processing via connections with limbic structures",
+      "Contributes to spatial orientation and visual guidance of movement"
+    ]
+  },
+  "7": {
+    "name": "Right-VI",
+    "structure": [
+      "Lobule VI of the right cerebellar hemisphere in the posterior lobe",
+      "Positioned immediately posterior to the primary fissure",
+      "Receives substantial input from prefrontal and premotor cortical areas",
+      "Contains representation of hand, fingers, and orofacial regions"
+    ],
+    "function": [
+      "Facilitates coordination of fine motor skills and manual dexterity",
+      "Involved in the cognitive aspects of motor control and planning",
+      "Contributes to motor learning and adaptation",
+      "Participates in language-related motor functions"
+    ]
+  },
+  "8": {
+    "name": "Left-Crus-I",
+    "structure": [
+      "Crus I of the left cerebellar hemisphere, part of lobule VII",
+      "Located in the lateral posterior lobe, superior to Crus II",
+      "Receives extensive projections from prefrontal and parietal cortices",
+      "Forms part of the cerebellar cognitive-affective circuit"
+    ],
+    "function": [
+      "Involved in higher cognitive functions including working memory and executive functions",
+      "Participates in language processing, particularly verbal fluency",
+      "Contributes to visuospatial processing and attention",
+      "Engaged during complex problem-solving tasks"
+    ]
+  },
+  "9": {
+    "name": "Vermis-Crus-I",
+    "structure": [
+      "Midline vermis portion corresponding to Crus I",
+      "Situated in the posterior aspect of the cerebellar vermis",
+      "Receives input from limbic and association cortices",
+      "Projects to fastigial nucleus and vestibular nuclei"
+    ],
+    "function": [
+      "Involved in emotional processing and affective regulation",
+      "Contributes to spatial navigation and orientation",
+      "Participates in multisensory integration",
+      "Mediates aspects of social cognition and emotional learning"
+    ]
+  },
+  "10": {
+    "name": "Right-Crus-I",
+    "structure": [
+      "Crus I of the right cerebellar hemisphere, part of lobule VII",
+      "Located in the lateral posterior cerebellar lobe",
+      "Receives projections from association cortices and default mode network",
+      "Contains non-motor representations with cognitive specialization"
+    ],
+    "function": [
+      "Supports executive functions including working memory and cognitive flexibility",
+      "Involved in language processing, particularly semantic aspects",
+      "Contributes to attention shifting and task-switching",
+      "Participates in social cognition and theory of mind"
+    ]
+  },
+  "11": {
+    "name": "Left-Crus-II",
+    "structure": [
+      "Crus II of the left cerebellar hemisphere, part of lobule VII",
+      "Located inferior to Crus I in the lateral posterior lobe",
+      "Receives input from prefrontal, temporal, and parietal association areas",
+      "Forms part of the cerebellar cognitive network"
+    ],
+    "function": [
+      "Involved in abstract reasoning and higher-order cognitive processing",
+      "Participates in language comprehension and semantic processing",
+      "Contributes to emotional regulation and social cognition",
+      "Engaged during complex problem-solving and planning tasks"
+    ]
+  },
+  "12": {
+    "name": "Vermis-Crus-II",
+    "structure": [
+      "Midline vermis component corresponding to Crus II",
+      "Connected to limbic structures including hypothalamus and amygdala",
+      "Receives input from emotional processing networks",
+      "Projects to fastigial nucleus and other deep cerebellar nuclei"
+    ],
+    "function": [
+      "Mediates emotional responses and affective regulation",
+      "Involved in autonomic control related to emotional states",
+      "Contributes to fear conditioning and emotional learning",
+      "Participates in stress responses and emotional homeostasis"
+    ]
+  },
+  "13": {
+    "name": "Right-Crus-II",
+    "structure": [
+      "Crus II of the right cerebellar hemisphere, part of lobule VII",
+      "Situated in the inferolateral aspect of the posterior lobe",
+      "Receives extensive input from multimodal association cortices",
+      "Contains primarily non-motor representations"
+    ],
+    "function": [
+      "Supports executive functions and cognitive control processes",
+      "Involved in language processing, particularly narrative comprehension",
+      "Contributes to social cognition and emotional processing",
+      "Participates in higher-order attention and working memory tasks"
+    ]
+  },
+  "14": {
+    "name": "Left-VIIb",
+    "structure": [
+      "Lobule VIIb of the left cerebellar hemisphere",
+      "Located posterior to Crus II in the posterior lobe",
+      "Receives input from association cortices and pontine nuclei",
+      "Contains both motor and cognitive representations"
+    ],
+    "function": [
+      "Involved in complex motor sequence planning and execution",
+      "Contributes to cognitive aspects of motor control",
+      "Participates in procedural learning and skill acquisition",
+      "Mediates coordination between cognitive processing and motor output"
+    ]
+  },
+  "15": {
+    "name": "Vermis-VIIb",
+    "structure": [
+      "Midline vermis portion of lobule VIIb",
+      "Connected to vestibular nuclei and brainstem centers",
+      "Receives input from vestibular and proprioceptive pathways",
+      "Projects primarily to fastigial nucleus"
+    ],
+    "function": [
+      "Contributes to balance and postural control during complex movements",
+      "Involved in oculomotor control and gaze stabilization",
+      "Participates in the coordination of head and trunk movements",
+      "Mediates vestibular processing for spatial orientation"
+    ]
+  },
+  "16": {
+    "name": "Right-VIIb",
+    "structure": [
+      "Lobule VIIb of the right cerebellar hemisphere",
+      "Positioned in the posterior lobe between Crus II and VIIIa",
+      "Receives input from motor, premotor, and association cortices",
+      "Contains mixed motor and cognitive representations"
+    ],
+    "function": [
+      "Coordinates complex motor sequences and skilled movements",
+      "Participates in motor planning and sensorimotor integration",
+      "Contributes to procedural learning and motor adaptation",
+      "Involved in the cognitive control of movement"
+    ]
+  },
+  "17": {
+    "name": "Left-VIIIa",
+    "structure": [
+      "Anterior subdivision of lobule VIII in the left cerebellar hemisphere",
+      "Located in the posterior-inferior region of the cerebellum",
+      "Receives input primarily from motor cortex and spinocerebellar tracts",
+      "Contains representation of lower limbs and trunk"
+    ],
+    "function": [
+      "Involved in coordination of lower limb movements",
+      "Contributes to automated aspects of gait and locomotion",
+      "Participates in postural adjustments during walking",
+      "Mediates sensorimotor integration for leg movements"
+    ]
+  },
+  "18": {
+    "name": "Vermis-VIIIa",
+    "structure": [
+      "Midline vermis portion of lobule VIIIa",
+      "Connected to vestibular and reticular nuclei",
+      "Receives input from vestibular afferents and proprioceptive pathways",
+      "Projects to fastigial and vestibular nuclei"
+    ],
+    "function": [
+      "Maintains midline postural control and balance",
+      "Coordinates trunk and proximal limb movements",
+      "Contributes to vestibular processing and spatial orientation",
+      "Involved in automated aspects of upright posture"
+    ]
+  },
+  "19": {
+    "name": "Right-VIIIa",
+    "structure": [
+      "Anterior subdivision of lobule VIII in the right cerebellar hemisphere",
+      "Located in the posterior-inferior cerebellar region",
+      "Receives substantial input from motor cortex and spinal afferents",
+      "Contains representation of ipsilateral lower limbs"
+    ],
+    "function": [
+      "Coordinates lower extremity movements and locomotion",
+      "Contributes to automated motor patterns during walking",
+      "Mediates sensorimotor integration for leg coordination",
+      "Involved in the timing and rhythm of repetitive leg movements"
+    ]
+  },
+  "20": {
+    "name": "Left-VIIIb",
+    "structure": [
+      "Posterior subdivision of lobule VIII in the left cerebellar hemisphere",
+      "Located in the inferomedial region of the posterior lobe",
+      "Receives input from motor cortex and spinocerebellar pathways",
+      "Contains representation of lower limbs with emphasis on distal control"
+    ],
+    "function": [
+      "Mediates fine control of foot and ankle movements",
+      "Contributes to precision aspects of lower limb coordination",
+      "Involved in the adaptation of gait to changing terrain",
+      "Participates in error correction during locomotion"
+    ]
+  },
+  "21": {
+    "name": "Vermis-VIIIb",
+    "structure": [
+      "Midline vermis portion of lobule VIIIb",
+      "Connected to vestibular and reticular formation circuits",
+      "Receives input from vestibular and proprioceptive systems",
+      "Projects primarily to fastigial nucleus"
+    ],
+    "function": [
+      "Coordinates axial and proximal muscle activation patterns",
+      "Contributes to postural adjustments during complex movements",
+      "Involved in the vestibular control of balance",
+      "Mediates automatic postural responses to perturbations"
+    ]
+  },
+  "22": {
+    "name": "Right-VIIIb",
+    "structure": [
+      "Posterior subdivision of lobule VIII in the right cerebellar hemisphere",
+      "Located in the posterior-inferior aspect of the cerebellum",
+      "Receives input from motor cortex and spinocerebellar tracts",
+      "Contains somatotopic representation of distal lower limb structures"
+    ],
+    "function": [
+      "Coordinates fine motor control of foot and ankle movements",
+      "Involved in the precision aspects of lower limb coordination",
+      "Contributes to adaptation of gait patterns",
+      "Participates in the learning of skilled foot movements"
+    ]
+  },
+  "23": {
+    "name": "Left-IX",
+    "structure": [
+      "Lobule IX (uvula) of the left cerebellar hemisphere",
+      "Located in the posterior-inferior region of the cerebellum",
+      "Receives vestibular and autonomic inputs",
+      "Connected to vestibulocerebellum circuits"
+    ],
+    "function": [
+      "Processes vestibular information for balance and spatial orientation",
+      "Involved in autonomic control related to motion perception",
+      "Contributes to the control of eye movements and visual tracking",
+      "Participates in cardiovascular and respiratory autonomic regulation"
+    ]
+  },
+  "24": {
+    "name": "Vermis-IX",
+    "structure": [
+      "Midline vermis portion of lobule IX (uvula)",
+      "Significant component of the vestibulocerebellum",
+      "Receives primary vestibular afferents and visual inputs",
+      "Projects to fastigial nucleus and vestibular nuclei"
+    ],
+    "function": [
+      "Central role in balance and equilibrium maintenance",
+      "Coordinates eye movements in response to head motion",
+      "Involved in processing of gravitational and linear acceleration",
+      "Contributes to spatial orientation and motion perception"
+    ]
+  },
+  "25": {
+    "name": "Right-IX",
+    "structure": [
+      "Lobule IX (uvula) of the right cerebellar hemisphere",
+      "Located in the posterior-inferior cerebellar region",
+      "Receives substantial vestibular and autonomic inputs",
+      "Part of the vestibulocerebellum functional system"
+    ],
+    "function": [
+      "Processes vestibular signals for balance and spatial orientation",
+      "Involved in oculomotor control and gaze stabilization",
+      "Contributes to autonomic responses related to motion and balance",
+      "Participates in the integration of visual and vestibular information"
+    ]
+  },
+  "26": {
+    "name": "Left-X",
+    "structure": [
+      "Lobule X (flocculus) of the left cerebellar hemisphere",
+      "Most inferior portion of the cerebellum",
+      "Receives direct vestibular afferents and visual motion inputs",
+      "Key component of the vestibulocerebellum"
+    ],
+    "function": [
+      "Critical for vestibulo-ocular reflex adaptation",
+      "Mediates smooth pursuit eye movements and gaze stabilization",
+      "Essential for maintaining visual fixation during head movement",
+      "Involved in motion sickness and spatial disorientation responses"
+    ]
+  },
+  "27": {
+    "name": "Vermis-X",
+    "structure": [
+      "Midline vermis portion of lobule X (nodulus)",
+      "Most inferior aspect of the cerebellar vermis",
+      "Receives direct vestibular input from semicircular canals and otolith organs",
+      "Projects to vestibular nuclei and fastigial nucleus"
+    ],
+    "function": [
+      "Processes otolithic gravitational signals",
+      "Essential for spatial orientation with respect to gravity",
+      "Integrates vestibular and proprioceptive information for balance",
+      "Involved in autonomic responses to changes in position and motion"
+    ]
+  },
+  "28": {
+    "name": "Right-X",
+    "structure": [
+      "Lobule X (flocculus) of the right cerebellar hemisphere",
+      "Located at the most inferolateral aspect of the cerebellum",
+      "Receives direct vestibular and visual motion inputs",
+      "Forms a key component of the vestibulocerebellum"
+    ],
+    "function": [
+      "Mediates adaptation of the vestibulo-ocular reflex",
+      "Controls smooth pursuit eye movements and gaze stability",
+      "Essential for maintaining visual fixation during head movement",
+      "Processes visual-vestibular mismatch signals during motion"
+    ]
+  }
+}

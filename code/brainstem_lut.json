@@ -1,0 +1,75 @@
+{
+  "0": {
+    "name": "Background",
+    "structure": [
+      "Represents non-labeled or non-specific tissue in neuroimaging",
+      "Includes regions not assigned to a specific brainstem structure",
+      "Typically used as a reference or null label in segmentation and visualization"
+    ],
+    "function": [
+      "No specific neurological function",
+      "Serves as a placeholder in imaging datasets to differentiate labeled structures from surrounding tissue",
+      "Ensures accurate visualization by providing contrast to labeled anatomical structures"
+    ]
+  },
+  "1": {
+    "name": "Medulla",
+    "structure": [
+      "Most caudal portion of the brainstem, continuous with the spinal cord",
+      "Contains vital autonomic centers including respiratory and cardiovascular control nuclei",
+      "Houses cranial nerve nuclei V (spinal trigeminal), VI (abducens), IX (glossopharyngeal), X (vagus), XI (accessory), and XII (hypoglossal)",
+      "Key anatomical landmarks include the pyramids, olive, and fourth ventricle floor"
+    ],
+    "function": [
+      "Regulates critical autonomic functions including breathing rhythm, heart rate, and blood pressure",
+      "Controls reflexive actions such as swallowing, coughing, vomiting, and sneezing",
+      "Serves as the decussation point for major motor and sensory pathways",
+      "Damage can be life-threatening due to disruption of vital respiratory and cardiovascular functions"
+    ]
+  },
+  "2": {
+    "name": "Pons",
+    "structure": [
+      "Middle portion of the brainstem located between the midbrain and medulla",
+      "Characterized by a prominent ventral bulge formed by transverse pontine fibers",
+      "Contains cranial nerve nuclei V (trigeminal), VI (abducens), VII (facial), and VIII (vestibulocochlear)",
+      "Divided into ventral (basilar) pons and dorsal pontine tegmentum"
+    ],
+    "function": [
+      "Serves as a major conduit for information between the cerebrum and cerebellum via the middle cerebellar peduncles",
+      "Contains pneumotaxic and apneustic centers that help regulate respiratory patterns",
+      "Participates in sleep cycle regulation through reticular formation nuclei",
+      "Mediates facial sensation, facial expressions, eye movements, hearing, and balance"
+    ]
+  },
+  "3": {
+    "name": "SCP",
+    "structure": [
+      "Superior Cerebellar Peduncle, one of three cerebellar peduncles",
+      "Prominent fiber bundle connecting the cerebellum to the midbrain",
+      "Contains primarily efferent fibers from deep cerebellar nuclei (especially dentate nucleus)",
+      "Decussates in the caudal midbrain before reaching the red nucleus and thalamus"
+    ],
+    "function": [
+      "Primary output pathway from the cerebellum to the thalamus and cerebral cortex",
+      "Carries cerebellar influence to motor and premotor cortical areas via thalamic relay",
+      "Enables cerebellar modulation of planned movements and motor coordination",
+      "Damage can result in cerebellar outflow disruption, causing intention tremor and dysmetria"
+    ]
+  },
+  "4": {
+    "name": "Midbrain",
+    "structure": [
+      "Rostral portion of the brainstem, located between the pons and diencephalon",
+      "Composed of tectum (dorsal portion including superior and inferior colliculi)",
+      "Contains cerebral peduncles, substantia nigra, and red nucleus in ventral regions",
+      "Houses cranial nerve nuclei III (oculomotor) and IV (trochlear)"
+    ],
+    "function": [
+      "Processes visual and auditory information through the superior and inferior colliculi",
+      "Mediates pupillary light reflexes and extraocular eye movements",
+      "Contains dopaminergic neurons in substantia nigra essential for motor control",
+      "Participates in arousal and consciousness through the reticular activating system"
+    ]
+  }
+}

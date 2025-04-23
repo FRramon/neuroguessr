@@ -1,0 +1,114 @@
+{
+  "brain_regions": [
+    {
+      "name": "Left Red Nucleus",
+      "structure": "Oval-shaped nucleus located in the rostral midbrain tegmentum at the level of the superior colliculus. Contains abundant iron, giving it a reddish appearance in fresh specimens. Receives afferents from the motor cortex and deep cerebellar nuclei.",
+      "function": "Plays an important role in motor coordination. The rubrospinal tract originates here and facilitates flexor muscle tone. Involved in tremor reduction and coordinated movement execution. Also participates in associated movements and locomotion patterns."
+    },
+    {
+      "name": "Right Red Nucleus",
+      "structure": "Oval-shaped nucleus in the right rostral midbrain tegmentum at the level of the superior colliculus. Rich in iron content. Forms part of the extrapyramidal motor system with connections to cerebellum and motor cortex.",
+      "function": "Controls coordinated limb movement on the left side of the body. Facilitates flexor tone through the rubrospinal tract. Integrates cerebellar and cortical motor information for smooth movement execution and reduces tremor."
+    },
+    {
+      "name": "Left Substantia Nigra",
+      "structure": "Midbrain structure with two parts: pars compacta (dorsal tier of dopaminergic neurons with neuromelanin) and pars reticulata (GABAergic neurons). Located between the cerebral peduncle and tegmentum of the midbrain.",
+      "function": "Pars compacta produces dopamine essential for the nigrostriatal pathway, critical in reward processing and movement control. Pars reticulata provides inhibitory output to thalamus and superior colliculus, functioning as a component of the basal ganglia motor circuit. Dysfunction is central to Parkinson's disease pathophysiology."
+    },
+    {
+      "name": "Right Substantia Nigra",
+      "structure": "Midbrain structure with pars compacta (dopaminergic neurons with neuromelanin) and pars reticulata (GABAergic neurons). Located ventral to the tegmentum in the right midbrain, with direct connections to the striatum.",
+      "function": "Regulates movement through dopaminergic projections to the striatum from pars compacta. The pars reticulata serves as an output nucleus of the basal ganglia, modulating thalamocortical activity. Degeneration causes left-sided parkinsonism symptoms including bradykinesia, rigidity, and tremor."
+    },
+    {
+      "name": "Left Subthalamic Nucleus",
+      "structure": "Small, lens-shaped nucleus located ventral to the thalamus in the diencephalon. Bordered by the zona incerta dorsally and the cerebral peduncle ventrolaterally. Contains glutamatergic neurons and is highly vascularized.",
+      "function": "Provides excitatory input to the internal globus pallidus as part of the indirect pathway in basal ganglia circuits. Hyperactivity contributes to parkinsonian motor symptoms. Primary target for deep brain stimulation in Parkinson's disease treatment. Lesions can cause contralateral hemiballismus."
+    },
+    {
+      "name": "Right Subthalamic Nucleus",
+      "structure": "Lens-shaped, glutamatergic nucleus positioned ventral to the thalamus in the right diencephalon. Forms part of the subthalamic region between the diencephalon and midbrain with extensive connections to basal ganglia structures.",
+      "function": "Acts as a central regulator in the indirect pathway of the basal ganglia circuit through excitatory projections to the globus pallidus interna. Critical in motor control, with lesions causing left-sided hemiballismus. Serves as an effective target for deep brain stimulation in movement disorders."
+    },
+    {
+      "name": "Left Caudate",
+      "structure": "C-shaped nucleus forming the dorsomedial portion of the striatum. Has a head (anterior), body, and tail that follows the lateral ventricle. Primarily composed of medium spiny GABAergic neurons with dopaminergic innervation from the substantia nigra.",
+      "function": "Involved in goal-directed action selection and execution of voluntary movements. Participates in cognitive functions including procedural learning, habit formation, and executive functions. Forms part of cognitive and limbic cortico-striatal-thalamo-cortical circuits. Dysfunction implicated in Huntington's disease and OCD."
+    },
+    {
+      "name": "Right Caudate",
+      "structure": "C-shaped nucleus forming part of the striatum, curving along the lateral ventricle with a prominent head in the anterior portion. Contains predominantly GABAergic medium spiny neurons with compartmentalized striosome and matrix organization.",
+      "function": "Mediates voluntary movement control and higher cognitive functions including spatial memory and learning. Integral to reward processing and goal-directed behaviors. Participates in executive function networks through connections with prefrontal cortex. Atrophy is characteristic in Huntington's disease."
+    },
+    {
+      "name": "Left Putamen",
+      "structure": "Large, rounded nucleus forming the lateral portion of the lentiform nucleus in the basal ganglia. Located lateral to the internal capsule and globus pallidus. Primarily composed of medium spiny neurons receiving extensive cortical input.",
+      "function": "Primary component of the motor circuit of the basal ganglia. Processes and integrates sensorimotor information for movement execution and coordination. Involved in motor learning and procedural memory formation. Significantly affected in Parkinson's disease with dopamine depletion."
+    },
+    {
+      "name": "Right Putamen",
+      "structure": "Large, rounded nucleus forming the lateral portion of the right lentiform nucleus, separated from the caudate by the anterior limb of the internal capsule. Heavily connected with motor and somatosensory cortices.",
+      "function": "Central to motor circuit regulation in the basal ganglia. Facilitates automatic execution of learned movements. Participates in stimulus-response learning and habit formation. Implicated in the pathophysiology of movement disorders including dystonia and Parkinson's disease."
+    },
+    {
+      "name": "Left Globus Pallidus Externa",
+      "structure": "Lateral segment of the globus pallidus within the lentiform nucleus. Contains primarily GABAergic neurons with high iron content. Receives input from the striatum via the indirect pathway and projects to the subthalamic nucleus.",
+      "function": "Key component of the indirect pathway in basal ganglia circuitry. Provides inhibitory control over the subthalamic nucleus. Modulates movement by regulating thalamic output to the cortex. Dysfunction contributes to hyperkinetic movement disorders."
+    },
+    {
+      "name": "Right Globus Pallidus Externa",
+      "structure": "Lateral division of the right globus pallidus, forming part of the lentiform nucleus. Contains pallidal neurons with distinctive dendritic arbors. Receives GABAergic projections from the striatum and sends inhibitory outputs to the subthalamic nucleus.",
+      "function": "Serves as a critical regulatory component in the indirect pathway of the basal ganglia circuit. Modulates subthalamic nucleus activity, influencing motor program selection and execution. Involved in motor timing and the suppression of competing motor programs."
+    },
+    {
+      "name": "Left Globus Pallidus Interna",
+      "structure": "Medial segment of the globus pallidus with high iron content. Smaller than the external segment but with similar cellular composition of large GABAergic neurons. Primary output nucleus of the basal ganglia, projecting to the thalamus.",
+      "function": "Major output nucleus for both direct and indirect pathways of the basal ganglia. Provides tonic inhibition to the ventral anterior and ventrolateral thalamic nuclei. Dysfunction leads to increased thalamic inhibition and reduced cortical activation, contributing to hypokinetic movement disorders. Primary target for pallidotomy in Parkinson's disease treatment."
+    },
+    {
+      "name": "Right Globus Pallidus Interna",
+      "structure": "Medial portion of the right globus pallidus with densely packed GABAergic neurons. Serves as the primary output nucleus of the basal ganglia with projections via the ansa lenticularis and lenticular fasciculus to the thalamus.",
+      "function": "Provides inhibitory output to thalamic nuclei, modulating thalamocortical transmission. Final common pathway for integration of direct and indirect basal ganglia circuits. Critical target for deep brain stimulation and ablative procedures in movement disorders. Dysfunction contributes to rigidity and bradykinesia."
+    },
+    {
+      "name": "Left Thalamus",
+      "structure": "Large, egg-shaped gray matter structure forming the dorsal portion of the diencephalon. Comprises multiple nuclei organized into anterior, medial, lateral, and intralaminar groups. Surrounded by the internal medullary lamina and external medullary lamina.",
+      "function": "Serves as the major relay center for sensory information to the cortex. Integrates motor information from cerebellum and basal ganglia to motor cortex via VA/VL nuclei. Participates in regulation of consciousness, sleep, and alertness. Different nuclei support specific functions: VPL/VPM for somatosensory relay, LGN for visual processing, and MGN for auditory transmission."
+    },
+    {
+      "name": "Right Thalamus",
+      "structure": "Large diencephalic structure divided into multiple functional nuclei by the Y-shaped internal medullary lamina. Contains specific relay nuclei (sensory), association nuclei, and nonspecific (intralaminar) nuclei with diverse connections throughout the brain.",
+      "function": "Acts as a gateway for sensory information processing and relay to cortical regions. Modulates motor function through ventral anterior and ventral lateral nuclei connections with basal ganglia and cerebellum. Contributes to language functions through pulvinar and mediodorsal nuclei. Regulates sleep, arousal, and consciousness through reticular and intralaminar nuclei."
+    },
+    {
+      "name": "Left Hippocampus",
+      "structure": "Curved, seahorse-shaped structure in the medial temporal lobe. Part of the limbic system with distinct regions (CA1-CA4, dentate gyrus, subiculum). Contains a trisynaptic circuit: perforant path → dentate gyrus → CA3 → CA1 → subiculum/entorhinal cortex.",
+      "function": "Critical for the formation of declarative memories (episodic and semantic) and spatial navigation. Exhibits place cells that encode spatial location. Integrates multimodal sensory information into coherent memory traces. Left hippocampus particularly involved in verbal memory. Highly vulnerable to ischemia, epilepsy, and Alzheimer's disease."
+    },
+    {
+      "name": "Right Hippocampus",
+      "structure": "Curved structure in the right medial temporal lobe with distinct subfields including the cornu ammonis regions (CA1-CA4), dentate gyrus, and subiculum. Contains primarily pyramidal neurons organized in a laminar fashion with extensive associational connections.",
+      "function": "Specialized for visuospatial memory processing and navigation. Contains place cells and grid cells that create cognitive maps of the environment. Essential for context-dependent memory formation and retrieval. Plays a role in pattern separation and completion. Particularly involved in facial recognition memory."
+    },
+    {
+      "name": "Left Nucleus Accumbens",
+      "structure": "Ventral portion of the striatum located where the head of the caudate meets the anterior putamen. Contains a core and shell subregion with distinct connections. Primarily composed of medium spiny GABAergic neurons with dopaminergic innervation from the ventral tegmental area.",
+      "function": "Key component of the brain's reward circuitry, processing motivation, pleasure, and reinforcement learning. Mediates response to natural rewards and drugs of abuse through dopaminergic transmission. Involved in the translation of motivation into action through limbic-motor integration. Implicated in addiction, depression, and various psychiatric disorders."
+    },
+    {
+      "name": "Right Nucleus Accumbens",
+      "structure": "Ventral striatal structure in the basal forebrain at the junction of the putamen and caudate nucleus. Comprises core (dorsolateral) and shell (ventromedial) subregions with distinct connectivity patterns and neurochemical organization.",
+      "function": "Central component of the mesolimbic reward pathway, processing reward prediction and hedonic value. Mediates incentive salience and motivational drive through dopaminergic signaling. Involved in reinforcement learning and habit formation. Participates in stress response regulation and emotional processing. Dysfunction linked to addiction, anhedonia, and obsessive-compulsive behaviors."
+    },
+    {
+      "name": "Left Amygdala",
+      "structure": "Almond-shaped nuclear complex in the medial temporal lobe, anterior to the hippocampus. Comprises basolateral complex (lateral, basal, and accessory basal nuclei), centromedial group (central and medial nuclei), and cortical group with distinct connectivity patterns.",
+      "function": "Central to emotional processing, particularly fear conditioning and threat detection. Assigns emotional significance to sensory stimuli. Modulates memory consolidation based on emotional arousal through connections with the hippocampus. Involved in social cognition, particularly processing of facial expressions. Left amygdala particularly involved in detailed emotional memory processing."
+    },
+    {
+      "name": "Right Amygdala",
+      "structure": "Almond-shaped nuclear complex in the right anterior medial temporal lobe. Contains multiple nuclei groups including basolateral (receives sensory input), centromedial (main output), and cortical divisions. Extensive connections with hypothalamus, thalamus, and prefrontal regions.",
+      "function": "Specializes in rapid, global emotional processing with emphasis on negative emotions and threat detection. Mediates autonomic responses to emotional stimuli through hypothalamic connections. Contributes to emotional memory encoding and retrieval. Particularly important for processing emotional prosody and non-verbal emotional cues. Implicated in anxiety disorders and PTSD pathophysiology."
+    }
+  ]
+}
