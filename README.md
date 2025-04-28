@@ -24,7 +24,7 @@ git clone https://github.com/FRramon/neuroguessr
 
 ```
 cd code
-pyinstaller --name NeuroGuessr --windowed --add-data "../data:data"  --add-data "../code:code" -i "neuroguessr5.ico" neuroguessr.py
+pyinstaller --name NeuroGuessr --add-data "../data:data"  --add-data "../code:code" -i "neuroguessr5.ico" --onefile neuroguessr.py
 ```
 
 #### For MacOS : 
