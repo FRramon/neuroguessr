@@ -260,7 +260,7 @@ class NeuroGuessrGame(QMainWindow):
         self.pr_file = os.path.join(Path.home(), ".neuroguessr", "pr.json")
         self.atlas_options = {
             "AAL": (
-                get_resource_path("data/aal_stride_regrid.nii.gz"),
+                get_resource_path("data/aal_registered_nearest.nii.gz"),
                 get_resource_path("data/aal.txt")
             ),
             "Brodmann": (
@@ -294,6 +294,10 @@ class NeuroGuessrGame(QMainWindow):
             "Hippocampus Amygdala": (
                 get_resource_path("data/HippoAmyg_left-thr0_stride_nn_sub.nii.gz"),
                 get_resource_path("data/hippoamyg_left_lut.txt")
+            )  ,
+            "JHU": (
+                get_resource_path("data/JHU-WhiteMatter-labels-1mm_stride.nii.gz"),
+                get_resource_path("data/JHU_labels.txt")
             )
         }
         self.pr_data = self.load_pr()
@@ -869,7 +873,7 @@ class NeuroGuessrGame(QMainWindow):
     def load_data(self):
         atlas_name = self.current_atlas
         atlas_file, region_file = self.atlas_options[atlas_name]
-        template_file = get_resource_path("data/MNI_template_1mm_stride.nii.gz")
+        template_file = get_resource_path("data/tpl-ICBM_regrid_stride.nii.gz")
         json_file = os.path.splitext(region_file)[0] + ".json"
         try:
             if os.path.exists(template_file):
@@ -1104,7 +1108,7 @@ class NeuroGuessrGame(QMainWindow):
         self.update_all_slices()
         self.guess_button.setEnabled(True)
         self.guess_button.setText("Confirm Guess")
-        self.guess_button.setStyleSheet("font-size: 16px; padding: 10px; background-color: #4CAF50; font-weight: bold;")
+        self.guess_button.setStyleSheet("font-size: 16px; padding: 10px; background-color: #FFFFFF; font-weight: bold;")  ##4CAF50
 
     def validate_guess(self):
         if not self.selected_position or not self.game_running:
@@ -1130,7 +1134,7 @@ class NeuroGuessrGame(QMainWindow):
                 self.score_label.setText(f"Regions Found: {self.score}/{len(self.all_regions)}")
             QMessageBox.information(self, "Correct!", f"You found the {target_name}!")
             self.guess_button.setEnabled(False)
-            self.guess_button.setStyleSheet("font-size: 16px; padding: 10px; background-color: #4CAF50;")
+            self.guess_button.setStyleSheet("font-size: 16px; padding: 10px; background-color: #FFFFFF;")
             self.consecutive_errors = 0
             for view in self.slice_views:
                 view.stop_blinking()
@@ -1157,7 +1161,7 @@ class NeuroGuessrGame(QMainWindow):
                 self.score_label.setText(f"Regions Found: {self.score}/{len(self.all_regions)}")
                 QMessageBox.warning(self, "Incorrect", f"That's the {clicked_name}.\nFind the {target_name}.")
             self.guess_button.setEnabled(True)
-            self.guess_button.setStyleSheet("font-size: 16px; padding: 10px; background-color: #4CAF50;")
+            self.guess_button.setStyleSheet("font-size: 16px; padding: 10px; background-color: #FFFFFF;")
 
     def update_timer(self):
         if self.game_mode != "Contre la Montre":
