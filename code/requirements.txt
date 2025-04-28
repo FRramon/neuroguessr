@@ -1,0 +1,7 @@
+nibabel==5.3.2
+open3d==0.19.0
+pytest==8.3.5
+pyvista==0.43.5
+skimage==0.0
+traitlets==5.14.3
+trimesh==4.6.4
