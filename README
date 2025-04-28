@@ -1,9 +1,0 @@
-# Neuroguessr
-
-## Install
-
-` git clone https://github.com/FRramon/neuroguessr`
-
-requirements :
-
-nibabel == 5.3.2
