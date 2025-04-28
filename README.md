@@ -6,6 +6,9 @@
 
 - nibabel==5.3.2
 - pyinstaller==6.8.0
+- PyQt5==5.15.11
+
+(neuroguessr cannot work with pyqt6)
 
 ### Install
 
