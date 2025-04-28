@@ -7,7 +7,6 @@
 - nibabel==5.3.2
 - pyinstaller==6.8.0
 
-
 ### Install
 
 In the command line: 
@@ -41,25 +40,50 @@ python neuroguessr.py
 ```
 
 
-
 ## Game summary
 
-Neuroguessr is an education game for learing neuroanatomy
+Neuroguessr is an educational game designed to help learning neuroanatomy.
 
-
-## Game modes
+## Game Modes
 
 ### Practice
 
-In this game mode, the user can learn where are the regions (they blink after three try); and their structure/function briefly[^1].
+In this mode, users can learn brain regions at their own pace. Regions will blink after three attempts to assist learning. Each region includes brief information about its structure and function.*
 
-### Contre la montre
+### Contre la montre :racing_car:
 
-In this game mode, the objective is to find all regions of the atlas in a minimal time
+Race against the clock to identify all regions in the atlas as quickly as possible. 
 
-### Streak
+### Streak :fire:
 
-In this game mode, the objective is to do the longest series of correct answers.
+Test your knowledge by aiming for the longest consecutive series of correct answers. 
+
+## Display Options
+
+Users can choose to view the atlas with color-coded regions or in grayscale, allowing for different learning approaches and difficulty levels.
+
+## Available Atlases
+
+Neuroguessr offers a comprehensive range of anatomical atlases to explore:
+
+### Cortical Atlases
+
+- AAL (Automated Anatomical Labeling)
+- Brodmann Areas
+- Harvard-Oxford Cortical Atlas
+
+### Subcortical Structures
 
 
-[^1] : Structure function summaries have been generated using the LLM Claude 3.7 Sonnet; there can be residual errors, hallucination.
+### Specialized subfield atlases:
+
+- Thalamus 
+- Hippocampus
+- Amygdala
+
+### White Matter Tracts
+
+### Cerebellum
+
+
+*Structure and function summaries were generated using the LLM Claude 3.7 Sonnet. There might be errors.
