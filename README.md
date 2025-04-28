@@ -26,6 +26,7 @@ git clone https://github.com/FRramon/neuroguessr
 cd code
 pyinstaller --name NeuroGuessr --add-data "../data:data"  --add-data "../code:code" -i "neuroguessr5.ico" --onefile neuroguessr.py
 ```
+(dont work for now)
 
 #### For MacOS : 
 

@@ -260,7 +260,7 @@ class NeuroGuessrGame(QMainWindow):
         self.pr_file = os.path.join(Path.home(), ".neuroguessr", "pr.json")
         self.atlas_options = {
             "AAL": (
-                get_resource_path("data/aal_registered_nearest.nii.gz"),
+                get_resource_path("data/aal_stride_regrid.nii.gz"),
                 get_resource_path("data/aal.txt")
             ),
             "Brodmann": (
